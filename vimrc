@@ -1,6 +1,6 @@
 " Vladimiroff's vimfile
 
-runtime! autoload/cyrillic.vim
+"runtime! autoload/cyrillic.vim
 
 " When editing a file, always jump to the last known cursor position.
 " Don't do it when the position is invalid or when inside an event handler
