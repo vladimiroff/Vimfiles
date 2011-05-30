@@ -105,11 +105,19 @@ set list
 set listchars=eol:°,tab:».,trail:.,extends:#,nbsp:.
 
 " NERDTree Settings
-let g:NERDTreeIgnore = ['\.pyc$','\.swp$', '\~$'] "ignore compiled python files
-let g:NERDTreeMouseMode = 3 "single-click to open files/nodes
-let g:NERDTreeChDirMode = 2 "change working dir when I change root
+let g:NERDTreeIgnore = ['\.pyc$','\.swp$', '\~$']
+let g:NERDTreeMouseMode = 3
+let g:NERDTreeChDirMode = 2
 let g:NERDTreeShowBookmarks = 1
 let g:NERDTreeWinSize = 25
 let NERDTreeHijackNetrw = 0
 
+" Command-line
+set cmdheight=1
+set wildmenu
+set wildmode=list:longest,full
 
+" Timeouts
+set notimeout
+set ttimeout
+set ttimeoutlen=200
