@@ -114,6 +114,3 @@ map <C-h> <Esc>:bp<CR>
 map <C-l> <Esc>:bn<CR>
 map <C-k> <Esc>:Kwbd<CR>
 map gf :edit <cfile><CR>
-vmap <C-c> y
-vmap <C-x> x
-vmap <C-p> <Esc>p
