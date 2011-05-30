@@ -1,6 +1,7 @@
 " Vladimiroff's vimfile
 
-"runtime! autoload/cyrillic.vim
+runtime! startup/cyrillic.vim
+runtime! startup/mappings.vim
 
 " When editing a file, always jump to the last known cursor position.
 " Don't do it when the position is invalid or when inside an event handler
@@ -69,9 +70,7 @@ set smartindent
 set autoindent
 
 " Better line wrapping
-set wrap
-set textwidth=100
-set formatoptions=qrn1
+set nowrap
 
 " Command line history
 set history=50
@@ -88,7 +87,7 @@ set ignorecase
 set smartcase
 set hlsearch
 
-" Matching braces 
+" Matching braces
 set showmatch
 set matchtime=3
 
@@ -103,14 +102,5 @@ set nopaste
 
 " Unwanted whitespace
 set list
-set listchars=tab:>.,trail:.,extends:#,nbsp:.
+set listchars=eol:°,tab:».,trail:.,extends:#,nbsp:.
 
-" Mappings
-map Q :!clear && python %<CR>
-map \php :!clear && php %<CR>
-map <C-d> :NERDTreeToggle<CR>
-map <C-s> :w<CR>
-map <C-h> <Esc>:bp<CR>
-map <C-l> <Esc>:bn<CR>
-map <C-k> <Esc>:Kwbd<CR>
-map gf :edit <cfile><CR>
