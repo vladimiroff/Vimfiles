@@ -3,7 +3,7 @@ map Q :!clear && python %<CR>
 map \php :!clear && php %<CR>
 
 " NERDTRee
-map <C-d> :NERDTreeToggle<CR>
+map <F3> :NERDTreeToggle<CR>
 
 " Buffers
 map <C-h> <Esc>:bp<CR>
@@ -15,6 +15,8 @@ map <F2> :BufExplorer<CR>
 map gf :edit <cfile><CR>
 
 " Some little, but handy mappings
+map :W :w
+map :Q :q
 map <Space> :
 imap <C-Space> <Esc>
 
