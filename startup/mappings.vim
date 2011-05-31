@@ -15,8 +15,9 @@ map <F2> :BufExplorer<CR>
 map gf :edit <cfile><CR>
 
 " Some little, but handy mappings
-map :W :w
 map :Q :q
+map :W :w
+map <C-s> :w
 map <Space> :
 imap <C-Space> <Esc>
 

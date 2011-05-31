@@ -1,5 +1,6 @@
 " Vladimiroff's vimfile
 
+call pathogen#runtime_append_all_bundles()
 runtime! startup/cyrillic.vim
 runtime! startup/mappings.vim
 
