@@ -1,3 +1,6 @@
+[submodule "bundle/vim-sparkup"]
+    path = bundle/vim-sparkup
+    url = git://github.com/Vladimiroff/vim-sparkup.git
 [submodule "bundle/EasyMotion"]
     path = bundle/EasyMotion
     url = git://github.com/vim-scripts/EasyMotion.git
