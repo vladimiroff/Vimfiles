@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 version = "0.1.3"
 
@@ -648,7 +648,7 @@ class Element:
         """
 
         output = '%s' % (self.name)
-        for key, value in self.attributes.iteritems():
+        for key, value in self.attributes.items():
             output += ' %s="%s"' % (key, value)
         return output
 
@@ -734,7 +734,7 @@ class Element:
         # Make sure <a>'s have a href, <img>'s have an src, etc.
         required = self.parser.dialect.required
 
-        for element, attribs in required.iteritems():
+        for element, attribs in required.items():
             if self.name == element:
                 for attrib in attribs:
                     if attrib not in self.attributes:
@@ -824,7 +824,7 @@ class Token:
 
         # Find synonyms through this thesaurus
         synonyms = self.parser.dialect.synonyms
-        if name in synonyms.keys():
+        if name in list(synonyms.keys()):
             name = synonyms[name]
 
         if ':' in name:
@@ -833,8 +833,8 @@ class Token:
             indent = ' ' * spaces_count
 
             shortcuts = self.parser.dialect.shortcuts
-            if name in shortcuts.keys():
-                for key, value in shortcuts[name].iteritems():
+            if name in list(shortcuts.keys()):
+                for key, value in shortcuts[name].items():
                     setattr(self, key, value)
                 if 'html' in name:
                     return
@@ -946,20 +946,20 @@ class Router:
             return self.parse(str=str, ret=ret)
     
     def help(self):
-        print "Usage: %s [OPTIONS]" % sys.argv[0]
-        print "Expands input into HTML."
-        print ""
-        for short, long, info in self.options.cmdline_keys:
+        print("Usage: %s [OPTIONS]" % sys.argv[0])
+        print("Expands input into HTML.")
+        print("")
+        for short, int, info in self.options.cmdline_keys:
             if "Deprecated" in info: continue 
             if not short == '': short = '-%s,' % short
-            if not long  == '': long  = '--%s' % long.replace("=", "=XXX")
+            if not int  == '': long  = '--%s' % int.replace("=", "=XXX")
 
-            print "%6s %-25s %s" % (short, long, info)
-        print ""
-        print "\n".join(self.help_content)
+            print("%6s %-25s %s" % (short, int, info))
+        print("")
+        print("\n".join(self.help_content))
 
     def version(self):
-        print "Uhm, yeah."
+        print("Uhm, yeah.")
 
     def parse(self, str=None, ret=None):
         self.parser = Parser(self.options)
@@ -988,8 +988,8 @@ class Router:
 
         except:
             sys.stderr.write("Parse error. Check your input.\n")
-            print sys.exc_info()[0]
-            print sys.exc_info()[1]
+            print(sys.exc_info()[0])
+            print(sys.exc_info()[1])
 
     def exit(self):
         sys.exit()
@@ -1007,15 +1007,15 @@ class Options:
 
         # `options` can be given as a dict of stuff to preload
         if options:
-            for k, v in options.iteritems():
+            for k, v in options.items():
                 self.options[k] = v
             return
 
         # Prepare for getopt()
         short_keys, long_keys = "", []
-        for short, long, info in self.cmdline_keys: # 'v', 'version'
+        for short, int, info in self.cmdline_keys: # 'v', 'version'
             short_keys += short
-            long_keys.append(long)
+            long_keys.append(int)
 
         try:
             getoptions, arguments = getopt.getopt(argv, short_keys, long_keys)
@@ -1040,13 +1040,13 @@ class Options:
 
             # If the key is short, look for the long version of it
             elif key[0:1] == '-':
-                for short, long, info in self.cmdline_keys:
+                for short, int, info in self.cmdline_keys:
                     if short == key[1:]:
-                        print long
-                        options[long] = True
+                        print(int)
+                        options[int] = True
 
         # Done
-        for k, v in options.iteritems():
+        for k, v in options.items():
             self.options[k] = v
 
     def __getattr__(self, attr):
@@ -1057,7 +1057,7 @@ class Options:
         except: return None
 
     def has(self, attr):
-        try:    return self.options.has_key(attr)
+        try:    return attr in self.options
         except: return False
 
     options = {

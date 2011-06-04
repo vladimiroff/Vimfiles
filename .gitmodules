@@ -1,0 +1,3 @@
+[submodule "bundle/EasyMotion"]
+    path = bundle/EasyMotion
+    url = git://github.com/vim-scripts/EasyMotion.git
