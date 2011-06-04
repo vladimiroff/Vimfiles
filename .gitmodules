@@ -9,7 +9,7 @@
     url = git://github.com/scrooloose/nerdtree.git
 [submodule "bundle/snipmate.vim"]
     path = bundle/snipmate.vim
-    url = git://github.com/msandres/snipmate.vim.git
+    url = git://github.com/msanders/snipmate.vim.git
 [submodule "bundle/splitjoin.vim"]
     path = bundle/splitjoin.vim
     url = git://github.com/AndrewRadev/html5.git
