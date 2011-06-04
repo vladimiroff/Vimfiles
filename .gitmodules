@@ -1,3 +1,21 @@
 [submodule "bundle/EasyMotion"]
     path = bundle/EasyMotion
     url = git://github.com/vim-scripts/EasyMotion.git
+[submodule "bundle/html5.vim"]
+    path = bundle/html5.vim
+    url = git://github.com/vim-scripts/html5.vim.git
+[submodule "bundle/nerdtree"]
+    path = bundle/nerdtree
+    url = git://github.com/scrooloose/nerdtree.git
+[submodule "bundle/snipmate.vim"]
+    path = bundle/snipmate.vim
+    url = git://github.com/msandres/snipmate.vim.git
+[submodule "bundle/splitjoin.vim"]
+    path = bundle/splitjoin.vim
+    url = git://github.com/AndrewRadev/html5.git
+[submodule "bundle/tComment"]
+    path = bundle/tComment
+    url = git://github.com/vim-scripts/tComment.git
+[submodule "bundle/vim-surround"]
+    path = bundle/vim-surround
+    url = git://github.com/tpope/vim-surround.git
