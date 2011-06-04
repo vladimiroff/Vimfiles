@@ -12,7 +12,7 @@
     url = git://github.com/msanders/snipmate.vim.git
 [submodule "bundle/splitjoin.vim"]
     path = bundle/splitjoin.vim
-    url = git://github.com/AndrewRadev/html5.git
+    url = git://github.com/AndrewRadev/splitjoin.vim.git
 [submodule "bundle/tComment"]
     path = bundle/tComment
     url = git://github.com/vim-scripts/tComment.git
