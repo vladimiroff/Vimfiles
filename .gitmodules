@@ -1,6 +1,3 @@
-[submodule "bundle/vim-sparkup"]
-    path = bundle/vim-sparkup
-    url = git://github.com/Vladimiroff/vim-sparkup.git
 [submodule "bundle/EasyMotion"]
     path = bundle/EasyMotion
     url = git://github.com/vim-scripts/EasyMotion.git
@@ -19,6 +16,9 @@
 [submodule "bundle/tComment"]
     path = bundle/tComment
     url = git://github.com/vim-scripts/tComment.git
+[submodule "bundle/vim-sparkup"]
+    path = bundle/vim-sparkup
+    url = git://github.com/Vladimiroff/vim-sparkup.git
 [submodule "bundle/vim-surround"]
     path = bundle/vim-surround
     url = git://github.com/tpope/vim-surround.git
