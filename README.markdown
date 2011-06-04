@@ -14,12 +14,11 @@ Several reasons:
 
 First of all backup your current ~/.vim/
 
-``
-cd ~
-git clone https://Vladimiroff@github.com/Vladimiroff/Vimfiles.git #press enter, instead of password
-cd Vimfiles
-git submodule init
-git submodule update
-cd ..
-mv Vimfiles .vim
-``
+
+    cd ~
+    git clone https://Vladimiroff@github.com/Vladimiroff/Vimfiles.git #press enter, for password
+    cd Vimfiles
+    git submodule init
+    git submodule update
+    cd ..
+    mv Vimfiles .vim
