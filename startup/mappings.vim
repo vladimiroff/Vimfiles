@@ -17,7 +17,7 @@ map gf :edit <cfile><CR>
 " Some little, but handy mappings
 map :Q :q
 map :W :w
-map <C-s> :w
+map <C-s> :w<CR>
 map <Space> :
 imap <C-Space> <Esc>
 
@@ -36,3 +36,6 @@ xmap K 5k
 " Paste in insert mode
 imap <C-p> <Esc>pa
 
+" SplitJoin mappings
+nmap sj :SplitjoinSplit<cr>
+nmap sk :SplitjoinJoin<cr>
