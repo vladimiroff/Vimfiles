@@ -18,7 +18,7 @@
     url = git://github.com/vim-scripts/tComment.git
 [submodule "bundle/vim-sparkup"]
     path = bundle/vim-sparkup
-    url = https://Vladimiroff@github.com/Vladimiroff/vim-sparkup.git
+    url = git://github.com/Vladimiroff/vim-sparkup.git
 [submodule "bundle/vim-surround"]
     path = bundle/vim-surround
     url = git://github.com/tpope/vim-surround.git
