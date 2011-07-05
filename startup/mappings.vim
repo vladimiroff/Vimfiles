@@ -6,17 +6,14 @@ map \php :!clear && php %<CR>
 map <F3> :NERDTreeToggle<CR>
 
 " Buffers
-map <C-h> <Esc>:bp<CR>
-map <C-l> <Esc>:bn<CR>
-map <C-k> <Esc>:Kwbd<CR>
-map <F2> :BufExplorer<CR>
-
-" External file opening
-map gf :edit <cfile><CR>
+map <C-h> gt
+map <C-l> gT
+map qq    <Esc>:tabclose<CR>
 
 " Some little, but handy mappings
-map :Q :q
-map :W :w
+command! Q q
+command! W w
+
 map <C-s> :w<CR>
 map <Space> :
 imap <C-Space> <Esc>
@@ -39,3 +36,9 @@ imap <C-p> <Esc>pa
 " SplitJoin mappings
 nmap sj :SplitjoinSplit<cr>
 nmap sk :SplitjoinJoin<cr>
+
+" Nicer one-line visual mode
+nnoremap vv _v$h
+
+" Clipbaord
+set clipboard=unnamedplus
