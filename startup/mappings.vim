@@ -40,5 +40,3 @@ nmap sk :SplitjoinJoin<cr>
 " Nicer one-line visual mode
 nnoremap vv _v$h
 
-" Clipbaord
-set clipboard=unnamedplus

@@ -41,7 +41,7 @@ set hidden
 set mouse=a
 
 " Colors
-colorscheme custom_elflord
+colorscheme wombat256i
 let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size = 1
 set t_Co=256
@@ -122,3 +122,7 @@ set wildmode=list:longest,full
 set notimeout
 set ttimeout
 set ttimeoutlen=200
+
+" Clipbaord
+set clipboard=unnamedplus
+
