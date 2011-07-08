@@ -8,8 +8,8 @@ map <F3> :NERDTreeToggle<CR>
 " Tabs
 nnoremap ,t :tabnew<cr>
 nnoremap ,T :tabedit %<cr>gT:quit<cr>
-map <C-h> gt
-map <C-l> gT
+map <C-h> gT
+map <C-l> gt
 map qq    <Esc>:tabclose<CR>
 
 " Some little, but handy mappings
