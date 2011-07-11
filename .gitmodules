@@ -22,3 +22,9 @@
 [submodule "bundle/vim-surround"]
     path = bundle/vim-surround
     url = git://github.com/tpope/vim-surround.git
+[submodule "bundle/taglist.vim"]
+    path = bundle/taglist.vim
+    url = git://github.com/vim-scripts/taglist.vim.git
+[submodule "bundle/pythoncomplete.vim"]
+	path = bundle/pythoncomplete.vim
+	url = git://github.com/vim-scripts/pythoncomplete.git

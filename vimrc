@@ -1,8 +1,10 @@
 " Vladimiroff's vimfile
 
 call pathogen#runtime_append_all_bundles()
+runtime! startup/commands.vim
 runtime! startup/cyrillic.vim
 runtime! startup/mappings.vim
+runtime! startup/plugins.vim
 
 " When editing a file, always jump to the last known cursor position.
 " Don't do it when the position is invalid or when inside an event handler
@@ -105,14 +107,6 @@ set nopaste
 set list
 set listchars=eol:°,tab:».,trail:.,extends:#,nbsp:.
 
-" NERDTree Settings
-let g:NERDTreeIgnore = ['\.pyc$','\.swp$', '\~$']
-let g:NERDTreeMouseMode = 3
-let g:NERDTreeChDirMode = 2
-let g:NERDTreeShowBookmarks = 1
-let g:NERDTreeWinSize = 25
-let NERDTreeHijackNetrw = 0
-
 " Command-line
 set cmdheight=1
 set wildmenu
@@ -125,4 +119,3 @@ set ttimeoutlen=200
 
 " Clipbaord
 set clipboard=unnamedplus
-
