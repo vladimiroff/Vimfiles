@@ -42,15 +42,15 @@ set background=dark
 hi clear
  
 if exists("syntax_on")
-syntax reset
+    syntax reset
 endif
  
 let colors_name = "candyman"
  
 if has("gui_running") || &t_Co == 88 || &t_Co == 256
-let s:low_color = 0
+    let s:low_color = 0
 else
-let s:low_color = 1
+    let s:low_color = 1
 endif
  
 " Color approximation functions by Henry So, Jr. and David Liang {{{
@@ -424,3 +424,4 @@ delf s:grey_number
 " }}}
  
 
+set background=dark

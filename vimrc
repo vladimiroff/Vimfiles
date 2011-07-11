@@ -41,7 +41,7 @@ set hidden
 set mouse=a
 
 " Colors
-colorscheme candyman
+colorscheme wombat256i
 let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size = 1
 set t_Co=256
@@ -101,7 +101,7 @@ set title
 " We all know, what is that for
 set nopaste
 
-" Unwanted whitespace
+" Whitespace
 set list
 set listchars=eol:°,tab:».,trail:.,extends:#,nbsp:.
 
