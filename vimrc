@@ -1,6 +1,13 @@
 " Vladimiroff's vimfile
 
 call pathogen#runtime_append_all_bundles()
+
+" Enable filetypes
+filetype on
+filetype plugin on
+filetype plugin indent on
+syntax on
+
 runtime! startup/commands.vim
 runtime! startup/cyrillic.vim
 runtime! startup/mappings.vim
@@ -21,20 +28,11 @@ autocmd BufNewFile * silent! 0r ~/.vim/templates/%:e.tpl
 nnoremap <C-j> /<+.\{-1,}+><CR>c/+>/e<CR>
 inoremap <C-j> <Esc>/<+.\{-1,}+><CR>c/+>/e<CR>
 
-" Enable filetypes
-filetype on
-filetype plugin on
-filetype plugin indent on
-syntax on
-
 " Forget Vi compatibility.
 set nocompatible
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
-
-" Decrease the key + command lag
-"set timeout=500
 
 " Switch between buffers without saving
 set hidden
