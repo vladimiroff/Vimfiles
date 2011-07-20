@@ -5,4 +5,4 @@ setlocal expandtab
 
 compiler python
 
-setlocal foldmethod=indent
+" setlocal foldmethod=indent
