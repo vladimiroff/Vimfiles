@@ -26,5 +26,8 @@
     path = bundle/taglist.vim
     url = git://github.com/vim-scripts/taglist.vim.git
 [submodule "bundle/pythoncomplete.vim"]
-	path = bundle/pythoncomplete.vim
-	url = git://github.com/vim-scripts/pythoncomplete.git
+    path = bundle/pythoncomplete.vim
+    url = git://github.com/vim-scripts/pythoncomplete.git
+[submodule "bundle/vim-pylint"]
+	path = bundle/vim-pylint
+	url = https://github.com/rygwdn/vim-pylint.git

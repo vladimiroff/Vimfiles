@@ -117,3 +117,4 @@ set ttimeoutlen=200
 
 " Clipbaord
 set clipboard=unnamedplus
+autocmd FileType python compiler pylint

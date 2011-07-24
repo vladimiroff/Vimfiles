@@ -39,3 +39,7 @@ let g:splitjoin_align                = 1
 " Taglist
 let Tlist_Inc_Winwidth = 0
 let Tlist_WinWidth = 45
+
+" Pylint
+let g:pylint_onwrite = 0
+
