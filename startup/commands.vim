@@ -13,3 +13,7 @@ function! s:Q()
     qall
   endtry
 endfunction
+
+" Pyint command 
+autocmd FileType python compiler pylint
+

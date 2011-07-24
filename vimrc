@@ -117,4 +117,6 @@ set ttimeoutlen=200
 
 " Clipbaord
 set clipboard=unnamedplus
-autocmd FileType python compiler pylint
+
+" Vertical column showing 80th symbol at each line
+set colorcolumn=80

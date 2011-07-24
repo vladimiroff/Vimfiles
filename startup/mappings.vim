@@ -38,5 +38,5 @@ imap <C-p> <Esc>pa
 " Nicer single-line visual mode
 nnoremap vv _v$h
 
-" Pylint
-map <C-q> :Pylint 
+" Execute Pylint 
+map <C-q> :Pylint<CR>

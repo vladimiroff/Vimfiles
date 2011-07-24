@@ -24,4 +24,5 @@ CompilerSet errorformat=%\\w%#%trror:\ ('%m'\\,\ ('%f'\\,\ %l\\,\ %c\\,\ '%.%#')
 let &cpo = s:cpo_save
 unlet s:cpo_save
 
+autocmd FileType python compiler pylint
 "vim: ft=vim
