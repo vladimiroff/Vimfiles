@@ -11,6 +11,8 @@ nnoremap ,t :tabnew<cr>
 nnoremap ,T :tabedit %<cr>gT:quit<cr>
 map <C-h> gT
 map <C-l> gt
+imap <C-h> <Esc>gT
+imap <C-l> <Esc>gt
 map qq    <Esc>:Q<CR>
 
 " Some little, but handy mappings

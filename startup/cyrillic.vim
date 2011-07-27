@@ -13,6 +13,7 @@ map зо zo
 map зЦ zC
 map зР zR
 map зМ zM
+map яя qq
 
 map ч `
 map я q
