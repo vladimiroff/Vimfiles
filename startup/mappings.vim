@@ -29,10 +29,8 @@ nmap gk <C-w>k
 nmap gl <C-w>l
 
 " Faster scrolling:
-nmap J 5j
-nmap K 5k
-xmap J 5j
-xmap K 5k
+map <C-j> 5j
+map <C-k> 5k
 
 " Paste in insert mode
 imap <C-p> <Esc>pa

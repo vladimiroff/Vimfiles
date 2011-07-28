@@ -23,11 +23,6 @@ autocmd BufReadPost *
   \   exe "normal! g`\"" |
   \ endif
 
-" Templates
-autocmd BufNewFile * silent! 0r ~/.vim/templates/%:e.tpl
-nnoremap <C-j> /<+.\{-1,}+><CR>c/+>/e<CR>
-inoremap <C-j> <Esc>/<+.\{-1,}+><CR>c/+>/e<CR>
-
 " Forget Vi compatibility.
 set nocompatible
 
