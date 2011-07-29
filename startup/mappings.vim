@@ -21,6 +21,7 @@ command! W w
 map <C-s> :w<CR>
 map <Space> :
 map <C-Space> <Esc>
+imap <C-k> <C-x><C-n>
 
 " Moving through splits:
 nmap gh <C-w>h
@@ -29,8 +30,8 @@ nmap gk <C-w>k
 nmap gl <C-w>l
 
 " Faster scrolling:
-map <C-j> 5j
-map <C-k> 5k
+map J 5j
+map K 5k
 
 " Paste in insert mode
 imap <C-p> <Esc>pa
