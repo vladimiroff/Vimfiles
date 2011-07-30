@@ -113,5 +113,3 @@ set ttimeoutlen=200
 " Clipbaord
 set clipboard=unnamedplus
 
-" Vertical column showing 80th symbol at each line
-set colorcolumn=80
