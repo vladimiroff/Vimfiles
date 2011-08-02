@@ -22,6 +22,7 @@ map <C-s> :w<CR>
 map <Space> :
 map <C-Space> <Esc>
 imap <C-k> <C-x><C-n>
+imap <C-s> <Esc>:w<CR>
 
 " Moving through splits:
 nmap gh <C-w>h
