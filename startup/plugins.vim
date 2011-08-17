@@ -43,3 +43,5 @@ let Tlist_WinWidth = 45
 " Pylint
 let g:pylint_onwrite = 0
 
+" Reindent.py
+map ff <Plug>reindent

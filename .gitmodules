@@ -31,3 +31,6 @@
 [submodule "bundle/vim-pylint"]
 	path = bundle/vim-pylint
 	url = https://github.com/rygwdn/vim-pylint.git
+[submodule "bundle/ipython"]
+	path = bundle/ipython
+	url = https://github.com/ivanov/vim-ipython.git
