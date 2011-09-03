@@ -65,7 +65,7 @@ set number
 set smartindent
 set autoindent
 
-" Better line wrapping
+" Disable line wrapping
 set nowrap
 
 " Command line history

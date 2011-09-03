@@ -11,8 +11,6 @@ nnoremap ,t :tabnew<cr>
 nnoremap ,T :tabedit %<cr>gT:quit<cr>
 map <C-h> gT
 map <C-l> gt
-imap <C-h> <Esc>gT
-imap <C-l> <Esc>gt
 map qq    <Esc>:Q<CR>
 
 " Some little, but handy mappings
@@ -31,8 +29,10 @@ nmap gk <C-w>k
 nmap gl <C-w>l
 
 " Faster scrolling:
+map H 5h
 map J 5j
 map K 5k
+map L 5l
 
 " Paste in insert mode
 imap <C-p> <Esc>pa

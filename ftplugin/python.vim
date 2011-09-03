@@ -4,6 +4,4 @@ setlocal shiftwidth=4
 setlocal expandtab
 
 compiler python
-source ~/.vim/bundle/ipython/ftplugin/python/ipy.vim
-
-" setlocal foldmethod=indent
+setlocal foldmethod=indent
