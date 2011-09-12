@@ -31,6 +31,6 @@
 [submodule "bundle/vim-pylint"]
 	path = bundle/vim-pylint
 	url = https://github.com/rygwdn/vim-pylint.git
-[submodule "bundle/supertab"]
-	path = bundle/supertab
-	url = git://github.com/ervandew/supertab.git
+[submodule "bundle/pyflakes"]
+	path = bundle/pyflakes
+	url = git://github.com/kevinw/pyflakes-vim.git
