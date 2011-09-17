@@ -1,6 +1,7 @@
 " Vim color file
 " Maintainer:   David Liang (bmdavll at gmail dot com)
-" Last Change:  November 28 2008
+" Last Change:  September 17 2011
+" Customized by: Kiril Vladimiroff
 "
 " wombat256.vim - a modified version of Wombat by Lars Nielsen that also
 " works on xterms with 88 or 256 colors. The algorithm for approximating the
@@ -247,6 +248,7 @@ call <SID>X("SpecialKey",	"6c6c6c",	"",	        "none")
 call <SID>X("Visual",		"ecee90",	"597418",	"none")
 call <SID>X("LineNr",		"FFFFFF",	"242424",	"none")
 call <SID>X("Folded",		"a0a8b0",	"404048",	"none")
+call <SID>X("PyFlakes",		"a0a8b0",	"404048",	"underline")
 call <SID>X("Title",		"f6f3e8",	"",			"bold")
 call <SID>X("VertSplit",	"444444",	"444444",	"none")
 call <SID>X("StatusLine",	"f6f3e8",	"444444",	"italic")
@@ -257,8 +259,8 @@ call <SID>X("StatusLineNC",	"857b6f",	"444444",	"none")
 			"WildMenu
 call <SID>X("Pmenu",		"f6f3e8",	"444444",	"")
 call <SID>X("PmenuSel",		"121212",	"caeb82",	"")
-call <SID>X("WarningMsg",	"ff0000",	"",			"")
-			"ErrorMsg
+call <SID>X("WarningMsg",	"ff0000",   "","")
+			"ErrorMsg"
 			"ModeMsg
 			"MoreMsg
 			"Directory
