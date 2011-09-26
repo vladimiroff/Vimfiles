@@ -10,9 +10,6 @@
 [submodule "bundle/snipmate.vim"]
     path = bundle/snipmate.vim
     url = git://github.com/msanders/snipmate.vim.git
-[submodule "bundle/splitjoin.vim"]
-    path = bundle/splitjoin.vim
-    url = git://github.com/AndrewRadev/splitjoin.vim.git
 [submodule "bundle/tComment"]
     path = bundle/tComment
     url = git://github.com/vim-scripts/tComment.git
@@ -34,3 +31,6 @@
 [submodule "bundle/pyflakes"]
 	path = bundle/pyflakes
 	url = git://github.com/kevinw/pyflakes-vim.git
+[submodule "bundle/splitjoin"]
+	path = bundle/splitjoin
+	url = git://github.com/AndrewRadev/splitjoin.vim.git
