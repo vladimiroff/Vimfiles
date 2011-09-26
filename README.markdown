@@ -12,7 +12,7 @@ Several reasons:
 
 ## How to install?
 
-First of all backup your current ~/.vim/
+First of all backup your current ~/.vim/ and ~/.vimrc
 
 
     cd ~
@@ -22,3 +22,4 @@ First of all backup your current ~/.vim/
     git submodule update
     cd ..
     mv Vimfiles .vim
+    ln -s .vim/vimrc .vimrc
