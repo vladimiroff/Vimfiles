@@ -42,3 +42,13 @@ nnoremap vv _v$h
 
 " Execute Pylint 
 map <C-q> :Pylint<CR>
+
+" Completion remappings:
+inoremap <C-j> <C-n>
+inoremap <C-k> <C-p>
+inoremap <C-o> <C-x><C-o>
+inoremap <C-u> <C-x><C-u>
+inoremap <C-f> <C-x><C-f>
+inoremap <C-]> <C-x><C-]>
+inoremap <C-l> <C-x><C-l>
+set completefunc=syntaxcomplete#Complete
