@@ -52,3 +52,7 @@ inoremap <C-f> <C-x><C-f>
 inoremap <C-]> <C-x><C-]>
 inoremap <C-l> <C-x><C-l>
 set completefunc=syntaxcomplete#Complete
+
+" Reindent without losing the selection
+xnoremap > >gv
+xnoremap < <gv
