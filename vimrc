@@ -42,7 +42,7 @@ let g:indent_guides_guide_size = 1
 set t_Co=256
 
 " Status Line and Cursor highlighting
-set statusline=%F%m%r%h%w\ %y\ [ascii=\%03.3b\|hex=\%02.2B]\ [%04l\|%04v][%p%%]\ [%L\ lines]
+set statusline=%F%m%r%h%w\ %y\ [%04l\|%04v][%p%%]\ [%L\ lines]
 set laststatus=2
 set cursorline
 set cursorcolumn

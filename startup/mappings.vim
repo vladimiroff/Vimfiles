@@ -3,8 +3,9 @@ map <F2> :TlistToggle<CR>
 map <F3> :NERDTreeToggle<CR>
 
 " SplitJoin mappings
-nmap \j :SplitjoinSplit<cr>
-nmap \k :SplitjoinJoin<cr>
+nmap sj :SplitjoinSplit<cr>
+nmap sk :SplitjoinJoin<cr>
+xnoremap sk J
 
 " Tabs
 nnoremap ,t :tabnew<cr>
