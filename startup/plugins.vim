@@ -48,3 +48,6 @@ let g:pylint_onwrite = 0
 
 " Reindent.py
 map ff <Plug>reindent
+
+" Django snippets
+autocmd FileType python set ft=python.django
