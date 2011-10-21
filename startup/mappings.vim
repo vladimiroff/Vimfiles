@@ -1,6 +1,6 @@
 " Taglist
 map <F2> :TlistToggle<CR>
-map <F3> :NERDTreeToggle<CR>
+map gn :NERDTreeTabsToggle<CR>
 
 " SplitJoin mappings
 nmap sj :SplitjoinSplit<cr>
