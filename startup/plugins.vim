@@ -11,6 +11,7 @@ let g:NERDTreeIgnore = [
       \ '\.pyc',
       \ '\.swp'
       \ ]
+let g:nerdtree_tabs_open_on_console_startup = 1
 
 " Don't map over J and K
 let g:NERDTreeMapJumpFirstChild = '-'
