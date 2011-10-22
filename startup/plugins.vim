@@ -43,7 +43,7 @@ let Tlist_Inc_Winwidth = 0
 let Tlist_WinWidth = 45
 
 "PyFlakes
-let g:pyflakes_use_quickfix = 0
+let g:pyflakes_use_quickfix = 1
 
 " Pylint
 let g:pylint_onwrite = 0
