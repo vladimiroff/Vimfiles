@@ -20,6 +20,9 @@ First of all backup your current ~/.vim/ and ~/.vimrc
     cd Vimfiles
     git submodule init
     git submodule update
-    cd ..
+    cd bundle/pyflakes/
+    git submodule init
+    git submodule update
+    cd ~
     mv Vimfiles .vim
     ln -s .vim/vimrc .vimrc
