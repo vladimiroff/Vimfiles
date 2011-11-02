@@ -51,5 +51,5 @@ let g:pylint_onwrite = 0
 " Reindent.py
 map ff <Plug>reindent
 
-" Django snippets
-autocmd FileType python set ft=python.django
+" IPython 
+let g:ipy_perform_mappings=0

@@ -14,6 +14,3 @@ function! s:Q()
   endtry
 endfunction
 
-" Pyint command 
-autocmd FileType python compiler pylint
-

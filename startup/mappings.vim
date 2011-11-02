@@ -57,3 +57,9 @@ set completefunc=syntaxcomplete#Complete
 " Reindent without losing the selection
 xnoremap > >gv
 xnoremap < <gv
+
+
+" IPython
+vmap <C-e> :python run_these_lines()<CR>
+map <F5> :python run_this_file()<CR>
+
