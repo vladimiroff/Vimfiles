@@ -1,6 +1,3 @@
-[submodule "bundle/vim-pylint"]
-	path = bundle/vim-pylint
-	url = https://github.com/rygwdn/vim-pylint.git
 [submodule "bundle/splitjoin"]
 	path = bundle/splitjoin
 	url = git://github.com/AndrewRadev/splitjoin.vim.git
@@ -46,3 +43,6 @@
 [submodule "bundle/sparkup"]
 	path = bundle/sparkup
 	url = git://github.com/Vladimiroff/vim-sparkup.git
+[submodule "bundle/pylint"]
+	path = bundle/pylint
+	url = git://github.com/vim-scripts/pylint.vim.git
