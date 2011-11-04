@@ -58,6 +58,11 @@ set completefunc=syntaxcomplete#Complete
 xnoremap > >gv
 xnoremap < <gv
 
+" Delete surrounding function
+nmap dsf F(bdt(ds(
+
+" Linediff
+vmap gq :Linediff<CR>
 
 " IPython
 vmap <C-e> :python run_these_lines()<CR>
