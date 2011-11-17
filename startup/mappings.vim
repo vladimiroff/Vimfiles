@@ -64,7 +64,10 @@ nmap dsf F(bdt(ds(
 " Linediff
 vmap gq :Linediff<CR>
 
+" EasyMotion
+map gw \w
+
 " IPython
-vmap <C-e> :python run_these_lines()<CR>
-map <F5> :python run_this_file()<CR>
+" vmap <C-e> :python run_these_lines()<CR>
+" map <F5> :python run_this_file()<CR>
 
