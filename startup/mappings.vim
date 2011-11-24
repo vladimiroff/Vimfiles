@@ -26,8 +26,6 @@ imap <C-s> <Esc>:w<CR>
 " Better Esc
 imap jk <Esc>l
 imap kj <Esc>l
-vmap jk <Esc>l
-vmap kj <Esc>l
 
 " Moving through splits:
 nmap gh <C-w>h
