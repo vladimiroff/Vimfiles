@@ -36,10 +36,10 @@ set hidden
 set mouse=a
 
 " Colors
+set t_Co=256
 colorscheme wombat256i
 let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size = 1
-set t_Co=256
 
 if has("gui_running")
     exec "hi Normal ctermbg=White ctermfg=Black guifg=White guibg=Black"

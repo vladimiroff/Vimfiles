@@ -46,3 +46,6 @@
 [submodule "bundle/coffee-script"]
 	path = bundle/coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
+[submodule "bundle/xoria256"]
+	path = bundle/xoria256
+	url = git://github.com/vim-scripts/xoria256.vim.git
