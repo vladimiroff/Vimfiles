@@ -1,11 +1,5 @@
-" Taglist
 map <F2> :TlistToggle<CR>
 map gn :NERDTreeTabsToggle<CR>
-
-" SplitJoin mappings
-nmap sj :SplitjoinSplit<cr>
-nmap sk :SplitjoinJoin<cr>
-xnoremap sk J
 
 " Tabs
 nnoremap ,t :tabnew<cr>
@@ -19,8 +13,6 @@ command! Q q
 command! W w
 map <C-s> :w<CR>
 map <Space> :
-map <C-Space> <Esc>
-imap <C-k> <C-x><C-n>
 imap <C-s> <Esc>:w<CR>
 
 " Better Esc
@@ -45,9 +37,6 @@ imap <C-p> <Esc>pa
 " Nicer single-line visual mode
 nnoremap vv _v$h
 
-" Execute Pylint 
-map <C-q> :Pylint<CR>
-
 " Completion remappings:
 inoremap <C-j> <C-n>
 inoremap <C-k> <C-p>
@@ -65,13 +54,10 @@ xnoremap < <gv
 " Delete surrounding function
 nmap dsf F(bdt(ds(
 
-" Linediff
-vmap gq :Linediff<CR>
-
 " EasyMotion
 map gw \w
 
-" IPython
+" IPython(I've promised myself to try it again...soon)
 " vmap <C-e> :python run_these_lines()<CR>
 " map <F5> :python run_this_file()<CR>
 
