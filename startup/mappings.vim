@@ -55,7 +55,7 @@ xnoremap < <gv
 nmap dsf F(bdt(ds(
 
 " EasyMotion
-map gw \w
+map gw \\w
 
 " IPython(I've promised myself to try it again...soon)
 " vmap <C-e> :python run_these_lines()<CR>
