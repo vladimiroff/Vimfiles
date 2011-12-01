@@ -52,3 +52,6 @@
 [submodule "bundle/inline_edit"]
 	path = bundle/inline_edit
 	url = git://github.com/AndrewRadev/inline_edit.vim.git
+[submodule "bundle/bufexplorer"]
+	path = bundle/bufexplorer
+	url = git://github.com/corntrace/bufexplorer.git
