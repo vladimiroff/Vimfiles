@@ -4,7 +4,6 @@ setlocal shiftwidth=4
 setlocal expandtab
 
 compiler python
-setlocal foldmethod=indent
 
 "PyFlakes
 let g:pyflakes_use_quickfix = 1
