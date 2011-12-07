@@ -7,9 +7,6 @@
 [submodule "bundle/acp"]
 	path = bundle/acp
 	url = git://github.com/vimcn/acp.vim.git
-[submodule "bundle/pyflakes"]
-	path = bundle/pyflakes
-	url = git://github.com/kevinw/pyflakes-vim.git
 [submodule "bundle/nerdtree-tabs"]
 	path = bundle/nerdtree-tabs
 	url = git://github.com/jistr/vim-nerdtree-tabs.git
