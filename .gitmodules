@@ -52,3 +52,6 @@
 [submodule "bundle/bufexplorer"]
 	path = bundle/bufexplorer
 	url = git://github.com/corntrace/bufexplorer.git
+[submodule "bundle/pyflakes"]
+	path = bundle/pyflakes
+	url = git://github.com/kevinw/pyflakes-vim.git
