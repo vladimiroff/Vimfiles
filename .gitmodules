@@ -55,3 +55,6 @@
 [submodule "bundle/pyflakes"]
 	path = bundle/pyflakes
 	url = git://github.com/kevinw/pyflakes-vim.git
+[submodule "bundle/tabman"]
+	path = bundle/tabman
+	url = git://github.com/kien/tabman.vim.git
