@@ -1,5 +1,6 @@
 map <F2> :TlistToggle<CR>
 map gn :NERDTreeTabsToggle<CR>
+map <F3> :NERDTreeToggle<CR>
 
 " Tabs
 nnoremap ,t :tabnew<cr>
