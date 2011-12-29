@@ -58,3 +58,6 @@
 [submodule "bundle/tabman"]
 	path = bundle/tabman
 	url = git://github.com/kien/tabman.vim.git
+[submodule "bundle/pony"]
+	path = bundle/pony
+	url = git://github.com/rainerborene/vim-pony.git
