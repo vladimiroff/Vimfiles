@@ -127,3 +127,5 @@ set ttimeoutlen=200
 " Clipbaord
 set clipboard=unnamedplus
 
+" Completion options
+set completeopt=longest,menuone,preview
