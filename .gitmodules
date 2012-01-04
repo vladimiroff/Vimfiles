@@ -61,3 +61,6 @@
 [submodule "bundle/pony"]
 	path = bundle/pony
 	url = git://github.com/rainerborene/vim-pony.git
+[submodule "bundle/gundo"]
+	path = bundle/gundo
+	url = git://github.com/sjl/gundo.vim.git
