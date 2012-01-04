@@ -40,13 +40,20 @@ set t_Co=256
 colorscheme wombat256i
 let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size = 1
-
 if has("gui_running")
     exec "hi Normal ctermbg=White ctermfg=Black guifg=White guibg=Black"
     set lines=45
     set columns=120
     set guioptions-=T
 endif
+
+" Highlight unwanted whitespace
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
+autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+autocmd InsertLeave * match ExtraWhitespace /\s\+$/
+autocmd BufWinLeave * call clearmatches()
 
 " Status Line and Cursor highlighting
 set statusline=%F%m%r%h%w\ %y\ [%04l\|%04v][%p%%]\ [%L\ lines]
