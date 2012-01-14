@@ -14,5 +14,5 @@ let g:pylint_onwrite = 0
 " Reindent.py
 map ff <Plug>reindent
 
-" IPython 
+" IPython
 let g:ipy_perform_mappings=0
