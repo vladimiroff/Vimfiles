@@ -64,3 +64,6 @@
 [submodule "bundle/gundo"]
 	path = bundle/gundo
 	url = git://github.com/sjl/gundo.vim.git
+[submodule "bundle/pysmell"]
+	path = bundle/pysmell
+	url = git://github.com/webframp/pysmell.vim.git
