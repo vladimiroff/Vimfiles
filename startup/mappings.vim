@@ -13,7 +13,6 @@ map qq    <Esc>:Q<CR>
 command! Q q
 command! W w
 map <C-s> :w<CR>
-map <Space> :
 imap <C-s> <Esc>:w<CR>
 
 " Better Esc
