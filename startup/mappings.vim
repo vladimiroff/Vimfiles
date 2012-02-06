@@ -14,6 +14,7 @@ command! Q q
 command! W w
 map <C-s> :w<CR>
 imap <C-s> <Esc>:w<CR>
+map <Space> :
 
 " Better Esc
 imap jk <Esc>l

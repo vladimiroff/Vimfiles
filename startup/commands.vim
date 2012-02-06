@@ -16,8 +16,8 @@ endfunction
 
 " <space>x -> :X
 " For easier typing of custom commands
-nnoremap <space> :call <SID>SpaceMapping(0)<cr>
-xnoremap <space> :<c-u>call <SID>SpaceMapping(1)<cr>
+" nnoremap <space> :call <SID>SpaceMapping(0)<cr>
+" xnoremap <space> :<c-u>call <SID>SpaceMapping(1)<cr>
 function! s:SpaceMapping(visual)
   echo
   let c = nr2char(getchar())
