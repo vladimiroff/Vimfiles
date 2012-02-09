@@ -76,3 +76,6 @@
 [submodule "bundle/extradite"]
 	path = bundle/extradite
 	url = git://github.com/int3/vim-extradite.git
+[submodule "bundle/trailing-whitespace"]
+	path = bundle/trailing-whitespace
+	url = git://github.com/bronson/vim-trailing-whitespace.git
