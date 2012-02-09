@@ -47,15 +47,6 @@ if has("gui_running")
     set guioptions-=T
 endif
 
-" Highlight and remove unwanted whitespace
-highlight ExtraWhitespace ctermbg=red guibg=red
-match ExtraWhitespace /\s\+$/
-autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
-autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
-autocmd InsertLeave * match ExtraWhitespace /\s\+$/
-autocmd BufWinLeave * call clearmatches()
-autocmd BufWritePre * :%s/\s\+$//e
-
 " Status Line and Cursor highlighting
 set statusline=%F%m%r%h%w\ %y\ [%04l\|%04v][%p%%]\ [%L\ lines]
 set laststatus=2
