@@ -48,7 +48,7 @@ if has("gui_running")
 endif
 
 " Status Line and Cursor highlighting
-set statusline=%F%m%r%h%w\ %y\ [%04l\|%04v][%p%%]\ [%L\ lines]
+set statusline=%F%m%r%h%w\ %y\ [%04l\|%04v][%p%%]\ %=[%L\ lines]%{fugitive#statusline()}
 set laststatus=2
 set cursorline
 set cursorcolumn
