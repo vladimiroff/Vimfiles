@@ -11,9 +11,9 @@
 snippet auto
 	${1:FIELDNAME} = models.AutoField()
 snippet bool
-	${1:FIELDNAME} = models.BooleanField(${2:default=True})
+	${1:FIELDNAME} = models.BooleanField(_('${2}'), ${3:default=True})
 snippet char
-	${1:FIELDNAME} = models.CharField(max_length=${2}${3:, blank=True})
+	${1:FIELDNAME} = models.CharField(_('${2}'), max_length=${3}${4:, blank=True})
 snippet comma
 	${1:FIELDNAME} = models.CommaSeparatedIntegerField(max_length=${2}${3:, blank=True})
 snippet date
@@ -47,7 +47,7 @@ snippet slug
 snippet smallint
 	${1:FIELDNAME} = models.SmallIntegerField()
 snippet text
-	${1:FIELDNAME} = models.TextField(${2:blank=True})
+	${1:FIELDNAME} = models.TextField(_('${2}'), ${3:blank=True})
 snippet time
 	${1:FIELDNAME} = models.TimeField(${2:auto_now_add=True, auto_now=True}${3:, blank=True, null=True})
 snippet url
