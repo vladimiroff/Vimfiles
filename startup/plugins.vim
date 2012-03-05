@@ -2,7 +2,7 @@
 let g:NERDTreeMouseMode = 3
 let g:NERDTreeChDirMode = 2
 let g:NERDTreeShowBookmarks = 1
-let g:NERDTreeWinSize = 45
+let g:NERDTreeWinSize = 35
 let g:NERDTreeHijackNetrw = 1
 let g:NERDTreeIgnore = [
       \ '\~$',
