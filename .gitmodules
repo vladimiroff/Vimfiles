@@ -79,3 +79,6 @@
 [submodule "bundle/trailing-whitespace"]
 	path = bundle/trailing-whitespace
 	url = git://github.com/bronson/vim-trailing-whitespace.git
+[submodule "bundle/nyancat"]
+	path = bundle/nyancat
+	url = git://github.com/koron/nyancat-vim.git
