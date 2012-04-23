@@ -38,6 +38,16 @@ imap <C-p> <Esc>pa
 " Nicer single-line visual mode
 nnoremap vv _v$h
 
+" Disable arrows
+map <Up> <Nop>
+map <Down> <Nop>
+map <Left> <Nop>
+map <Right> <Nop>
+map! <Up> <Nop>
+map! <Down> <Nop>
+map! <Left> <Nop>
+map! <Right> <Nop>
+
 " Completion remappings:
 inoremap <C-j> <C-n>
 inoremap <C-k> <C-p>
