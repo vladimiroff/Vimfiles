@@ -106,6 +106,7 @@ set nopaste
 set list
 set listchars=tab:».,trail:.,extends:#,nbsp:.
 
+
 " Command-line
 set cmdheight=1
 set wildmenu
@@ -120,4 +121,5 @@ set ttimeoutlen=200
 set clipboard=unnamedplus
 
 " Completion options
+set completefunc=syntaxcomplete#Complete
 set completeopt=longest,menuone,preview
