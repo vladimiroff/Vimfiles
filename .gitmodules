@@ -82,3 +82,6 @@
 [submodule "bundle/nyancat"]
 	path = bundle/nyancat
 	url = git://github.com/koron/nyancat-vim.git
+[submodule "bundle/tmux"]
+	path = bundle/tmux
+	url = git://github.com/qqshfox/vim-tmux.git
