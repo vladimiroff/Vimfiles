@@ -43,10 +43,6 @@ map <Up> <Nop>
 map <Down> <Nop>
 map <Left> <Nop>
 map <Right> <Nop>
-" map! <Up> <Nop>
-" map! <Down> <Nop>
-" map! <Left> <Nop>
-" map! <Right> <Nop>
 
 " Reindent without losing the selection
 xnoremap > >gv
