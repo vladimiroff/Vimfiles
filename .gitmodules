@@ -88,3 +88,6 @@
 [submodule "bundle/notes"]
 	path = bundle/notes
 	url = git://github.com/xolox/vim-notes.git
+[submodule "bundle/tmux"]
+	path = bundle/tmux
+	url = git://github.com/qqshfox/vim-tmux.git
