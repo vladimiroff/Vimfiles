@@ -1,4 +1,5 @@
 " NERD tree:
+let g:NERDTreeDirArrows=0
 let g:NERDTreeMouseMode = 3
 let g:NERDTreeChDirMode = 2
 let g:NERDTreeShowBookmarks = 1
