@@ -65,7 +65,7 @@ set noswapfile
 set nowritebackup
 
 " Show line numbers
-set number
+set relativenumber
 
 " Indent stuff
 set smartindent
