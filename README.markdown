@@ -15,14 +15,6 @@ Several reasons:
 First of all backup your current ~/.vim/ and ~/.vimrc
 
 
-    cd ~
-    git clone git@github.com:Vladimiroff/Vimfiles.git
-    cd Vimfiles
-    git submodule init
-    git submodule update
-    cd bundle/pyflakes/
-    git submodule init
-    git submodule update
-    cd ~
-    mv Vimfiles .vim
-    ln -s .vim/vimrc .vimrc
+    git clone git@github.com:Vladimiroff/Vimfiles.git ~/.vim
+    cd ~/.vim
+    make install
