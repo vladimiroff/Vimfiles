@@ -46,3 +46,6 @@ autocmd FileType python set omnifunc=pysmell#Complete
 " GitV
 let g:Gitv_OpenHorizontal = 1
 let g:Gitv_OpenPreviewOnLaunch = 0
+
+" TabMan
+let g:tabman_side = 'right'
