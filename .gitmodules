@@ -91,3 +91,6 @@
 [submodule "bundle/tmux"]
 	path = bundle/tmux
 	url = git://github.com/qqshfox/vim-tmux.git
+[submodule "bundle/go"]
+	path = bundle/go
+	url = git://github.com/uggedal/go-vim.git
