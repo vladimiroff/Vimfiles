@@ -51,7 +51,7 @@ snippet text
 snippet time
 	${1:FIELDNAME} = models.TimeField()
 snippet url
-	${1:FIELDNAME} = models.URLField(${2:verify_exists=False}${3:, max_length=200}${4:, blank=True})
+	${1:FIELDNAME} = models.URLField(${2:verify_exists=False})
 snippet xml
 	${1:FIELDNAME} = models.XMLField(schema_path=${2:None}${3:, blank=True})
 # Relational Fields
