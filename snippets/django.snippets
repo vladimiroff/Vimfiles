@@ -11,23 +11,23 @@
 snippet auto
 	${1:FIELDNAME} = models.AutoField()
 snippet bool
-	${1:FIELDNAME} = models.BooleanField(_('${2}'), ${3:default=True})
+	${1:FIELDNAME} = models.BooleanField()
 snippet char
-	${1:FIELDNAME} = models.CharField(_('${2}'), max_length=${3}${4:, blank=True})
+	${1:FIELDNAME} = models.CharField(max_length=${3})
 snippet comma
-	${1:FIELDNAME} = models.CommaSeparatedIntegerField(max_length=${2}${3:, blank=True})
+	${1:FIELDNAME} = models.CommaSeparatedIntegerField(max_length=${2})
 snippet date
-	${1:FIELDNAME} = models.DateField(${2:auto_now_add=True, auto_now=True}${3:, blank=True, null=True})
+	${1:FIELDNAME} = models.DateField()
 snippet datetime
-	${1:FIELDNAME} = models.DateTimeField(${2:auto_now_add=True, auto_now=True}${3:, blank=True, null=True})
+	${1:FIELDNAME} = models.DateTimeField()
 snippet decimal
 	${1:FIELDNAME} = models.DecimalField(max_digits=${2}, decimal_places=${3})
 snippet email
-	${1:FIELDNAME} = models.EmailField(max_length=${2:75}${3:, blank=True})
+	${1:FIELDNAME} = models.EmailField(max_length=${2:75})
 snippet file
 	${1:FIELDNAME} = models.FileField(upload_to=${2:path/for/upload}${3:, max_length=100})
 snippet filepath
-	${1:FIELDNAME} = models.FilePathField(path=${2:"/abs/path/to/dir"}${3:, max_length=100}${4:, match="*.ext"}${5:, recursive=True}${6:, blank=True, })
+	${1:FIELDNAME} = models.FilePathField(path=${2:"/abs/path/to/dir"}${3:, max_length=100}${4:, match="*.ext"}${5:, recursive=True})
 snippet float
 	${1:FIELDNAME} = models.FloatField()
 snippet image
@@ -43,24 +43,24 @@ snippet posint
 snippet possmallint
 	${1:FIELDNAME} = models.PositiveSmallIntegerField()
 snippet slug
-	${1:FIELDNAME} = models.SlugField(max_length=${2:50}${3:, blank=True})
+	${1:FIELDNAME} = models.SlugField(max_length=${2:50})
 snippet smallint
 	${1:FIELDNAME} = models.SmallIntegerField()
 snippet text
-	${1:FIELDNAME} = models.TextField(_('${2}'), ${3:blank=True})
+	${1:FIELDNAME} = models.TextField()
 snippet time
-	${1:FIELDNAME} = models.TimeField(${2:auto_now_add=True, auto_now=True}${3:, blank=True, null=True})
+	${1:FIELDNAME} = models.TimeField()
 snippet url
 	${1:FIELDNAME} = models.URLField(${2:verify_exists=False}${3:, max_length=200}${4:, blank=True})
 snippet xml
 	${1:FIELDNAME} = models.XMLField(schema_path=${2:None}${3:, blank=True})
 # Relational Fields
 snippet fk
-	${1:FIELDNAME} = models.ForeignKey(${2:OtherModel}${3:, related_name=''}${4:, limit_choices_to=}${5:, to_field=''})
+	${1:FIELDNAME} = models.ForeignKey(${2:OtherModel}${3:, related_name=''})
 snippet m2m
-	${1:FIELDNAME} = models.ManyToManyField(${2:OtherModel}${3:, related_name=''}${4:, limit_choices_to=}${5:, symmetrical=False}${6:, through=''}${7:, db_table=''})
+	${1:FIELDNAME} = models.ManyToManyField(${2:OtherModel}${3:, related_name=''})
 snippet o2o
-	${1:FIELDNAME} = models.OneToOneField(${2:OtherModel}${3:, parent_link=True}${4:, related_name=''}${5:, limit_choices_to=}${6:, to_field=''})
+	${1:FIELDNAME} = models.OneToOneField(${2:OtherModel}${3:, related_name=''})
 
 # Code Skeletons
 
@@ -72,27 +72,18 @@ snippet form
 snippet model
 	class ${1:ModelName}(models.Model):
 		"""${2:docstring}"""
-		${3}
-		
-		class Meta:
-			${4}
-		
+		${4}
+
 		def __unicode__(self):
-			${5}
-		
-		def save(self, force_insert=False, force_update=False):
-			${6}
-		
-		@models.permalink
-		def get_absolute_url(self):
-			return ('${7:view_or_url_name}' ${8})
+			${3}
 
 snippet modeladmin
 	class ${1:ModelName}Admin(admin.ModelAdmin):
-		${2}
-	
+		"""${3:docstring}"""
+		${3}
+
 	admin.site.register($1, $1Admin)
-	
+
 snippet r2r
 	return render_to_response('${1:template.html}', {
 			${2}
