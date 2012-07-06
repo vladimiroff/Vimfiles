@@ -94,3 +94,6 @@
 [submodule "bundle/go"]
 	path = bundle/go
 	url = git://github.com/uggedal/go-vim.git
+[submodule "bundle/solarized"]
+	path = bundle/solarized
+	url = git://github.com/altercation/vim-colors-solarized.git

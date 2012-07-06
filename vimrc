@@ -37,7 +37,9 @@ set mouse=a
 
 " Colors
 set t_Co=256
-colorscheme wombat256i
+set background=dark
+let g:solarized_termcolors=256
+colorscheme solarized
 let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size = 1
 if has("gui_running")
