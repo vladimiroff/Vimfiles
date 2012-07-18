@@ -113,6 +113,7 @@ set listchars=tab:».,trail:.,extends:#,nbsp:.
 set cmdheight=1
 set wildmenu
 set wildmode=list:longest,full
+set wildignore+=*.o,*.obj,.git,*pyc,*pyo,*.pid,*.sock
 
 " Timeouts
 set notimeout
