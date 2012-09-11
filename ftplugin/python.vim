@@ -1,5 +1,7 @@
 compiler python
 
+map <C-i> :w<CR>:!python %<CR>
+
 "PyFlakes
 let g:pyflakes_use_quickfix = 1
 
