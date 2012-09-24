@@ -49,3 +49,7 @@ let g:Gitv_OpenPreviewOnLaunch = 0
 
 " TabMan
 let g:tabman_side = 'right'
+
+" Sparkup
+let g:sparkupExecuteMapping = '<C-E>'
+let g:sparkupNextMapping = '-'
