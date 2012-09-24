@@ -54,6 +54,9 @@ nmap dsf F(bdt(ds(
 " EasyMotion
 map gw \\w
 
+" Prettify and minify json
+map <leader>jt  <Esc>:%!python -m json.tool<CR>:FixWhitespace<CR>
+map <leader>jj  <Esc>ggVG:join<CR>
 " IPython(I've promised myself to try it again...soon)
 " vmap <C-e> :python run_these_lines()<CR>
 " map <F5> :python run_this_file()<CR>

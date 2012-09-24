@@ -125,3 +125,6 @@ set clipboard=unnamedplus
 " Completion options
 set completefunc=syntaxcomplete#Complete
 set completeopt=longest,menuone,preview
+
+" JSON
+set nojoinspaces
