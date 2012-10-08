@@ -54,6 +54,11 @@ nmap dsf F(bdt(ds(
 " EasyMotion
 map gw \\w
 
+" Spellcheck
+map <Leader>se :setlocal spell spelllang=en_us<CR>
+map <Leader>sb :setlocal spell spelllang=bg_bg<CR>
+map <Leader>sn :setlocal nospell<CR> 
+
 " Prettify and minify json
 map <leader>jt  <Esc>:%!python -m json.tool<CR>:FixWhitespace<CR>
 map <leader>jj  <Esc>ggVG:join<CR>
