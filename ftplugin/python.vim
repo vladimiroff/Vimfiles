@@ -13,3 +13,5 @@ map ff <Plug>reindent
 
 " IPython
 let g:ipy_perform_mappings=0
+
+nnoremap <buffer> <Leader>st :call append(line('.')-1, ['import ipdb; ipdb.set_trace()'])<CR>
