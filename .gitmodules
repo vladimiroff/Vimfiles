@@ -93,7 +93,7 @@
 	url = git://github.com/qqshfox/vim-tmux.git
 [submodule "bundle/go"]
 	path = bundle/go
-	url = git://github.com/uggedal/go-vim.git
+	url = git://github.com/AndrewRadev/go-vim.git
 [submodule "bundle/solarized"]
 	path = bundle/solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
