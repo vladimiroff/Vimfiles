@@ -1,17 +1,17 @@
 compiler python
 
-map <C-i> :w<CR>:!python %<CR>
+" Skip errors and warnings
+" E.g. "E501,W002", "E2,W" (Skip all Warnings and Errors startswith E2) and etc
+let g:pymode_lint_ignore = "E501,E128"
 
-"PyFlakes
-let g:pyflakes_use_quickfix = 1
+" Enable python folding
+let g:pymode_folding = 0
 
-" Pylint
-let g:pylint_onwrite = 0
+" Key for show python documentation
+let g:pymode_doc_key = '<leader>K'
 
-" Reindent.py
-map ff <Plug>reindent
+" Run linter on the fly
+let g:pymode_lint_onfly = 1
 
-" IPython
-let g:ipy_perform_mappings=0
-
-nnoremap <buffer> <Leader>st :call append(line('.')-1, ['import ipdb; ipdb.set_trace()'])<CR>
+" Auto open cwindow if errors be finded
+let g:pymode_lint_cwindow = 0

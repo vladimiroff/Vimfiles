@@ -40,9 +40,6 @@ let g:splitjoin_align                = 1
 let Tlist_Inc_Winwidth = 0
 let Tlist_WinWidth = 45
 
-" PySmell omnicompletion
-autocmd FileType python set omnifunc=pysmell#Complete
-
 " GitV
 let g:Gitv_OpenHorizontal = 1
 let g:Gitv_OpenPreviewOnLaunch = 0
