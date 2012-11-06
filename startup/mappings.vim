@@ -16,6 +16,10 @@ map <C-s> :w<CR>
 imap <C-s> <Esc>:w<CR>
 map <Space> :
 
+" Whitespaste
+nmap P <Plug>WhitespasteBefore
+nmap p <Plug>WhitespasteAfter
+
 " Better Esc
 imap jk <Esc>l
 imap kj <Esc>l
