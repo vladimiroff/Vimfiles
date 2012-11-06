@@ -12,7 +12,6 @@ runtime! startup/commands.vim
 runtime! startup/cyrillic.vim
 runtime! startup/mappings.vim
 runtime! startup/plugins.vim
-
 " When editing a file, always jump to the last known cursor position.
 " Don't do it when the position is invalid or when inside an event handler
 " (happens when dropping a file on gvim).
@@ -48,7 +47,7 @@ else
     exec "hi Normal ctermfg=244 ctermbg=none"
 endif
 
-" Status Line and Cursor highlighting
+" Status Line(Powerline overwrites it) and Cursor highlightin
 set statusline=%F%m%r%h%w\ %y\ [%04l\|%04v][%p%%]\ %=[%L\ lines]%{fugitive#statusline()}
 set laststatus=2
 set cursorline
@@ -106,6 +105,7 @@ set nopaste
 " Whitespace
 set list
 set listchars=tab:».,trail:.,extends:#,nbsp:.
+set fillchars+=stl:\ ,stlnc:\
 
 
 " Command-line
