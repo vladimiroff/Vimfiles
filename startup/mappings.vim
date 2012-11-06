@@ -24,6 +24,9 @@ nmap p <Plug>WhitespasteAfter
 nnoremap =j :SplitjoinJoin<CR>
 nnoremap =s :SplitjoinJoin<CR>
 
+" Switch
+nnoremap - :Switch<CR>
+
 " Better Esc
 imap jk <Esc>l
 imap kj <Esc>l
