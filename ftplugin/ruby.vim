@@ -41,3 +41,9 @@ if @% =~ 'step_definitions'
   let b:fswitchdst  = 'feature'
   let b:fswitchlocs = 'rel:..'
 endif
+
+" Tab stuff
+setlocal tabstop=2
+setlocal shiftwidth=2
+setlocal softtabstop=2
+setlocal expandtab
