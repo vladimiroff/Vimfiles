@@ -105,7 +105,6 @@ set nopaste
 " Whitespace
 set list
 set listchars=tab:».,trail:.,extends:#,nbsp:.
-set fillchars+=stl:\ ,stlnc:\
 
 
 " Command-line
