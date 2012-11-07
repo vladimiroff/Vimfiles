@@ -22,7 +22,7 @@ nmap p <Plug>WhitespasteAfter
 
 " Splitjoin
 nnoremap =j :SplitjoinJoin<CR>
-nnoremap =s :SplitjoinJoin<CR>
+nnoremap =s :SplitjoinSplit<CR>
 
 " Switch
 nnoremap - :Switch<CR>
