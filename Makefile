@@ -2,7 +2,6 @@ install:
 	ln -fs ~/.vim/vimrc ~/.vimrc
 	git submodule init
 	git submodule update
-	cd bundle/pyflakes/ && git submodule init && git submodule update
 
 update:
 	git pull origin master
