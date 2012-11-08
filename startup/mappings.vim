@@ -16,6 +16,17 @@ map <C-s> :w<CR>
 imap <C-s> <Esc>:w<CR>
 map <Space> :
 
+" Whitespaste
+nmap P <Plug>WhitespasteBefore
+nmap p <Plug>WhitespasteAfter
+
+" Splitjoin
+nnoremap =j :SplitjoinJoin<CR>
+nnoremap =s :SplitjoinSplit<CR>
+
+" Switch
+nnoremap - :Switch<CR>
+
 " Better Esc
 imap jk <Esc>l
 imap kj <Esc>l
@@ -57,7 +68,7 @@ map gw \\w
 " Spellcheck
 map <Leader>se :setlocal spell spelllang=en_us<CR>
 map <Leader>sb :setlocal spell spelllang=bg_bg<CR>
-map <Leader>sn :setlocal nospell<CR> 
+map <Leader>sn :setlocal nospell<CR>
 
 " Prettify and minify json
 map <leader>jt  <Esc>:%!python -m json.tool<CR>:FixWhitespace<CR>
