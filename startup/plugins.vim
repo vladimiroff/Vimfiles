@@ -46,6 +46,3 @@ let g:Gitv_OpenPreviewOnLaunch = 0
 
 " TabMan
 let g:tabman_side = 'right'
-
-" Powerline patched fonts
-let g:Powerline_symbols = 'fancy'
