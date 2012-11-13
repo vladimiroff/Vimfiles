@@ -17,8 +17,8 @@ imap <C-s> <Esc>:w<CR>
 map <Space> :
 
 " Whitespaste
-nmap P <Plug>WhitespasteBefore
-nmap p <Plug>WhitespasteAfter
+nmap <leader>P <Plug>WhitespasteBefore
+nmap <leader>p <Plug>WhitespasteAfter
 
 " Splitjoin
 nnoremap =j :SplitjoinJoin<CR>
