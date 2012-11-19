@@ -1,4 +1,5 @@
 compiler python
+setlocal foldmethod=indent
 
 " Skip errors and warnings
 " E.g. "E501,W002", "E2,W" (Skip all Warnings and Errors startswith E2) and etc
