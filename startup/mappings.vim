@@ -31,11 +31,17 @@ nnoremap - :Switch<CR>
 imap jk <Esc>l
 imap kj <Esc>l
 
-" Moving through splits:
-nmap gh <C-w>h
-nmap gj <C-w>j
-nmap gk <C-w>k
-nmap gl <C-w>l
+" Moving through splits
+nnoremap gh <C-w>h
+nnoremap gj <C-w>j
+nnoremap gk <C-w>k
+nnoremap gl <C-w>l
+
+" Resizing splits
+map <C-w>h <C-w>10<
+map <C-w>j <C-W>10-
+map <C-w>k <C-W>10+
+map <C-w>l <C-w>10>
 
 " Faster scrolling:
 map H 5h
