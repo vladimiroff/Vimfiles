@@ -36,8 +36,9 @@ set mouse=a
 
 " Colors
 set t_Co=256
-let g:solarized_termcolors=256
 colorscheme solarized
+let g:solarized_termcolors=256
+set background=dark
 if has("gui_running")
     exec "hi Normal ctermbg=White ctermfg=Black guifg=White guibg=Black"
     set lines=45
