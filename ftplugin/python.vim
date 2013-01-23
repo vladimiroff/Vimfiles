@@ -12,7 +12,7 @@ let g:pymode_folding = 0
 let g:pymode_doc_key = '<leader>K'
 
 " Run linter on the fly
-let g:pymode_lint_onfly = 1
+let g:pymode_lint_onfly = 0
 
 " Auto open cwindow if errors be finded
 let g:pymode_lint_cwindow = 0
