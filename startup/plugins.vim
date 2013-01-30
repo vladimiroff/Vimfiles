@@ -46,3 +46,7 @@ let g:Gitv_OpenPreviewOnLaunch = 0
 
 " TabMan
 let g:tabman_side = 'right'
+
+" Notes
+let g:notes_directory = '~/Dropbox/Notes'
+let g:notes_suffix = '.md'
