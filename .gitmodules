@@ -97,9 +97,6 @@
 [submodule "bundle/solarized"]
 	path = bundle/solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
-[submodule "bundle/command-t"]
-	path = bundle/command-t
-	url = git://git.wincent.com/command-t.git
 [submodule "bundle/vim-sparkup"]
 	path = bundle/vim-sparkup
 	url = git://github.com/tristen/vim-sparkup.git
