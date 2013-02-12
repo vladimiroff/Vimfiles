@@ -88,9 +88,6 @@
 [submodule "bundle/tmux"]
 	path = bundle/tmux
 	url = git://github.com/qqshfox/vim-tmux.git
-[submodule "bundle/go"]
-	path = bundle/go
-	url = git://github.com/AndrewRadev/go-vim.git
 [submodule "bundle/solarized"]
 	path = bundle/solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
@@ -118,3 +115,6 @@
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = git://github.com/AndrewRadev/ack.vim.git
+[submodule "bundle/golang"]
+	path = bundle/golang
+	url = git://github.com/AndrewRadev/vim-golang.git
