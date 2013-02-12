@@ -4,9 +4,6 @@
 [submodule "bundle/linediff"]
 	path = bundle/linediff
 	url = git://github.com/AndrewRadev/linediff.vim.git
-[submodule "bundle/acp"]
-	path = bundle/acp
-	url = git://github.com/vimcn/acp.vim.git
 [submodule "bundle/nerdtree-tabs"]
 	path = bundle/nerdtree-tabs
 	url = git://github.com/jistr/vim-nerdtree-tabs.git
