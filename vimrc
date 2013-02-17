@@ -22,7 +22,7 @@ autocmd BufReadPost *
   \   exe "normal! g`\"" |
   \ endif
 
-" Forget Vi compatibility.
+" Forget about Vi compatibility.
 set nocompatible
 
 " allow backspacing over everything in insert mode
@@ -127,5 +127,5 @@ set clipboard=unnamedplus
 set completefunc=syntaxcomplete#Complete
 set completeopt=longest,menuone,preview
 
-" JSON
+" Don't leave spaces between joined lines
 set nojoinspaces
