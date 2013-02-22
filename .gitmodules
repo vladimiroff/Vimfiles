@@ -118,3 +118,9 @@
 [submodule "bundle/golang"]
 	path = bundle/golang
 	url = git://github.com/AndrewRadev/vim-golang.git
+[submodule "bundle/slim"]
+	path = bundle/slim
+	url = git://github.com/slim-template/vim-slim.git
+[submodule "bundle/tabular"]
+	path = bundle/tabular
+	url = git://github.com/godlygeek/tabular.git
