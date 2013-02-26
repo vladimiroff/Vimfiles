@@ -2,6 +2,7 @@ map <F2> :TlistToggle<CR>
 map gn :NERDTreeTabsToggle<CR>
 map <F3> :NERDTreeToggle<CR>
 map <F4> :GundoToggle<CR>
+
 " Tabs
 nnoremap ,t :tabnew<cr>
 nnoremap ,T :tabedit %<cr>gT:quit<cr>
@@ -12,9 +13,11 @@ map qq    <Esc>:Q<CR>
 " Some little, but handy mappings
 command! Q q
 command! W w
-map <C-s> :w<CR>
-imap <C-s> <Esc>:w<CR>
+cmap w!! w !sudo tee % >/dev/null
 map <Space> :
+
+" Make Y behave like C and D
+map Y y$
 
 " Whitespaste
 nmap <leader>P <Plug>WhitespasteBefore

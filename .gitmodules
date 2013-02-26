@@ -90,7 +90,7 @@
 	url = git://github.com/qqshfox/vim-tmux.git
 [submodule "bundle/solarized"]
 	path = bundle/solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
+	url = git://github.com/Vladimiroff/vim-colors-solarized.git
 [submodule "bundle/vim-sparkup"]
 	path = bundle/vim-sparkup
 	url = git://github.com/tristen/vim-sparkup.git
@@ -118,3 +118,9 @@
 [submodule "bundle/golang"]
 	path = bundle/golang
 	url = git://github.com/AndrewRadev/vim-golang.git
+[submodule "bundle/slim"]
+	path = bundle/slim
+	url = git://github.com/slim-template/vim-slim.git
+[submodule "bundle/tabular"]
+	path = bundle/tabular
+	url = git://github.com/godlygeek/tabular.git

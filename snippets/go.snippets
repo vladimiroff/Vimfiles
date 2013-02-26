@@ -1,0 +1,30 @@
+snippet import
+	import (
+		${1}
+	)
+
+snippet func
+	func ${1:name}(${2:arguments}) ${3:resultType} {
+		${4}
+	}
+
+snippet method
+	func (self ${1:type}) ${2:name}(${3:arguments}) ${4:resultType} {
+		${5}
+	}
+
+snippet if
+	if ${1:condition} {
+		${2}
+	}
+
+snippet iferr
+	if ${1:v}, err := ${2:statement}; err != nil {
+		${3}
+	}
+
+snippet ifd
+	if ${1:v}, _ := ${2:statement}; ${3:condition} {
+		${4}
+	}
+
