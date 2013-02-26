@@ -31,8 +31,8 @@ set backspace=indent,eol,start
 " Switch between buffers without saving
 set hidden
 
-" Enable mouse support
-set mouse=a
+" Disable mouse support
+set mouse-=a
 
 " Colors
 set t_Co=256
