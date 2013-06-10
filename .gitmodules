@@ -127,3 +127,6 @@
 [submodule "bundle/zoomwintab"]
 	path = bundle/zoomwintab
 	url = git://github.com/troydm/zoomwintab.vim.git
+[submodule "bundle/xolox-misc"]
+	path = bundle/xolox-misc
+	url = git://github.com/xolox/vim-misc.git
