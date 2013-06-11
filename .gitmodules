@@ -130,6 +130,3 @@
 [submodule "bundle/xolox-misc"]
 	path = bundle/xolox-misc
 	url = git://github.com/xolox/vim-misc.git
-[submodule "bundle/easytags"]
-	path = bundle/easytags
-	url = git://github.com/xolox/vim-easytags.git
