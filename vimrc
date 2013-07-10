@@ -133,3 +133,6 @@ set nojoinspaces
 
 " Always show at least four lines above/below the cursor
 set scrolloff=4
+
+" Hide the default mode text (e.g. -- INSERT -- below the statusline)
+set noshowmode
