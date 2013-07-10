@@ -131,8 +131,5 @@ set completeopt=longest,menuone,preview
 " Don't leave spaces between joined lines
 set nojoinspaces
 
-" Always show at least four lines above/below the cursor
-set scrolloff=4
-
 " Hide the default mode text (e.g. -- INSERT -- below the statusline)
 set noshowmode
