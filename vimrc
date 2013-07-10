@@ -1,6 +1,7 @@
 " Vladimiroff's vimfile
 
 call pathogen#runtime_append_all_bundles()
+set rtp+=~/dotfiles/powerline/src/powerline/bindings/vim
 
 " Enable filetypes
 filetype on
