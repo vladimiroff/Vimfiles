@@ -49,7 +49,7 @@ else
     exec "hi Normal ctermfg=244 ctermbg=none"
 endif
 
-" Status Line(Powerline overwrites it) and Cursor highlightin
+" Status Line and Cursor highlightin
 set statusline=%F%m%r%h%w\ %y\ [%04l\|%04v][%p%%]\ %=[%L\ lines]%{fugitive#statusline()}
 set laststatus=2
 set cursorline
