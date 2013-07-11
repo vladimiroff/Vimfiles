@@ -1,7 +1,6 @@
 " Vladimiroff's vimfile
 
 call pathogen#runtime_append_all_bundles()
-set rtp+=~/dotfiles/powerline/src/powerline/bindings/vim
 
 " Enable filetypes
 filetype on
@@ -130,6 +129,3 @@ set completeopt=longest,menuone,preview
 
 " Don't leave spaces between joined lines
 set nojoinspaces
-
-" Hide the default mode text (e.g. -- INSERT -- below the statusline)
-set noshowmode
