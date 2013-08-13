@@ -130,3 +130,6 @@
 [submodule "bundle/autotag"]
 	path = bundle/autotag
 	url = git://github.com/vim-scripts/AutoTag.git
+[submodule "bundle/jedi"]
+	path = bundle/jedi
+	url = https://github.com/davidhalter/jedi-vim.git
