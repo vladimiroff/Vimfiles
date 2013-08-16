@@ -22,6 +22,9 @@ autocmd BufReadPost *
   \   exe "normal! g`\"" |
   \ endif
 
+" Close preview split when completion is done
+autocmd CompleteDone <buffer> pclose
+
 " Forget about Vi compatibility.
 set nocompatible
 
