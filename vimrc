@@ -55,8 +55,6 @@ endif
 " Status Line and Cursor highlightin
 set statusline=%F%m%r%h%w\ %y\ [%04l\|%04v][%p%%]\ %=[%L\ lines]%{fugitive#statusline()}
 set laststatus=2
-set cursorline
-set cursorcolumn
 
 " Tab stuff
 set tabstop=4
