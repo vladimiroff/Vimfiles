@@ -19,10 +19,6 @@ map <Space> :
 " Make Y behave like C and D
 map Y y$
 
-" Whitespaste
-nmap <leader>P <Plug>WhitespasteBefore
-nmap <leader>p <Plug>WhitespasteAfter
-
 " Splitjoin
 nnoremap =j :SplitjoinJoin<CR>
 nnoremap =s :SplitjoinSplit<CR>
@@ -76,7 +72,3 @@ map <Leader>sn :setlocal nospell<CR>
 " Prettify and minify json
 map <leader>jt  <Esc>:%!python -m json.tool<CR>:FixWhitespace<CR>
 map <leader>jj  <Esc>ggVG:join<CR>
-" IPython(I've promised myself to try it again...soon)
-" vmap <C-e> :python run_these_lines()<CR>
-" map <F5> :python run_this_file()<CR>
-

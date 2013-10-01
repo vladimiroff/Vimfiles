@@ -44,9 +44,6 @@ let Tlist_WinWidth = 45
 let g:Gitv_OpenHorizontal = 1
 let g:Gitv_OpenPreviewOnLaunch = 0
 
-" TabMan
-let g:tabman_side = 'right'
-
 " Notes
 let g:notes_directories = ['~/Dropbox/Notes', ]
 let g:notes_suffix = '.md'
