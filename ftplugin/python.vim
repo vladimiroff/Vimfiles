@@ -21,6 +21,7 @@ let g:pymode_lint_cwindow = 0
 let g:pymode_utils_whitespaces = 0
 
 " Jedi
+let g:jedi#auto_initialization = 0
 let g:jedi#goto_command = "<leader>G"
 let g:jedi#get_definition_command = "<leader>D"
 let g:jedi#pydoc = "<leader>K"
