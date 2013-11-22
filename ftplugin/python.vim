@@ -27,3 +27,6 @@ let g:jedi#goto_definitions_command = "<leader>D"
 let g:jedi#documentation_command = "<leader>K"
 let g:jedi#rename_command = "<leader>R"
 let g:jedi#completions_command = "<C-Space>"
+
+" Disable syntastic for python
+let g:syntastic_python_checkers=[]
