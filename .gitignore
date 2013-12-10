@@ -1,9 +1,6 @@
 # Ignore all tags files, just remember to rebuild them every once in a while:
 tags
-bundle/*/doc/tags
-bundle/*/doc/tags-*
 doc/tags
 doc/tags-*
-
 
 .netrwhist
