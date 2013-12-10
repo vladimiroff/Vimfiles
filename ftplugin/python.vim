@@ -1,5 +1,8 @@
 compiler python
 
+set cursorline
+set cursorcolumn
+
 " python-mode settings
 let g:pymode_breakpoint = 1
 let g:pymode_doc = 1
