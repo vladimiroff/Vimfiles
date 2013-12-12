@@ -24,6 +24,7 @@ let g:pymode_virtualenv = 1
 let g:pymode_breakpoint_bind = '<leader>bt'
 let g:pymode_doc_bind = '<leader>k'
 let g:pymode_rope_completion_bind = '<C-x><C-o>'
+let g:pymode_rope_goto_definition_bind = '<leader>g'
 let g:pymode_run_bind = '<leader>r'
 
 " Disable syntastic
