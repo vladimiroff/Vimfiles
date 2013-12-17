@@ -7,5 +7,3 @@ setlocal listchars=tab:\ \ ,trail:.,extends:#,nbsp:.
 
 nnoremap <buffer> <leader> K <Plug>(godoc-keyword)
 nnoremap <buffer> <silent> K 5k
-
-autocmd BufWritePre *.go :Fmt
