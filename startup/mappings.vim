@@ -72,3 +72,6 @@ map <Leader>sn :setlocal nospell<CR>
 " Prettify and minify json
 map <leader>jt  <Esc>:%!python -m json.tool<CR>:FixWhitespace<CR>
 map <leader>jj  <Esc>ggVG:join<CR>
+
+" disable mapping entirely
+let g:multichange_mapping = '<leader>m'
