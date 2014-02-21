@@ -1,4 +1,4 @@
-" Tlist
+" Taglist
 map <Leader>t :TlistToggle<CR>
 
 " NERDTree

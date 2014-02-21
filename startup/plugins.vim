@@ -44,3 +44,6 @@ let g:Gitv_OpenPreviewOnLaunch = 0
 " Notes
 let g:notes_directories = ['~/Dropbox/Notes', ]
 let g:notes_suffix = '.md'
+
+" Taglist
+let g:Tlist_Use_Right_Window=1
