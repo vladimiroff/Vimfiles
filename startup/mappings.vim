@@ -1,6 +1,11 @@
-map <F2> :TlistToggle<CR>
+" Tlist
+map <Leader>t :TlistToggle<CR>
+
+" NERDTree
 map gn :NERDTreeToggle<CR>
-map <F4> :GundoToggle<CR>
+
+" Gundo
+map <Leader>u :GundoToggle<CR>
 
 " Tabs
 nnoremap ,t :tabnew<cr>
