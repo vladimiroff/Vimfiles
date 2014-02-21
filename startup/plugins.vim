@@ -20,7 +20,6 @@ let g:NERDTreeMapJumpLastChild  = '-'
 
 " Snippet settings:
 let g:snippets_dir = expand('~/.vim/snippets/')
-let g:snips_author = 'Kiril Vladimirov'
 
 " Omnicppcomplete options:
 let OmniCpp_NamespaceSearch     = 1 " -> True
