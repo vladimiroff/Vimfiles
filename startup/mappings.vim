@@ -1,6 +1,5 @@
 map <F2> :TlistToggle<CR>
-map gn :NERDTreeTabsToggle<CR>
-map <F3> :NERDTreeToggle<CR>
+map gn :NERDTreeToggle<CR>
 map <F4> :GundoToggle<CR>
 
 " Tabs
