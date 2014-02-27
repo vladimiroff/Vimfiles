@@ -130,3 +130,6 @@ set completeopt=longest,menuone,preview
 
 " Don't leave spaces between joined lines
 set nojoinspaces
+
+" Syntax coloring lines that are too long just slows down the world
+set smc=140
