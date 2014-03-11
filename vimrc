@@ -1,6 +1,62 @@
 " Vladimiroff's vimfile
 
-call pathogen#runtime_append_all_bundles()
+" Forget about Vi compatibility.
+set nocompatible
+
+" Vundle
+filetype off
+set runtimepath+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+
+Bundle 'AndrewRadev/ack.vim'
+Bundle 'AndrewRadev/go-oracle.vim'
+Bundle 'AndrewRadev/inline_edit.vim'
+Bundle 'AndrewRadev/linediff.vim'
+Bundle 'AndrewRadev/multichange.vim'
+Bundle 'AndrewRadev/splitjoin.vim'
+Bundle 'AndrewRadev/switch.vim'
+Bundle 'AndrewRadev/vim-golang'
+Bundle 'AndrewRadev/whitespaste.vim'
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'Vladimiroff/gocode.vim'
+Bundle 'Vladimiroff/vim-colors-solarized'
+Bundle 'Vladimiroff/vim-sparkup'
+Bundle 'bronson/vim-trailing-whitespace'
+Bundle 'corntrace/bufexplorer'
+Bundle 'godlygeek/tabular'
+Bundle 'gregsexton/gitv'
+Bundle 'int3/vim-extradite'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'kevinw/pyflakes-vim'
+Bundle 'kien/ctrlp.vim'
+Bundle 'kien/tabman.vim'
+Bundle 'klen/python-mode'
+Bundle 'koron/nyancat-vim'
+Bundle 'mattn/gist-vim'
+Bundle 'mjbrownie/pythoncomplete.vim'
+Bundle 'msanders/snipmate.vim'
+Bundle 'ngn/vim-mines'
+Bundle 'othree/html5.vim'
+Bundle 'phleet/vim-mercenary'
+Bundle 'qqshfox/vim-tmux'
+Bundle 'rainerborene/vim-pony'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/syntastic'
+Bundle 'sjl/gundo.vim'
+Bundle 'slim-template/vim-slim'
+Bundle 'tomtom/tcomment_vim'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-surround'
+Bundle 'tristen/vim-sparkup'
+Bundle 'troydm/zoomwintab.vim'
+Bundle 'vim-scripts/AutoTag'
+Bundle 'vim-scripts/pylint.vim'
+Bundle 'vim-scripts/taglist.vim'
+Bundle 'vim-scripts/xoria256.vim'
+Bundle 'xolox/vim-misc'
+Bundle 'xolox/vim-notes'
 
 " Enable filetypes
 filetype on
@@ -24,9 +80,6 @@ autocmd BufReadPost *
 
 " Close preview split when completion is done
 autocmd CompleteDone <buffer> pclose
-
-" Forget about Vi compatibility.
-set nocompatible
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start

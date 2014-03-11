@@ -3,4 +3,7 @@ tags
 doc/tags
 doc/tags-*
 
+# Ignore bundles, since Vundle is taking care of them
+bundle/
+
 .netrwhist
