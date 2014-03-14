@@ -71,3 +71,6 @@ let g:pymode_doc_bind = '<leader>k'
 let g:pymode_rope_completion_bind = '<C-space>'
 let g:pymode_rope_goto_definition_bind = '<leader>g'
 let g:pymode_run_bind = '<leader>r'
+
+" auto-pairs
+let g:AutoPairsFlyMode = 1
