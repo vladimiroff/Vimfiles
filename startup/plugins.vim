@@ -74,3 +74,7 @@ let g:pymode_run_bind = '<leader>r'
 
 " auto-pairs
 let g:AutoPairsFlyMode = 1
+
+" TabMan
+let g:tabman_side = 'right'
+let g:tabman_number = 0
