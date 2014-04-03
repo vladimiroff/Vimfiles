@@ -79,3 +79,7 @@ map <leader>jj  <Esc>ggVG:join<CR>
 
 " Mutlichange
 let g:multichange_mapping = '<leader>m'
+
+" Sideways
+nnoremap <Leader>< :SidewaysLeft<CR>
+nnoremap <Leader>> :SidewaysRight<CR>
