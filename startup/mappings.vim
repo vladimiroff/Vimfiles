@@ -83,3 +83,6 @@ let g:multichange_mapping = '<leader>m'
 " Sideways
 nnoremap <Leader>< :SidewaysLeft<CR>
 nnoremap <Leader>> :SidewaysRight<CR>
+
+" Toggle between light and dark background
+map <leader>bb :let &background = ( &background == "dark"? "light" : "dark" )<CR>
