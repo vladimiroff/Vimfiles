@@ -90,3 +90,6 @@ map <leader>bb :let &background = ( &background == "dark"? "light" : "dark" )<CR
 " Jump to next and previous tags
 nnoremap ]t :tnext<CR>
 nnoremap [t :tprev<CR>
+
+" CtrlP
+let g:ctrlp_map = 'gz'
