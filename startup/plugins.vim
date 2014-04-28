@@ -72,9 +72,6 @@ let g:pymode_rope_completion_bind = '<C-space>'
 let g:pymode_rope_goto_definition_bind = '<leader>g'
 let g:pymode_run_bind = '<leader>r'
 
-" auto-pairs
-let g:AutoPairsFlyMode = 1
-
 " TabMan
 let g:tabman_side = 'right'
 let g:tabman_number = 0
