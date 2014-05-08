@@ -92,7 +92,8 @@ nnoremap ]t :tnext<CR>
 nnoremap [t :tprev<CR>
 
 " CtrlP
-let g:ctrlp_map = 'gz'
+let g:ctrlp_map = 'gp'
+nnoremap g. :CtrlPTag<cr>
 
 " unstack
 let g:unstack_mapkey='<Leader>tr'
