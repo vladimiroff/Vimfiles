@@ -75,3 +75,6 @@ let g:pymode_run_bind = '<leader>r'
 " TabMan
 let g:tabman_side = 'right'
 let g:tabman_number = 0
+
+" CtrlP
+let g:ctrlp_match_window = 'top,order:btt,min:1,max:10,results:10'
