@@ -22,7 +22,7 @@ Bundle 'AndrewRadev/whitespaste.vim'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'Raimondi/delimitMate'
 Bundle 'Vladimiroff/gocode.vim'
-Bundle 'Vladimiroff/vim-colors-solarized'
+Bundle 'altercation/vim-colors-solarized'
 Bundle 'bronson/vim-trailing-whitespace'
 Bundle 'corntrace/bufexplorer'
 Bundle 'godlygeek/tabular'
@@ -91,17 +91,14 @@ set mouse=a
 
 " Colors
 set t_Co=256
-let g:solarized_termtrans=1    "default value is 0
-let g:solarized_termcolors=256    "default value is 16
 set background=dark
 colorscheme solarized
+
 if has("gui_running")
-    exec "hi Normal ctermbg=White ctermfg=Black guifg=White guibg=Black"
+    set background=light
     set lines=45
     set columns=120
     set guioptions-=T
-else
-    exec "hi Normal ctermfg=244 ctermbg=none"
 endif
 
 " Status Line and Cursor highlightin
