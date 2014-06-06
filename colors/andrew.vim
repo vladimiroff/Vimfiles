@@ -54,9 +54,9 @@ hi Error guibg=Red    guifg=White
 hi Todo guifg=#efef8f guibg=NONE gui=underline
 hi Todo ctermfg=228 ctermbg=NONE cterm=underline
 
-" Just underline when using a cursorline
-hi CursorLine cterm=underline ctermbg=NONE
-hi CursorLine gui=underline   guibg=NONE
+" Use smooth background for cursorline and cursorcolumn
+hi CursorLine ctermbg=235   cterm=none
+hi CursorColumn ctermbg=235   cterm=none
 
 " Bluish directory names
 hi Directory cterm=NONE ctermfg=45
