@@ -86,13 +86,10 @@ set backspace=indent,eol,start
 " Switch between buffers without saving
 set hidden
 
-" Enable mouse support
-set mouse=a
-
 " Colors
 set t_Co=256
 set background=dark
-colorscheme solarized
+colorscheme andrew
 
 if has("gui_running")
     set background=light
