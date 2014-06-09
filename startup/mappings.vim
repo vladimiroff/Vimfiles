@@ -67,6 +67,7 @@ nmap dsf F(bdt(ds(
 
 " EasyMotion
 map gw \\w
+map gW \\b
 
 " Spellcheck
 map <Leader>se :setlocal spell spelllang=en_us<CR>
