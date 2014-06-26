@@ -78,3 +78,6 @@ let g:tabman_number = 0
 
 " CtrlP
 let g:ctrlp_match_window = 'top,order:btt,min:1,max:10,results:10'
+
+" AutoTag
+let g:autotagTagsFile = '.tags'

@@ -186,3 +186,6 @@ set nojoinspaces
 
 " Syntax coloring lines that are too long just slows down the world
 set smc=140
+
+" Use tags from .tags file
+set tags+=.tags
