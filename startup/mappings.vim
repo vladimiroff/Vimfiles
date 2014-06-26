@@ -3,6 +3,7 @@ map <Leader>t :TlistToggle<CR>
 
 " NERDTree
 map gn :NERDTreeToggle<CR>
+map gN :NERDTreeFind<CR>
 
 " Gundo
 map <Leader>u :GundoToggle<CR>
