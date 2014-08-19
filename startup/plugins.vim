@@ -49,14 +49,8 @@ let g:notes_suffix = '.md'
 let g:Tlist_Use_Right_Window=1
 
 " jedi
-let g:jedi#use_splits_not_buffers = "right"
-let g:jedi#goto_assignments_command = "<leader>g"
-let g:jedi#goto_definitions_command = "<leader>d"
-let g:jedi#documentation_command = "<leader>k"
-let g:jedi#usages_command = "<leader>n"
-let g:jedi#completions_command = "<C-Space>"
-let g:jedi#rename_command = "<leader>r"
 let g:jedi#show_call_signatures = "1"
+let g:jedi#use_splits_not_buffers = "right"
 
 " TabMan
 let g:tabman_side = 'right'

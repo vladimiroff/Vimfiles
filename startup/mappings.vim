@@ -103,3 +103,11 @@ let g:unstack_mapkey='<Leader>tr'
 " vimux
 map <Leader>c :VimuxPromptCommand<CR>
 map <Leader>C :VimuxRunLastCommand<CR>
+
+" jedi
+let g:jedi#completions_command = "<C-Space>"
+let g:jedi#documentation_command = "<leader>k"
+let g:jedi#goto_assignments_command = "<leader>g"
+let g:jedi#goto_definitions_command = "<leader>d"
+let g:jedi#rename_command = "<leader>r"
+let g:jedi#usages_command = "<leader>n"
