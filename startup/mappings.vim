@@ -1,5 +1,5 @@
-" Taglist
-map <Leader>t :TlistToggle<CR>
+" Tagbar
+map <Leader>t :TagbarToggle<CR>
 
 " NERDTree
 map gn :NERDTreeToggle<CR>
