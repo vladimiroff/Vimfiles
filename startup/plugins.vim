@@ -47,30 +47,16 @@ let g:notes_suffix = '.md'
 
 " Taglist
 let g:Tlist_Use_Right_Window=1
-"
-" python-mode settings
-let g:pymode_breakpoint = 1
-let g:pymode_doc = 1
-let g:pymode_folding = 1
-let g:pymode_lint_cwindow = 0
-let g:pymode_lint_ignore = "E501,E128,E226"
-let g:pymode_lint_on_write = 1
-let g:pymode_lint_onfly = 0
-let g:pymode_motion = 1
-let g:pymode_rope = 1
-let g:pymode_rope_complete_on_dot = 0
-let g:pymode_rope_completion = 1
-let g:pymode_rope_goto_definition_cmd = 'tabnew'
-let g:pymode_run = 1
-let g:pymode_trim_whitespaces = 0
-let g:pymode_virtualenv = 1
 
-" python-mode bindings
-let g:pymode_breakpoint_bind = '<leader>bt'
-let g:pymode_doc_bind = '<leader>k'
-let g:pymode_rope_completion_bind = '<C-space>'
-let g:pymode_rope_goto_definition_bind = '<leader>g'
-let g:pymode_run_bind = '<leader>r'
+" jedi
+let g:jedi#use_splits_not_buffers = "right"
+let g:jedi#goto_assignments_command = "<leader>g"
+let g:jedi#goto_definitions_command = "<leader>d"
+let g:jedi#documentation_command = "<leader>k"
+let g:jedi#usages_command = "<leader>n"
+let g:jedi#completions_command = "<C-Space>"
+let g:jedi#rename_command = "<leader>r"
+let g:jedi#show_call_signatures = "1"
 
 " TabMan
 let g:tabman_side = 'right'

@@ -21,3 +21,5 @@ let g:switch_custom_definitions =
     \   ['assertIn', 'assertNotIn'],
     \   ['assertIsInstance', 'assertNotIsInstance'],
     \ ]
+
+nnoremap <leader>bt <esc>Oimport ipdb; ipdb.set_trace() # XXX BREAKPOINT<esc>j
