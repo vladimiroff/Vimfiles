@@ -1,7 +1,6 @@
 compiler python
 
-" Disable syntastic
-let g:syntastic_ignore_files = ['\.py$']
+let g:syntastic_python_checkers = ['pep8']
 
 let g:switch_custom_definitions =
     \ [
