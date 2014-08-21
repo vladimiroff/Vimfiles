@@ -106,12 +106,6 @@ set fillchars=stl:-,stlnc:-,vert:│,fold:\ ,diff:-
 set statusline=%F%m%r%h%w\ %y\ [%04l\|%04v][%p%%]\ %=[%L\ lines]%{fugitive#statusline()}
 set laststatus=2
 
-" Tab stuff
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
-set expandtab
-
 " Disable the silly backups, we're not 90's
 set nobackup
 set noswapfile

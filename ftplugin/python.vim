@@ -1,3 +1,7 @@
+setlocal expandtab
+setlocal shiftwidth=4
+setlocal softtabstop=4
+
 compiler python
 
 let g:syntastic_python_checkers = ['pep8']
