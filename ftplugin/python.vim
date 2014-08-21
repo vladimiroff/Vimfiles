@@ -27,3 +27,6 @@ let g:switch_custom_definitions =
     \ ]
 
 nnoremap <leader>bt <esc>Oimport ipdb; ipdb.set_trace() # XXX BREAKPOINT<esc>j
+
+RunCommand     !python    % <args>
+ConsoleCommand !python -i % <args>
