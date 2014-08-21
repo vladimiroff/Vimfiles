@@ -12,4 +12,6 @@ nnoremap <buffer> <silent> K 5k
 map <Leader>ra :wa<CR> :GolangTestCurrentPackage<CR>
 map <Leader>rf :wa<CR> :GolangTestFocused<CR>
 
+RunCommand !go run %
+
 autocmd BufWritePre <buffer> :Fmt silent
