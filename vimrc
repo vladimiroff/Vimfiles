@@ -25,6 +25,7 @@ Bundle 'Vladimiroff/gocode.vim'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'benmills/vimux'
 Bundle 'benmills/vimux-golang'
+Bundle 'bling/vim-airline'
 Bundle 'bronson/vim-trailing-whitespace'
 Bundle 'corntrace/bufexplorer'
 Bundle 'davidhalter/jedi-vim'
@@ -103,7 +104,6 @@ endif
 
 " Status line and fillchars
 set fillchars=stl:-,stlnc:-,vert:│,fold:\ ,diff:-
-set statusline=%F%m%r%h%w\ %y\ [%04l\|%04v][%p%%]\ %=[%L\ lines]%{fugitive#statusline()}
 set laststatus=2
 
 " Disable the silly backups, we're not 90's
