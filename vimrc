@@ -21,7 +21,7 @@ Plugin 'AndrewRadev/vim-golang'
 Plugin 'AndrewRadev/whitespaste.vim'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'Raimondi/delimitMate'
-Plugin 'Vladimiroff/gocode.vim'
+Plugin 'nsf/gocode', {'rtp': 'vim/'}
 Plugin 'benmills/vimux'
 Plugin 'benmills/vimux-golang'
 Plugin 'bling/vim-airline'
