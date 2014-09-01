@@ -7,12 +7,11 @@ setlocal listchars=tab:\ \ ,trail:.,extends:#,nbsp:.
 setlocal tags+=~/dotfiles/tags/go.tags
 setlocal foldmethod=syntax
 
-nnoremap <buffer> <leader> K <Plug>(godoc-keyword)
-nnoremap <buffer> <silent> K 5k
-map <Leader>ot :AV<CR>
-map <Leader>oT :AT<CR>
-map <Leader>ra :wa<CR> :GolangTestCurrentPackage<CR>
-map <Leader>rf :wa<CR> :GolangTestFocused<CR>
+nmap <leader>k <Plug>(godoc-keyword)
+nmap <leader>ot :AV<CR>
+nmap <leader>oT :AT<CR>
+nmap <leader>ra :wa<CR> :GolangTestCurrentPackage<CR>
+nmap <leader>rf :wa<CR> :GolangTestFocused<CR>
 
 RunCommand !go run %
 
