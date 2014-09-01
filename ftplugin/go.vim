@@ -9,6 +9,8 @@ setlocal foldmethod=syntax
 
 nnoremap <buffer> <leader> K <Plug>(godoc-keyword)
 nnoremap <buffer> <silent> K 5k
+map <Leader>ot :AV<CR>
+map <Leader>oT :AT<CR>
 map <Leader>ra :wa<CR> :GolangTestCurrentPackage<CR>
 map <Leader>rf :wa<CR> :GolangTestFocused<CR>
 
