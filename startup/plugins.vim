@@ -63,16 +63,16 @@ let g:ctrlp_match_window = 'top,order:btt,min:1,max:10,results:10'
 let g:autotagTagsFile = '.tags'
 
 " airline
-let g:airline_left_sep = ''
+let g:airline_left_sep = ''
 let g:airline_right_sep = ''
-let g:airline_left_alt_sep = ''
+let g:airline_left_alt_sep = ''
 let g:airline_right_alt_sep = ''
 
 if !exists('g:airline_symbols')
     let g:airline_symbols = {
-        \ 'branch'   : '',
-        \ 'readonly' : '',
-        \ 'linenr'   : '',
+        \ 'branch'   : '',
+        \ 'readonly' : '[RO]',
+        \ 'linenr'   : 'L/R',
         \ }
 endif
 
