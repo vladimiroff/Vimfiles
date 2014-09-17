@@ -72,7 +72,7 @@ if !exists('g:airline_symbols')
     let g:airline_symbols = {
         \ 'branch'   : '',
         \ 'readonly' : '[RO]',
-        \ 'linenr'   : 'L/R',
+        \ 'linenr'   : 'L/C',
         \ }
 endif
 
