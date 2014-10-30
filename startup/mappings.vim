@@ -31,10 +31,6 @@ nnoremap =s :SplitjoinSplit<CR>
 " Switch
 nnoremap - :Switch<CR>
 
-" Better Esc
-imap jk <Esc>l
-imap kj <Esc>l
-
 " Resizing splits
 map <C-e>h <C-w>10<
 map <C-e>j <C-W>10-
