@@ -152,10 +152,6 @@ set nopaste
 set list
 set listchars=tab:».,trail:.,extends:#,nbsp:.
 
-" Enable cursorline and cursorcolumn
-set cursorline
-set cursorcolumn
-
 " Command-line
 set cmdheight=1
 set wildmenu

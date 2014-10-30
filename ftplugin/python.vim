@@ -3,6 +3,10 @@ setlocal shiftwidth=4
 setlocal softtabstop=4
 setlocal foldmethod=indent
 
+" Enable cursorline and cursorcolumn
+setlocal cursorline
+setlocal cursorcolumn
+
 compiler python
 
 let g:syntastic_python_checkers = ['pep8']
