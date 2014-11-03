@@ -164,7 +164,11 @@ set ttimeout
 set ttimeoutlen=200
 
 " Clipbaord
-set clipboard=unnamedplus
+if has('unnamedplus')
+  set clipboard=unnamedplus
+else
+  set clipboard=unnamed
+endif
 
 " Completion options
 set completefunc=syntaxcomplete#Complete
