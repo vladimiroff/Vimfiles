@@ -81,7 +81,9 @@ autocmd BufReadPost *
   \ endif
 
 " Close preview split when completion is done
-autocmd CompleteDone <buffer> pclose
+if exists('#CompleteDone')
+    autocmd CompleteDone <buffer> pclose
+endif
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
