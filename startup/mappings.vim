@@ -24,6 +24,9 @@ map <Space> :
 " Make Y behave like C and D
 map Y y$
 
+" Rescan the buffer from start and fix highlighting
+nnoremap <Leader>S <Esc>:syntax sync fromstart<CR>
+
 " Splitjoin
 nnoremap =j :SplitjoinJoin<CR>
 nnoremap =s :SplitjoinSplit<CR>
