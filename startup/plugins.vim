@@ -50,7 +50,7 @@ let g:notes_suffix = '.md'
 let g:Tlist_Use_Right_Window=1
 
 " jedi
-let g:jedi#show_call_signatures = "1"
+let g:jedi#show_call_signatures = "0"
 let g:jedi#use_splits_not_buffers = "right"
 
 " TabMan
