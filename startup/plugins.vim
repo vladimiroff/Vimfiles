@@ -45,7 +45,7 @@ let g:Gitv_OpenPreviewOnLaunch = 0
 let g:Gitv_DoNotMapCtrlKey = 1
 
 " Notes
-let g:notes_directories = ['~/Dropbox/Notes', ]
+let g:notes_directories = ['~/storage/notes', ]
 let g:notes_suffix = '.md'
 
 " Taglist
