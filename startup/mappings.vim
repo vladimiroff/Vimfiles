@@ -79,7 +79,8 @@ map <leader>jt  <Esc>:%!python -m json.tool<CR>:FixWhitespace<CR>
 map <leader>jj  <Esc>ggVG:join<CR>
 
 " Mutlichange
-let g:multichange_mapping = '<leader>m'
+let g:multichange_mapping = 'sm'
+let g:multichange_motion_mapping = "m"
 
 " Sideways
 nnoremap <Leader>< :SidewaysLeft<CR>
