@@ -16,7 +16,7 @@ endfunction
 
 " <space>x -> :X
 " For easier typing of custom commands
-function! s:SpaceMapping(visual)
+function! SpaceMapping(visual)
   echo
   let c = nr2char(getchar())
   if a:visual
