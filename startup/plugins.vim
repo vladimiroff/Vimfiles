@@ -17,6 +17,8 @@ let g:NERDTreeIgnore = [
 let g:NERDTreeMapJumpFirstChild = '-'
 let g:NERDTreeMapJumpLastChild  = '-'
 
+" Multichange
+let g:multichange_save_position = 1
 
 " Snippet settings:
 let g:snippets_dir = expand('~/.vim/snippets/')
