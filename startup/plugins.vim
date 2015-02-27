@@ -82,3 +82,6 @@ if !exists('g:airline_symbols')
         \ }
 endif
 
+" markology
+let g:markology_ignore_type = "hmpr"
+let g:markology_include = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
