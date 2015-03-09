@@ -53,12 +53,6 @@ imap <C-p> <Esc>pa
 " Nicer single-line visual mode
 nnoremap vv _v$h
 
-" Disable arrows
-map <Up> <Nop>
-map <Down> <Nop>
-map <Left> <Nop>
-map <Right> <Nop>
-
 " Reindent without losing the selection
 xnoremap > >gv
 xnoremap < <gv
