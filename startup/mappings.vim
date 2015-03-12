@@ -41,12 +41,6 @@ map <C-e>j <C-W>10-
 map <C-e>k <C-W>10+
 map <C-e>l <C-w>10>
 
-" Faster scrolling:
-map H 5h
-map J 5j
-map K 5k
-map L 5l
-
 " Paste in insert mode
 imap <C-p> <Esc>pa
 
