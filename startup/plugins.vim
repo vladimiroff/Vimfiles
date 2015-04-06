@@ -73,6 +73,8 @@ let g:airline_left_sep = ''
 let g:airline_right_sep = ''
 let g:airline_left_alt_sep = ''
 let g:airline_right_alt_sep = ''
+let g:airline#extensions#tagbar#enabled = 0
+let g:airline#extensions#virtualenv#enabled = 0
 
 if !exists('g:airline_symbols')
     let g:airline_symbols = {
