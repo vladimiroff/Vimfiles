@@ -39,6 +39,7 @@ Plugin 'majutsushi/tagbar'
 Plugin 'mattboehm/vim-unstack'
 Plugin 'mattn/gist-vim'
 Plugin 'mattn/webapi-vim'
+Plugin 'michaeljsmith/vim-indent-object'
 Plugin 'msanders/snipmate.vim'
 Plugin 'ngn/vim-mines'
 Plugin 'nsf/gocode', {'rtp': 'vim/'}
