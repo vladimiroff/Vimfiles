@@ -19,8 +19,7 @@ map qq    <Esc>:Q<CR>
 command! Q q
 command! W w
 cmap w!! w !sudo tee % >/dev/null
-nnoremap <Space> :call SpaceMapping(0)<CR>
-xnoremap <Space> :<C-u>call SpaceMapping(1)<CR>
+map <Space> :
 
 " Make Y behave like C and D
 map Y y$

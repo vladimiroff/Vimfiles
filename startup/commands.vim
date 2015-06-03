@@ -14,17 +14,6 @@ function! s:Q()
   endtry
 endfunction
 
-" <space>x -> :X
-" For easier typing of custom commands
-function! SpaceMapping(visual)
-  echo
-  let c = nr2char(getchar())
-  if a:visual
-    normal! gv
-  endif
-  call feedkeys(':'.toupper(c))
-endfunction
-
 " Switch to default colorscheme with light background
 command! Dl call s:DefaultThemeAndLightBackground()
 function! s:DefaultThemeAndLightBackground()
