@@ -106,6 +106,10 @@ if has("gui_running")
     set guioptions-=T
 endif
 
+" Mouse support
+set mouse=a
+set ttymouse=xterm2
+
 " Send more characters for faster re-draws
 set ttyfast
 
