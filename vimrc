@@ -106,6 +106,9 @@ if has("gui_running")
     set guioptions-=T
 endif
 
+" Send more characters for faster re-draws
+set ttyfast
+
 " Status line and fillchars
 set fillchars=stl:-,stlnc:-,vert:│,fold:\ ,diff:-
 set laststatus=2
