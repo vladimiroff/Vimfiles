@@ -32,6 +32,7 @@ Plugin 'gregsexton/gitv'
 Plugin 'ivalkeen/nerdtree-execute'
 Plugin 'jeetsukumaran/vim-markology'
 Plugin 'jmcantrell/vim-virtualenv'
+Plugin 'jonathanfilip/vim-lucius'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'kien/ctrlp.vim'
 Plugin 'kien/tabman.vim'
@@ -98,7 +99,15 @@ set hidden
 " Colors
 set t_Co=256
 set background=dark
-colorscheme andrew
+let g:lucius_use_bold = 1
+let g:lucius_use_underline = 1
+let g:lucius_no_term_bg = 1
+let g:lucius_style = "dark"
+let g:lucius_contrast = "low"
+let g:lucius_contrast_bg = "high"
+colorscheme lucius
+hi CursorLine ctermbg=235   cterm=none
+hi CursorColumn ctermbg=235   cterm=none
 
 if has("gui_running")
     set background=light
