@@ -21,6 +21,8 @@ map qq    <Esc>:Q<CR>
 " Some little, but handy mappings
 command! Q q
 command! W w
+
+" Save as root
 cmap w!! w !sudo tee % >/dev/null
 
 " Make Y behave like C and D
