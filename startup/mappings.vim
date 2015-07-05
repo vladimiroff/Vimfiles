@@ -20,7 +20,10 @@ map qq    <Esc>:Q<CR>
 
 " Some little, but handy mappings
 command! Q q
+
+" Save
 command! W w
+nnoremap <Leader>w :w<CR>
 
 " Save as root
 cmap w!! w !sudo tee % >/dev/null
