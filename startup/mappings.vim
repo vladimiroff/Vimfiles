@@ -5,8 +5,8 @@ let mapleader = "\<space>"
 map <Leader>t :TagbarToggle<CR>
 
 " NERDTree
-map gn :NERDTreeToggle<CR>
-map gN :NERDTreeFind<CR>
+map <Leader>n :NERDTreeToggle<CR>
+map <Leader>N :NERDTreeFind<CR>
 
 " Gundo
 map <Leader>u :GundoToggle<CR>
