@@ -1,3 +1,6 @@
+" Leader
+let mapleader = "\<space>"
+
 " Tagbar
 map <Leader>t :TagbarToggle<CR>
 
@@ -19,7 +22,6 @@ map qq    <Esc>:Q<CR>
 command! Q q
 command! W w
 cmap w!! w !sudo tee % >/dev/null
-map <Space> :
 
 " Make Y behave like C and D
 map Y y$
