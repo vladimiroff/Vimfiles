@@ -25,6 +25,9 @@ command! Q q
 command! W w
 nnoremap <Leader>w :w<CR>
 
+" Save and quit
+nnoremap <Leader>x :x<CR>
+
 " Save as root
 cmap w!! w !sudo tee % >/dev/null
 
