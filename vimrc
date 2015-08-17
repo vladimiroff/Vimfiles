@@ -103,12 +103,10 @@ set background=dark
 let g:lucius_use_bold = 1
 let g:lucius_use_underline = 1
 let g:lucius_no_term_bg = 1
-let g:lucius_style = "dark"
-let g:lucius_contrast = "low"
+let g:lucius_style = "light"
+let g:lucius_contrast = "high"
 let g:lucius_contrast_bg = "high"
 colorscheme lucius
-hi CursorLine ctermbg=235   cterm=none
-hi CursorColumn ctermbg=235   cterm=none
 
 if has("gui_running")
     set background=light
