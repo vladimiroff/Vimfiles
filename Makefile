@@ -9,3 +9,7 @@ update:
 	git submodule init
 	git submodule update
 	vim +PluginClean +PluginInstall +PluginUpdate +qall
+
+install-nvim:
+	ln -s ~/.vimrc ~/.nvimrc
+	ln -s ~/.vim ~/.nvim

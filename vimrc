@@ -117,7 +117,9 @@ endif
 
 " Mouse support
 set mouse=a
-set ttymouse=xterm2
+if !has('nvim')
+    set ttymouse=xterm2
+endif
 
 " Send more characters for faster re-draws
 set ttyfast
@@ -185,7 +187,9 @@ set ttimeout
 set ttimeoutlen=200
 
 " Clipbaord
-if has('unnamedplus')
+if has('nvim')
+  set clipboard+=unnamedplus
+elseif has('unnamedplus')
   set clipboard=unnamedplus
 else
   set clipboard=unnamed
