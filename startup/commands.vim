@@ -13,10 +13,3 @@ function! s:Q()
     qall
   endtry
 endfunction
-
-" Switch to default colorscheme with light background
-command! Dl call s:DefaultThemeAndLightBackground()
-function! s:DefaultThemeAndLightBackground()
-  colorscheme default
-  set background=light
-endfunction
