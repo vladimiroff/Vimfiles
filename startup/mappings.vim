@@ -60,9 +60,6 @@ nnoremap vv _v$h
 xnoremap > >gv
 xnoremap < <gv
 
-" Delete surrounding function
-nmap dsf F(bdt(ds(
-
 " EasyMotion
 map gw \\w
 map gW \\b
