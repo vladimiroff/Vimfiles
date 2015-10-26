@@ -93,7 +93,7 @@ let g:ctrlp_map = 'gp'
 nnoremap g. :CtrlPTag<cr>
 
 " unstack
-let g:unstack_mapkey='<Leader>tr'
+let g:unstack_mapkey='<Leader>T'
 
 " vimux
 map <Leader>c :VimuxPromptCommand<CR>
