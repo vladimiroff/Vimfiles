@@ -207,3 +207,9 @@ set nojoinspaces
 
 " Use tags from .tags file
 set tags+=.tags
+
+" NeoVim handles <ESC> keys as <M+key>
+if has('nvim')
+   set ttimeout
+   set ttimeoutlen=0
+endif
