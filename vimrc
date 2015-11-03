@@ -46,7 +46,6 @@ Plugin 'mattn/gist-vim'
 Plugin 'mattn/webapi-vim'
 Plugin 'mhinz/vim-startify'
 Plugin 'michaeljsmith/vim-indent-object'
-Plugin 'msanders/snipmate.vim'
 Plugin 'ngn/vim-mines'
 Plugin 'nsf/gocode', {'rtp': 'vim/'}
 Plugin 'othree/html5.vim'
@@ -68,6 +67,10 @@ Plugin 'vim-scripts/AutoTag'
 Plugin 'wellle/tmux-complete.vim'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-notes'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'ervandew/supertab'
 
 " Enable filetypes
 filetype on

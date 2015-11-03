@@ -89,3 +89,6 @@ endif
 " markology
 let g:markology_ignore_type = "hmpr"
 let g:markology_include = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+" supertab
+let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
