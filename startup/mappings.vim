@@ -100,7 +100,7 @@ map <Leader>c :VimuxPromptCommand<CR>
 map <Leader>C :VimuxRunLastCommand<CR>
 
 " jedi
-let g:jedi#completions_command = "<C-Space>"
+let g:jedi#completions_command = "<C-x><C-o>"
 let g:jedi#documentation_command = "K"
 let g:jedi#goto_assignments_command = "<leader>g"
 let g:jedi#goto_definitions_command = "<leader>d"
