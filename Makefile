@@ -11,5 +11,5 @@ update:
 	vim +PluginClean +PluginInstall +PluginUpdate +qall
 
 install-nvim:
-	ln -s ~/.vimrc ~/.nvimrc
-	ln -s ~/.vim ~/.nvim
+	[[ -d ~/.config/nvim ]] || ln -s ~/.vim ~/.config/nvim
+	[[ -f ~/.config/nvim/init.vim ]] || ln -s ~/.vimrc ~/.config/nvim/init.vim

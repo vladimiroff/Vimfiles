@@ -6,4 +6,7 @@ doc/tags-*
 # Ignore bundles, since Vundle is taking care of them
 bundle/
 
+# Ignore neovim's init.vim
+init.vim
+
 .netrwhist
