@@ -92,3 +92,6 @@ let g:markology_include = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 " supertab
 let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
+
+" peekaboo
+let g:peekaboo_window = 'vertical botright 50new'
