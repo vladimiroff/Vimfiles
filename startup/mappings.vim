@@ -15,6 +15,7 @@ map <Leader>u :GundoToggle<CR>
 nnoremap ,t :tabnew<cr>
 nnoremap ,T :tabedit %<cr>gT:quit<cr>
 nmap <BS> gT
+nmap <C-h> gT
 nmap <C-l> gt
 map qq    <Esc>:Q<CR>
 
