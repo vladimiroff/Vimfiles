@@ -66,7 +66,6 @@ Plugin 'xolox/vim-notes'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
-Plugin 'ervandew/supertab'
 Plugin 'junegunn/vim-peekaboo'
 Plugin 'benekastah/neomake'
 
