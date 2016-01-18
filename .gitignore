@@ -3,8 +3,8 @@ tags
 doc/tags
 doc/tags-*
 
-# Ignore bundles, since Vundle is taking care of them
-bundle/
+# Ignore bundles, since vim-plug is taking care of them
+plugged/
 
 # Ignore neovim's init.vim
 init.vim

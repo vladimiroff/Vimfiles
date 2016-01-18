@@ -3,69 +3,8 @@
 " Forget about Vi compatibility.
 set nocompatible
 
-" Vundle
-filetype off
-set runtimepath+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-Plugin 'gmarik/vundle'
-
-Plugin 'AndrewRadev/inline_edit.vim'
-Plugin 'AndrewRadev/linediff.vim'
-Plugin 'AndrewRadev/multichange.vim'
-Plugin 'AndrewRadev/sideways.vim'
-Plugin 'AndrewRadev/splitjoin.vim'
-Plugin 'AndrewRadev/switch.vim'
-Plugin 'AndrewRadev/whitespaste.vim'
-Plugin 'Lokaltog/vim-easymotion'
-Plugin 'Raimondi/delimitMate'
-Plugin 'adimit/prolog.vim'
-Plugin 'beloglazov/vim-online-thesaurus'
-Plugin 'benmills/vimux'
-Plugin 'benmills/vimux-golang'
-Plugin 'bling/vim-airline'
-Plugin 'bronson/vim-trailing-whitespace'
-Plugin 'corntrace/bufexplorer'
-Plugin 'davidhalter/jedi-vim'
-Plugin 'fatih/vim-go'
-Plugin 'godlygeek/tabular'
-Plugin 'gregsexton/gitv'
-Plugin 'ivalkeen/nerdtree-execute'
-Plugin 'jeetsukumaran/vim-markology'
-Plugin 'jmcantrell/vim-virtualenv'
-Plugin 'jonathanfilip/vim-lucius'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'kien/ctrlp.vim'
-Plugin 'kien/tabman.vim'
-Plugin 'koron/nyancat-vim'
-Plugin 'lervag/vimtex'
-Plugin 'majutsushi/tagbar'
-Plugin 'mattboehm/vim-unstack'
-Plugin 'mattn/gist-vim'
-Plugin 'mattn/webapi-vim'
-Plugin 'mhinz/vim-startify'
-Plugin 'michaeljsmith/vim-indent-object'
-Plugin 'ngn/vim-mines'
-Plugin 'othree/html5.vim'
-Plugin 'phleet/vim-mercenary'
-Plugin 'scrooloose/nerdtree'
-Plugin 'sjl/gundo.vim'
-Plugin 'slim-template/vim-slim'
-Plugin 'stephpy/vim-yaml'
-Plugin 'tmux-plugins/vim-tmux'
-Plugin 'tpope/vim-commentary'
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-git'
-Plugin 'tpope/vim-repeat'
-Plugin 'tpope/vim-surround'
-Plugin 'troydm/zoomwintab.vim'
-Plugin 'vim-scripts/AutoTag'
-Plugin 'wellle/tmux-complete.vim'
-Plugin 'xolox/vim-misc'
-Plugin 'xolox/vim-notes'
-Plugin 'junegunn/vim-peekaboo'
-Plugin 'benekastah/neomake'
-Plugin 'SirVer/ultisnips'
+" Load plugins with vim-plug
+runtime! startup/plugs.vim
 
 " Enable filetypes
 filetype on
