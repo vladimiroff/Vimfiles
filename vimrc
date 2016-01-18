@@ -49,7 +49,6 @@ Plugin 'ngn/vim-mines'
 Plugin 'othree/html5.vim'
 Plugin 'phleet/vim-mercenary'
 Plugin 'scrooloose/nerdtree'
-Plugin 'scrooloose/syntastic'
 Plugin 'sjl/gundo.vim'
 Plugin 'slim-template/vim-slim'
 Plugin 'stephpy/vim-yaml'
@@ -69,6 +68,7 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'ervandew/supertab'
 Plugin 'junegunn/vim-peekaboo'
+Plugin 'benekastah/neomake'
 
 " Enable filetypes
 filetype on

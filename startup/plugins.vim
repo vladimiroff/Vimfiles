@@ -95,3 +95,6 @@ let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
 
 " peekaboo
 let g:peekaboo_window = 'vertical botright 50new'
+
+" neomake
+autocmd! BufWritePost * Neomake
