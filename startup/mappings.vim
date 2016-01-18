@@ -114,3 +114,6 @@ let g:tabman_focus = 'gMM'
 
 " Search for current word in the online thesaurus.com
 nnoremap <Leader>D :OnlineThesaurusCurrentWord<CR>
+
+" UltiSnips
+let g:UltiSnipsExpandTrigger="<tab>"

@@ -63,11 +63,9 @@ Plugin 'vim-scripts/AutoTag'
 Plugin 'wellle/tmux-complete.vim'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-notes'
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'garbas/vim-snipmate'
 Plugin 'junegunn/vim-peekaboo'
 Plugin 'benekastah/neomake'
+Plugin 'SirVer/ultisnips'
 
 " Enable filetypes
 filetype on
