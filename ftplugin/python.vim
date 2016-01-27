@@ -9,8 +9,6 @@ setlocal cursorcolumn
 
 compiler python
 
-let g:neomake_python_enabled_makers = ['flake8']
-
 let g:switch_custom_definitions =
     \ [
     \   [' and ', ' or '],
