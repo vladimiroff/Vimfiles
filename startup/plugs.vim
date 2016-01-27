@@ -18,6 +18,7 @@ Plug 'benmills/vimux-golang', { 'for': 'go' }
 Plug 'bling/vim-airline'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'corntrace/bufexplorer'
+Plug 'ctrlpvim/ctrlp.vim'
 Plug 'davidhalter/jedi-vim', { 'for': 'python' }
 Plug 'fatih/vim-go', { 'for': 'go' }
 Plug 'godlygeek/tabular'
@@ -27,7 +28,6 @@ Plug 'jeetsukumaran/vim-markology'
 Plug 'jmcantrell/vim-virtualenv'
 Plug 'jonathanfilip/vim-lucius'
 Plug 'junegunn/vim-peekaboo'
-Plug 'kien/ctrlp.vim'
 Plug 'kien/tabman.vim'
 Plug 'koron/nyancat-vim'
 Plug 'lervag/vimtex'
