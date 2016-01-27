@@ -68,10 +68,12 @@ set ttyfast
 set fillchars=stl:-,stlnc:-,vert:│,fold:\ ,diff:-
 set laststatus=2
 
-" Disable the silly backups, we're not 90's
-set nobackup
+" Disable swap files
 set noswapfile
-set nowritebackup
+
+" Backups
+set backup
+set backupdir=~/.vim/backups
 
 " Show line numbers
 set number

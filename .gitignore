@@ -9,4 +9,7 @@ plugged/
 # Ignore neovim's init.vim
 init.vim
 
+# Ignore vim's file backups
+backups/
+
 .netrwhist
