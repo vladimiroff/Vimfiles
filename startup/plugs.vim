@@ -41,6 +41,7 @@ Plug 'ngn/vim-mines'
 Plug 'phleet/vim-mercenary'
 Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
 Plug 'sjl/gundo.vim'
+Plug 'solarnz/thrift.vim'
 Plug 'stephpy/vim-yaml', { 'for': 'yaml' }
 Plug 'tmux-plugins/vim-tmux'
 Plug 'tpope/vim-commentary'
