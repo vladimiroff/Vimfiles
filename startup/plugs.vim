@@ -1,12 +1,10 @@
 call plug#begin()
 
-Plug 'AndrewRadev/inline_edit.vim'
 Plug 'AndrewRadev/linediff.vim'
 Plug 'AndrewRadev/multichange.vim'
 Plug 'AndrewRadev/sideways.vim'
 Plug 'AndrewRadev/splitjoin.vim'
 Plug 'AndrewRadev/switch.vim'
-Plug 'AndrewRadev/whitespaste.vim'
 Plug 'Lokaltog/vim-easymotion'
 Plug 'Raimondi/delimitMate'
 Plug 'SirVer/ultisnips'
@@ -21,7 +19,6 @@ Plug 'corntrace/bufexplorer'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'davidhalter/jedi-vim', { 'for': 'python' }
 Plug 'fatih/vim-go', { 'for': 'go' }
-Plug 'godlygeek/tabular'
 Plug 'gregsexton/gitv'
 Plug 'ivalkeen/nerdtree-execute', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
 Plug 'jeetsukumaran/vim-markology'
@@ -29,16 +26,11 @@ Plug 'jmcantrell/vim-virtualenv'
 Plug 'jonathanfilip/vim-lucius'
 Plug 'junegunn/vim-peekaboo'
 Plug 'kien/tabman.vim'
-Plug 'koron/nyancat-vim'
 Plug 'lervag/vimtex'
 Plug 'majutsushi/tagbar'
 Plug 'mattboehm/vim-unstack'
-Plug 'mattn/gist-vim'
-Plug 'mattn/webapi-vim'
 Plug 'mhinz/vim-startify'
 Plug 'michaeljsmith/vim-indent-object'
-Plug 'ngn/vim-mines'
-Plug 'phleet/vim-mercenary'
 Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
 Plug 'sjl/gundo.vim'
 Plug 'solarnz/thrift.vim', { 'for': 'thrift' }
