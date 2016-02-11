@@ -9,6 +9,7 @@ Plug 'Lokaltog/vim-easymotion'
 Plug 'Raimondi/delimitMate'
 Plug 'SirVer/ultisnips'
 Plug 'adimit/prolog.vim', { 'for': 'prolog' }
+Plug 'vim-airline/vim-airline-themes'
 Plug 'beloglazov/vim-online-thesaurus'
 Plug 'benekastah/neomake'
 Plug 'benmills/vimux'
@@ -46,5 +47,6 @@ Plug 'vim-scripts/AutoTag'
 Plug 'wellle/tmux-complete.vim'
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-notes'
+
 
 call plug#end()
