@@ -6,12 +6,6 @@ setlocal makeprg=go\ run\ %
 setlocal listchars=tab:\ \ ,trail:.,extends:#,nbsp:.
 setlocal tags+=~/dotfiles/tags/go.tags
 
-nmap <leader>k <Plug>(godoc-keyword)
-nmap <leader>ot :AV<CR>
-nmap <leader>oT :AT<CR>
-nmap <leader>ra :wa<CR> :GolangTestCurrentPackage<CR>
-nmap <leader>rf :wa<CR> :GolangTestFocused<CR>
-
 au FileType go nmap <Leader>K <Plug>(go-doc-vertical)
 au FileType go nmap <Leader>S <Plug>(go-implements)
 au FileType go nmap <Leader>i <Plug>(go-info)
