@@ -1,15 +1,18 @@
-# Ignore all tags files, just remember to rebuild them every once in a while:
+# All tags files, just remember to rebuild them every once in a while:
 tags
 doc/tags
 doc/tags-*
 
-# Ignore bundles, since vim-plug is taking care of them
+# Bundles, since vim-plug is taking care of them
 plugged/
 
-# Ignore neovim's init.vim
+# NeoVim's init.vim
 init.vim
 
-# Ignore vim's file backups
+# Vim's file backups
 backups/
+
+# Spell files
+spell/
 
 .netrwhist
