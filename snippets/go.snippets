@@ -18,10 +18,6 @@ snippet iferr
 	if ${1:v}, err := ${2:statement}; err != nil {
 		${3}
 	}
-snippet ifd
-	if ${1:v}, _ := ${2:statement}; ${3:condition} {
-		${4}
-	}
 snippet for
 	for ${1} {
 		${2}
