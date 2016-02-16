@@ -96,8 +96,6 @@ set showcmd
 
 " Search options
 set incsearch
-set ignorecase
-set smartcase
 set hlsearch
 
 " Matching braces
