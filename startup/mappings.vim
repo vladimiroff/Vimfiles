@@ -8,8 +8,8 @@ map <Leader>t :TagbarToggle<CR>
 map <Leader>n :NERDTreeToggle<CR>
 map <Leader>N :NERDTreeFind<CR>
 
-" Gundo
-map <Leader>u :GundoToggle<CR>
+" Undotree
+map <Leader>u :UndotreeToggle<CR>
 
 " Tabs
 nnoremap ,t :tabnew<cr>

@@ -30,10 +30,10 @@ Plug 'kien/tabman.vim'
 Plug 'lervag/vimtex'
 Plug 'majutsushi/tagbar'
 Plug 'mattboehm/vim-unstack'
+Plug 'mbbill/undotree'
 Plug 'mhinz/vim-startify'
 Plug 'michaeljsmith/vim-indent-object'
 Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
-Plug 'sjl/gundo.vim'
 Plug 'solarnz/thrift.vim', { 'for': 'thrift' }
 Plug 'stephpy/vim-yaml', { 'for': 'yaml' }
 Plug 'tmux-plugins/vim-tmux'

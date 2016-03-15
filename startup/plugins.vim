@@ -99,3 +99,7 @@ let g:peekaboo_window = 'vertical botright 50new'
 
 " neomake
 autocmd! BufWritePost * Neomake
+
+" Undotree
+let g:undotree_WindowLayout = 3
+let g:undotree_SetFocusWhenToggle = 1

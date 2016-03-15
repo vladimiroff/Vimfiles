@@ -150,3 +150,9 @@ if has('nvim')
    set ttimeout
    set ttimeoutlen=0
 endif
+
+" Persistent undo
+if has("persistent_undo")
+    set undodir=~/.vim/undodir/
+    set undofile
+endif

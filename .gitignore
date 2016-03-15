@@ -9,8 +9,11 @@ plugged/
 # NeoVim's init.vim
 init.vim
 
-# Vim's file backups
+# File backups
 backups/
+
+# Persistent undo directory
+undodir/
 
 # Spell files
 spell/
