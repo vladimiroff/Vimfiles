@@ -1,14 +1,10 @@
 install:
 	ln -fs ~/.vim/vimrc ~/.vimrc
-	git submodule init
-	git submodule update
-	vim +PluginInstall +qall
+	vim +PlugInstall +qall
 
 update:
 	git pull
-	git submodule init
-	git submodule update
-	vim +PluginClean +PluginInstall +PluginUpdate +qall
+	vim +PlugClean +PlugInstall +PlugUpdate +qall
 
 install-nvim:
 	[[ -d ~/.config/nvim ]] || ln -s ~/.vim ~/.config/nvim
