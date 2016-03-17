@@ -100,14 +100,6 @@ let g:unstack_mapkey='<Leader>T'
 map <Leader>c :VimuxPromptCommand<CR>
 map <Leader>C :VimuxRunLastCommand<CR>
 
-" jedi
-let g:jedi#completions_command = "<C-x><C-o>"
-let g:jedi#documentation_command = "K"
-let g:jedi#goto_assignments_command = "gd"
-let g:jedi#goto_definitions_command = "gD"
-let g:jedi#rename_command = "<leader>r"
-let g:jedi#usages_command = "<leader>U"
-
 " TabMan
 let g:tabman_toggle = 'gM'
 let g:tabman_focus = 'gMM'

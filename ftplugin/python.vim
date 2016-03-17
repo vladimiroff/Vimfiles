@@ -7,6 +7,14 @@ setlocal foldmethod=indent
 setlocal cursorline
 setlocal cursorcolumn
 
+" jedi
+let g:jedi#completions_command = "<C-x><C-o>"
+let g:jedi#documentation_command = "K"
+let g:jedi#goto_assignments_command = "gd"
+let g:jedi#goto_definitions_command = "gD"
+let g:jedi#rename_command = "<leader>r"
+let g:jedi#usages_command = "<leader>U"
+
 compiler python
 
 let g:switch_custom_definitions =
