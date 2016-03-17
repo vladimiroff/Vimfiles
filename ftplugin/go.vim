@@ -22,7 +22,7 @@ au FileType go nmap <Leader>i <Plug>(go-info)
 au FileType go nmap <Leader>I :exe "GoImport ". expand('<cword>') <cr>
 au FileType go nmap <Leader>a <Plug>(go-alternate-edit)
 au FileType go nmap <Leader>A <Plug>(go-alternate-vertical)
-au FileType go nmap gd        <Plug>(go-def-tab)
+au FileType go nmap gD        <Plug>(go-def-tab)
 
 RunCommand !go run %
 
