@@ -53,10 +53,9 @@ let g:Tlist_Use_Right_Window=1
 
 " jedi
 let g:jedi#use_tabs_not_buffers = 1
-let g:jedi#show_call_signatures = 1
-let g:jedi#popup_on_dot = 1
-let g:jedi#popup_select_first = 1
-
+let g:jedi#show_call_signatures = 0
+let g:jedi#popup_on_dot = 0
+let g:jedi#popup_select_first = 0
 
 " TabMan
 let g:tabman_side = 'right'
