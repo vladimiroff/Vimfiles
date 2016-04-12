@@ -15,7 +15,6 @@ Plug 'benekastah/neomake'
 Plug 'benmills/vimux'
 Plug 'benmills/vimux-golang', { 'for': 'go' }
 Plug 'bling/vim-airline'
-Plug 'blueyed/vim-diminactive'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'corntrace/bufexplorer'
 Plug 'ctrlpvim/ctrlp.vim'
