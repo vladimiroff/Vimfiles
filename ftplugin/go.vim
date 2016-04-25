@@ -1,7 +1,7 @@
 setlocal rtp+=$GOROOT/misc/vim
 setlocal noexpandtab
-setlocal tabstop=4
-setlocal shiftwidth=4
+setlocal tabstop=8
+setlocal shiftwidth=8
 setlocal makeprg=go\ run\ %
 setlocal listchars=tab:\ \ ,trail:.,extends:#,nbsp:.
 setlocal tags+=~/dotfiles/tags/go.tags
