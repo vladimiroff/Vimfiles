@@ -61,10 +61,6 @@ nnoremap vv _v$h
 xnoremap > >gv
 xnoremap < <gv
 
-" EasyMotion
-map gw \\w
-map gW \\b
-
 " Spellcheck
 map <Leader>se :setlocal spell spelllang=en_us<CR>
 map <Leader>sb :setlocal spell spelllang=bg_bg<CR>
