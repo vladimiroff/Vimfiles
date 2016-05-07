@@ -4,7 +4,7 @@
 set nocompatible
 
 " Load plugins with vim-plug
-runtime! startup/plugs.vim
+runtime! plugs.vim
 
 " Enable filetypes
 filetype on
