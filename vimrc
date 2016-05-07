@@ -12,10 +12,8 @@ filetype plugin on
 filetype plugin indent on
 syntax on
 
-runtime! startup/commands.vim
-runtime! startup/cyrillic.vim
-runtime! startup/mappings.vim
-runtime! startup/plugins.vim
+runtime! startup/*.vim
+
 " When editing a file, always jump to the last known cursor position.
 " Don't do it when the position is invalid or when inside an event handler
 " (happens when dropping a file on gvim).
