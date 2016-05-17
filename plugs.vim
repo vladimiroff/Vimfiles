@@ -1,54 +1,141 @@
 call plug#begin()
 
+" performs diffs on blocks of code with :Linediff
 Plug 'AndrewRadev/linediff.vim'
+
+" edits a word and have the change propagated throughout the buffer or selection
 Plug 'AndrewRadev/multichange.vim'
+
+" moves function arguments left and right
 Plug 'AndrewRadev/sideways.vim'
+
+" simplifies the transition between multiline and single-line code
 Plug 'AndrewRadev/splitjoin.vim'
+
+" switches segments of text with predefined replacements
 Plug 'AndrewRadev/switch.vim'
+
+" automatically closes quotes, parenthesis, brackets, etc.
 Plug 'Raimondi/delimitMate'
+
+" snippets
 Plug 'SirVer/ultisnips'
-Plug 'adimit/prolog.vim', { 'for': 'prolog' }
-Plug 'vim-airline/vim-airline-themes'
-Plug 'beloglazov/vim-online-thesaurus'
-Plug 'benekastah/neomake'
-Plug 'benmills/vimux'
-Plug 'benmills/vimux-golang', { 'for': 'go' }
-Plug 'bling/vim-airline'
-Plug 'bronson/vim-trailing-whitespace'
-Plug 'corntrace/bufexplorer'
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'davidhalter/jedi-vim', { 'for': 'python' }
-Plug 'easymotion/vim-easymotion'
-Plug 'fatih/vim-go', { 'for': 'go' }
-Plug 'gregsexton/gitv'
-Plug 'ivalkeen/nerdtree-execute', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
-Plug 'jeetsukumaran/vim-markology'
-Plug 'jmcantrell/vim-virtualenv'
-Plug 'jonathanfilip/vim-lucius'
-Plug 'junegunn/vim-peekaboo'
-Plug 'kien/tabman.vim'
-Plug 'lervag/vimtex'
-Plug 'majutsushi/tagbar'
-Plug 'mattboehm/vim-unstack'
-Plug 'mbbill/undotree'
-Plug 'mhinz/vim-startify'
-Plug 'michaeljsmith/vim-indent-object'
+
+" NERDTree
 Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
-Plug 'solarnz/thrift.vim', { 'for': 'thrift' }
-Plug 'stephpy/vim-yaml', { 'for': 'yaml' }
-Plug 'tmux-plugins/vim-tmux'
+Plug 'ivalkeen/nerdtree-execute', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
+
+" pretty statusline
+Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+" looks up words in an online thesaurus
+Plug 'beloglazov/vim-online-thesaurus'
+
+" asynchronous :make in neovim
+Plug 'benekastah/neomake'
+
+" interacts with tmux
+Plug 'benmills/vimux'
+
+" highlights trailing whitespace in red and provides :FixWhitespace to fix it
+Plug 'bronson/vim-trailing-whitespace'
+
+" lists and modifies buffers
+Plug 'corntrace/bufexplorer'
+
+" fuzzy file, buffer, mru, tag, etc finder
+Plug 'ctrlpvim/ctrlp.vim'
+
+" provides a much simpler way to use some motions in vim
+Plug 'easymotion/vim-easymotion'
+
+" git repository viewer
+Plug 'gregsexton/gitv'
+
+" mark visualization, navigation and management
+Plug 'jeetsukumaran/vim-markology'
+
+" lucius color scheme
+Plug 'jonathanfilip/vim-lucius'
+
+" peek at register contents
+Plug 'junegunn/vim-peekaboo'
+
+" tab management
+Plug 'kien/tabman.vim'
+
+" tag outline viewer
+Plug 'majutsushi/tagbar'
+
+" undo history visualizer
+Plug 'mbbill/undotree'
+
+" fancy start screen
+Plug 'mhinz/vim-startify'
+
+" defines identation levels as a text object
+Plug 'michaeljsmith/vim-indent-object'
+
+" comment stuff out
 Plug 'tpope/vim-commentary'
+
+" git wrapper
 Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-git'
+
+" continuously update session files
 Plug 'tpope/vim-obsession'
+
+" enable repeating supported plugin maps with .
 Plug 'tpope/vim-repeat'
+
+" readline style insertion
 Plug 'tpope/vim-rsi'
+
+" quoting/parenthesizing
 Plug 'tpope/vim-surround'
+
+" zoom in/out windows
 Plug 'troydm/zoomwintab.vim'
+
+" update entries in a tags file automatically when saving
 Plug 'vim-scripts/AutoTag'
+
+" insert mode completion of words in adjacent tmux panes
 Plug 'wellle/tmux-complete.vim'
+
+" notes
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-notes'
 
+
+"" filetypes
+
+" git
+Plug 'tpope/vim-git', { 'for': 'git' }
+
+" go
+Plug 'fatih/vim-go', { 'for': 'go' }
+Plug 'benmills/vimux-golang', { 'for': 'go' }
+
+" prolog
+Plug 'adimit/prolog.vim', { 'for': 'prolog' }
+
+"python
+Plug 'davidhalter/jedi-vim', { 'for': 'python' }
+Plug 'jmcantrell/vim-virtualenv', { 'for': 'python' }
+Plug 'mattboehm/vim-unstack', { 'for': 'python' }
+
+" tex
+Plug 'lervag/vimtex', { 'for': ['bib', 'tex'] }
+
+" thrift
+Plug 'solarnz/thrift.vim', { 'for': 'thrift' }
+
+" tmux
+Plug 'tmux-plugins/vim-tmux', { 'for': 'tmux' }
+
+" yaml
+Plug 'stephpy/vim-yaml', { 'for': 'yaml' }
 
 call plug#end()
