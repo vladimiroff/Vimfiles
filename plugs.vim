@@ -95,9 +95,6 @@ Plug 'tpope/vim-rsi'
 " quoting/parenthesizing
 Plug 'tpope/vim-surround'
 
-" zoom in/out windows
-Plug 'troydm/zoomwintab.vim'
-
 " update entries in a tags file automatically when saving
 Plug 'vim-scripts/AutoTag'
 
