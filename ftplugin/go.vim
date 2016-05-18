@@ -5,6 +5,7 @@ setlocal shiftwidth=8
 setlocal makeprg=go\ run\ %
 setlocal listchars=tab:\ \ ,trail:.,extends:#,nbsp:.
 setlocal tags+=~/dotfiles/tags/go.tags
+setlocal foldmethod=syntax
 
 " Disable mapping gd to GoDef by default.
 let g:go_def_mapping_enabled = 0
