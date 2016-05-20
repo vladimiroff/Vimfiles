@@ -43,7 +43,7 @@ nnoremap =j :SplitjoinJoin<CR>
 nnoremap =s :SplitjoinSplit<CR>
 
 " Switch
-nnoremap - :Switch<CR>
+let g:switch_mapping = "-"
 
 " Resizing splits
 map <C-e>h <C-w>10<
