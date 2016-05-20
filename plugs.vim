@@ -105,6 +105,9 @@ Plug 'wellle/tmux-complete.vim'
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-notes'
 
+" searching in files easier
+Plug 'mhinz/vim-grepper'
+
 
 "" filetypes
 

@@ -105,3 +105,10 @@ nnoremap <Leader>D :OnlineThesaurusCurrentWord<CR>
 
 " UltiSnips
 let g:UltiSnipsExpandTrigger="<tab>"
+
+" Grepper
+nnoremap <leader>/ :Grepper -tool grep<cr>
+nnoremap <leader>* :Grepper -tool grep -cword -noprompt<cr>
+nnoremap <leader>G :Grepper -tool git<cr>
+nmap gs <plug>(GrepperOperator)
+xmap gs <plug>(GrepperOperator)
