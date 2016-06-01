@@ -118,6 +118,9 @@ Plug 'tpope/vim-git', { 'for': 'git' }
 Plug 'fatih/vim-go', { 'for': 'go' }
 Plug 'benmills/vimux-golang', { 'for': 'go' }
 
+" markdown preview
+Plug 'shime/vim-livedown', { 'for': 'markdown' }
+
 " prolog
 Plug 'adimit/prolog.vim', { 'for': 'prolog' }
 

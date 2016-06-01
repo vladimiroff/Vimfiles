@@ -112,3 +112,6 @@ nnoremap <leader>* :Grepper -tool grep -cword -noprompt<cr>
 nnoremap <leader>G :Grepper -tool git<cr>
 nmap gs <plug>(GrepperOperator)
 xmap gs <plug>(GrepperOperator)
+
+" livedown
+nmap <leader>md :LivedownToggle<CR>
