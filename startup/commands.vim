@@ -44,3 +44,18 @@ function! s:DeleteSurroundingFunctionCall()
   exe 'normal ds'.opener
   silent! call repeat#set('dsf')
 endfunction
+
+" Toggle between light and dark style of lucius
+"
+" I can totally rely on background and don't bother changing its value,
+" because lucius is taking care of that during applying the color scheme.
+nnoremap <leader>bb :call <SID>ToggleLuciusStyle()<cr>
+function! s:ToggleLuciusStyle()
+  let switchto = "dark"
+  if &background == "dark"
+    let switchto = "light"
+  endif
+
+  let g:lucius_style = switchto
+  colorscheme lucius
+endfunction

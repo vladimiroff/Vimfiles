@@ -78,9 +78,6 @@ let g:multichange_motion_mapping = "m"
 nnoremap <Leader>< :SidewaysLeft<CR>
 nnoremap <Leader>> :SidewaysRight<CR>
 
-" Toggle between light and dark background
-map <leader>bb :let &background = ( &background == "dark"? "light" : "dark" )<CR>
-
 " Jump to next and previous tags
 nnoremap ]t :tnext<CR>
 nnoremap [t :tprev<CR>
