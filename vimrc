@@ -157,4 +157,7 @@ endif
 " Folding
 set foldlevelstart=1
 
+" Leader
+let mapleader = "\<space>"
+
 runtime! startup/*.vim

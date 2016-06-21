@@ -1,6 +1,3 @@
-" Leader
-let mapleader = "\<space>"
-
 " Tagbar
 map <Leader>t :TagbarToggle<CR>
 
