@@ -35,14 +35,7 @@ set hidden
 
 " Colors
 set t_Co=256
-set background=dark
-let g:lucius_use_bold = 1
-let g:lucius_use_underline = 1
-let g:lucius_no_term_bg = 1
-let g:lucius_style = "light"
-let g:lucius_contrast = "high"
-let g:lucius_contrast_bg = "high"
-colorscheme lucius
+colorscheme off
 
 if has("gui_running")
     set background=light

@@ -70,6 +70,9 @@ Plug 'mbbill/undotree'
 " defines identation levels as a text object
 Plug 'michaeljsmith/vim-indent-object'
 
+" grayscale colorscheme
+Plug 'pbrisbin/vim-colors-off'
+
 " comment stuff out
 Plug 'tpope/vim-commentary'
 
