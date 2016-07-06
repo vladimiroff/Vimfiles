@@ -62,6 +62,7 @@ set ttyfast
 
 " Status line and fillchars
 set fillchars=stl:-,stlnc:-,vert:│,fold:\ ,diff:-
+set statusline=%F%m%r%h%w\ %y\ \ %=[%04l\|%04v][%p%%][%L\ lines]%{fugitive#statusline()}
 set laststatus=2
 
 " Disable swap files

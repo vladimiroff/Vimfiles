@@ -70,22 +70,6 @@ let g:ctrlp_cmd = 'CtrlPMRUFiles'
 " AutoTag
 let g:autotagTagsFile = '.tags'
 
-" airline
-let g:airline_left_sep = ''
-let g:airline_right_sep = ''
-let g:airline_left_alt_sep = ''
-let g:airline_right_alt_sep = ''
-let g:airline#extensions#tagbar#enabled = 0
-let g:airline#extensions#virtualenv#enabled = 0
-
-if !exists('g:airline_symbols')
-    let g:airline_symbols = {
-        \ 'branch'   : '',
-        \ 'readonly' : '[RO]',
-        \ 'linenr'   : 'L/C',
-        \ }
-endif
-
 " markology
 let g:markology_ignore_type = "hmpr"
 let g:markology_include = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"

@@ -25,10 +25,6 @@ Plug 'SirVer/ultisnips'
 Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
 Plug 'ivalkeen/nerdtree-execute', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
 
-" pretty statusline
-Plug 'bling/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-
 " looks up words in an online thesaurus
 Plug 'beloglazov/vim-online-thesaurus'
 
