@@ -67,9 +67,6 @@ Plug 'majutsushi/tagbar'
 " undo history visualizer
 Plug 'mbbill/undotree'
 
-" fancy start screen
-Plug 'mhinz/vim-startify'
-
 " defines identation levels as a text object
 Plug 'michaeljsmith/vim-indent-object'
 
