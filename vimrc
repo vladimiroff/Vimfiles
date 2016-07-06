@@ -71,10 +71,6 @@ set noswapfile
 set backup
 set backupdir=~/.vim/backups
 
-" Show line numbers
-set number
-set relativenumber
-
 " Indent stuff
 set smartindent
 set autoindent
