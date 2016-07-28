@@ -69,8 +69,8 @@ set backupdir=~/.vim/backups
 set smartindent
 set autoindent
 
-" Disable line wrapping
-set nowrap
+" Improve display of wrapped lines
+set showbreak=↪
 
 " Command line history
 set history=50
