@@ -7,9 +7,6 @@ setlocal listchars=tab:\ \ ,trail:.,extends:#,nbsp:.
 setlocal tags+=~/dotfiles/tags/go.tags
 setlocal foldmethod=syntax
 
-" Disable mapping gd to GoDef by default.
-let g:go_def_mapping_enabled = 0
-
 let g:go_highlight_operators = 1
 let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
