@@ -7,6 +7,9 @@ setlocal listchars=tab:\ \ ,trail:.,extends:#,nbsp:.
 setlocal tags+=~/dotfiles/tags/go.tags
 setlocal foldmethod=syntax
 
+" Use experimental fmt in order to avoid constantly closing folds on save.
+let g:go_fmt_experimental = 1
+
 let g:go_highlight_operators = 1
 let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
