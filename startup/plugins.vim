@@ -92,3 +92,6 @@ let g:grepper = {
     \ 'highlight': 1,
     \ 'tools': ['grep', 'git', 'ack'],
     \ }
+
+" Terminus
+let g:TerminusBracketedPaste=0
