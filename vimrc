@@ -108,11 +108,6 @@ set wildmenu
 set wildmode=list:longest,full
 set wildignore+=*.o,*.obj,.git,*pyc,*pyo,*.pid,*.sock
 
-" Timeouts
-set notimeout
-set ttimeout
-set ttimeoutlen=200
-
 " Clipbaord
 if has('nvim')
   set clipboard+=unnamedplus
