@@ -144,9 +144,6 @@ if has("persistent_undo")
     set undofile
 endif
 
-" Folding
-set foldlevelstart=1
-
 " Leader
 let mapleader = "\<space>"
 
