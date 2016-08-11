@@ -37,9 +37,6 @@ Plug 'benmills/vimux'
 " highlights trailing whitespace in red and provides :FixWhitespace to fix it
 Plug 'bronson/vim-trailing-whitespace'
 
-" lists and modifies buffers
-Plug 'corntrace/bufexplorer'
-
 " fuzzy file, buffer, mru, tag, etc finder
 Plug 'ctrlpvim/ctrlp.vim'
 
