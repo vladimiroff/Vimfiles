@@ -30,6 +30,7 @@ au FileType go nmap <Leader>a <Plug>(go-alternate-edit)
 au FileType go nmap <Leader>A <Plug>(go-alternate-vertical)
 au FileType go nmap gD        <Plug>(go-def-tab)
 au FileType go nmap <Leader>B <Plug>(go-doc-browser)
+au FileType go nmap gP        :GoDeclsDir<CR>
 
 RunCommand !go run %
 
