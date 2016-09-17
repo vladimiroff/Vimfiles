@@ -20,6 +20,8 @@ let g:go_highlight_structs = 1
 let g:go_highlight_interfaces = 1
 let g:go_highlight_build_constraints = 1
 
+let g:go_metalinter_autosave = 1
+
 au FileType go nmap <Leader>K <Plug>(go-doc-vertical)
 au FileType go nmap <Leader>S <Plug>(go-implements)
 au FileType go nmap <Leader>i <Plug>(go-info)
