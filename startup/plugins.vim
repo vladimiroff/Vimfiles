@@ -47,6 +47,7 @@ let g:Gitv_DoNotMapCtrlKey = 1
 " Notes
 let g:notes_directories = ['~/storage/notes', ]
 let g:notes_suffix = '.md'
+let g:notes_smart_quotes = 0
 
 " Taglist
 let g:Tlist_Use_Right_Window=1
