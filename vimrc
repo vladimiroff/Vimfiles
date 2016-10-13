@@ -43,6 +43,14 @@ let g:lucius_style = "light"
 let g:lucius_contrast = "high"
 let g:lucius_contrast_bg = "high"
 colorscheme lucius
+hi clear VertSplit
+hi clear Folded
+hi clear TabLine
+hi clear TabLineFill
+hi clear StatusLine
+hi clear StatusLineNC
+hi Folded gui=bold cterm=bold
+
 
 if has("gui_running")
     set background=light
