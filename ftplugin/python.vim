@@ -5,10 +5,6 @@ setlocal foldmethod=indent
 setlocal foldlevelstart=0
 setlocal foldlevel=0
 
-" Enable cursorline and cursorcolumn
-setlocal cursorline
-setlocal cursorcolumn
-
 " jedi
 let g:jedi#completions_command = "<C-x><C-o>"
 let g:jedi#documentation_command = "K"
