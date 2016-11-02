@@ -28,9 +28,6 @@ Plug 'ivalkeen/nerdtree-execute', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
 " looks up words in an online thesaurus
 Plug 'beloglazov/vim-online-thesaurus'
 
-" asynchronous :make in neovim
-Plug 'benekastah/neomake'
-
 " interacts with tmux
 Plug 'benmills/vimux'
 
