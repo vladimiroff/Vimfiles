@@ -77,8 +77,10 @@ set laststatus=2
 set noswapfile
 
 " Backups
-set backup
-set backupdir=~/.vim/backups
+if !exists('$SUDO_USER')
+    set backup
+    set backupdir=~/.vim/backups
+endif
 
 " Indent stuff
 set smartindent
@@ -149,7 +151,7 @@ if has('nvim')
 endif
 
 " Persistent undo
-if has("persistent_undo")
+if has("persistent_undo") && !exists('$SUDO_USER')
     set undodir=~/.vim/undodir/
     set undofile
 endif
