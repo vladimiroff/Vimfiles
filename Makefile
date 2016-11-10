@@ -4,7 +4,7 @@ install:
 
 update:
 	git pull
-	vim +PlugClean +PlugInstall +PlugUpdate +qall
+	vim +PlugClean +PlugInstall +PlugUpdate
 
 install-nvim:
 	[[ -d ~/.config/nvim ]] || ln -s ~/.vim ~/.config/nvim
