@@ -161,6 +161,11 @@ if has ('syntax')
     set spellcapcheck=
 endif
 
+" Allow cursor to move where there is no text in visual block mode
+if has('virtualedit')
+    set virtualedit=block
+endif
+
 " Leader
 let mapleader = "\<space>"
 
