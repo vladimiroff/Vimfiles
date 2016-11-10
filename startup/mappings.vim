@@ -48,9 +48,6 @@ map <C-e>j <C-W>10-
 map <C-e>k <C-W>10+
 map <C-e>l <C-w>10>
 
-" Paste in insert mode
-imap <C-p> <Esc>pa
-
 " Nicer single-line visual mode
 nnoremap vv _v$h
 
