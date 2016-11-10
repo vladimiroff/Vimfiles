@@ -156,6 +156,11 @@ if has("persistent_undo") && !exists('$SUDO_USER')
     set undofile
 endif
 
+" Don't check for capital letters at start of sentence
+if has ('syntax')
+    set spellcapcheck=
+endif
+
 " Leader
 let mapleader = "\<space>"
 
