@@ -122,6 +122,9 @@ Plug 'davidhalter/jedi-vim', { 'for': 'python' }
 Plug 'jmcantrell/vim-virtualenv', { 'for': 'python' }
 Plug 'mattboehm/vim-unstack', { 'for': 'python' }
 
+" rust
+Plug 'rust-lang/rust.vim'
+
 " tex
 Plug 'lervag/vimtex', { 'for': ['bib', 'tex'] }
 
