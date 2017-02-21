@@ -30,6 +30,7 @@ Plug 'beloglazov/vim-online-thesaurus'
 
 " asynchronous :make in neovim
 Plug 'benekastah/neomake'
+Plug 'Shougo/neocomplete.vim'
 
 " interacts with tmux
 Plug 'benmills/vimux'

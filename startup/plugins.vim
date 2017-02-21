@@ -95,3 +95,6 @@ let g:grepper = {
 
 " Terminus
 let g:TerminusBracketedPaste=0
+
+" neocomplete
+let g:neocomplete#enable_at_startup = 1
