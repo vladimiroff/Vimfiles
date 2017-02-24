@@ -102,6 +102,9 @@ Plug 'mhinz/vim-grepper'
 " enhanced terminal integration
 Plug 'wincent/terminus'
 
+" asynchronous lint engine
+Plug 'w0rp/ale'
+
 
 "" filetypes
 
