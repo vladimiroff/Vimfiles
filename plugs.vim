@@ -16,7 +16,7 @@ Plug 'AndrewRadev/splitjoin.vim'
 Plug 'AndrewRadev/switch.vim'
 
 " automatically closes quotes, parenthesis, brackets, etc.
-Plug 'Raimondi/delimitMate'
+Plug 'jiangmiao/auto-pairs'
 
 " snippets
 Plug 'SirVer/ultisnips'
