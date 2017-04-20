@@ -128,6 +128,7 @@ Plug 'mattboehm/vim-unstack', { 'for': 'python' }
 
 " rust
 Plug 'rust-lang/rust.vim'
+Plug 'racer-rust/vim-racer'
 
 " tex
 Plug 'lervag/vimtex', { 'for': ['bib', 'tex'] }
