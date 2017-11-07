@@ -7,11 +7,14 @@ setlocal listchars=tab:\ \ ,trail:.,extends:#,nbsp:.
 setlocal tags+=~/dotfiles/tags/go.tags
 setlocal foldmethod=syntax
 
+
 " Use experimental fmt in order to avoid constantly closing folds on save.
 let g:go_fmt_experimental = 1
 
 " goimports is a drop-in replacement of gofmt.
 let g:go_fmt_command = "goimports"
+
+let g:go_jump_to_error = 0
 
 let g:go_highlight_operators = 1
 let g:go_highlight_functions = 1
@@ -19,8 +22,6 @@ let g:go_highlight_methods = 1
 let g:go_highlight_structs = 1
 let g:go_highlight_interfaces = 1
 let g:go_highlight_build_constraints = 1
-
-let g:go_metalinter_autosave = 1
 
 au FileType go nmap <Leader>K <Plug>(go-doc-vertical)
 au FileType go nmap <Leader>S <Plug>(go-implements)

@@ -30,7 +30,7 @@ snippet range
 	for ${1}, ${2} := range ${3} {
 		${4}
 	}
-snippet main
+snippet mmain
 	package main
 
 	import (
@@ -40,7 +40,8 @@ snippet main
 	func main() {
 		${2}
 	}
-snippet test
-	func Test${1}(t *testing.T) {
-		${2}
+
+snippet teq
+	if !reflect.DeepEqual(${1:expected}, ${2:actual}) {
+		t.Errorf("\n\texp: %#v\n\tgot: %#v", $1, $2)
 	}
