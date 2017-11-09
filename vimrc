@@ -156,6 +156,9 @@ if has("persistent_undo") && !exists('$SUDO_USER')
     set undofile
 endif
 
+" Don't persist viewdir
+set viewdir=/tmp/vimviewdir
+
 " Don't check for capital letters at start of sentence
 if has ('syntax')
     set spellcapcheck=
