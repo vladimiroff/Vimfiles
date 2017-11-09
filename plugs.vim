@@ -133,6 +133,9 @@ Plug 'solarnz/thrift.vim', { 'for': 'thrift' }
 " tmux
 Plug 'tmux-plugins/vim-tmux', { 'for': 'tmux' }
 
+" toml
+Plug 'cespare/vim-toml', { 'for': 'toml' }
+
 " yaml
 Plug 'stephpy/vim-yaml', { 'for': 'yaml' }
 
