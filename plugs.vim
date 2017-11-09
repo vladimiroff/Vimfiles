@@ -15,9 +15,6 @@ Plug 'AndrewRadev/splitjoin.vim'
 " switches segments of text with predefined replacements
 Plug 'AndrewRadev/switch.vim'
 
-" automatically closes quotes, parenthesis, brackets, etc.
-Plug 'jiangmiao/auto-pairs'
-
 " snippets
 Plug 'SirVer/ultisnips'
 
