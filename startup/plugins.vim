@@ -80,9 +80,6 @@ let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
 " peekaboo
 let g:peekaboo_window = 'vertical botright 50new'
 
-" neomake
-autocmd! BufWritePost * Neomake
-
 " Undotree
 let g:undotree_WindowLayout = 3
 let g:undotree_SetFocusWhenToggle = 1
@@ -95,6 +92,3 @@ let g:grepper = {
 
 " Terminus
 let g:TerminusBracketedPaste=0
-
-" neocomplete
-let g:neocomplete#enable_at_startup = 1
