@@ -89,7 +89,6 @@ map <Leader>C :VimuxRunLastCommand<CR>
 
 " TabMan
 let g:tabman_toggle = 'gM'
-let g:tabman_focus = 'gMM'
 
 " Search for current word in the online thesaurus.com
 nnoremap <Leader>D :OnlineThesaurusCurrentWord<CR>
