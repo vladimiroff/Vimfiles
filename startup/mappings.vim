@@ -107,10 +107,6 @@ xmap gs <plug>(GrepperOperator)
 " livedown
 nmap <leader>md :LivedownToggle<CR>
 
-" Search using 'very magic' regular expressions
-nnoremap / /\v
-vnoremap / /\v
-
 " Repeat last macro
 nnoremap <expr> <CR> empty(&buftype) ? '@@' : '<CR>'
 
