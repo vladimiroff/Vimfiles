@@ -117,8 +117,8 @@ Plug 'jmcantrell/vim-virtualenv', { 'for': 'python' }
 Plug 'mattboehm/vim-unstack', { 'for': 'python' }
 
 " rust
-Plug 'rust-lang/rust.vim'
-Plug 'racer-rust/vim-racer'
+Plug 'rust-lang/rust.vim', { 'for': 'rust' }
+Plug 'racer-rust/vim-racer', { 'for': 'rust' }
 
 " tex
 Plug 'lervag/vimtex', { 'for': ['bib', 'tex'] }
