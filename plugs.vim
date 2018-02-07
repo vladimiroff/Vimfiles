@@ -124,6 +124,7 @@ Plug 'racer-rust/vim-racer', { 'for': 'rust' }
 
 " tex
 Plug 'lervag/vimtex', { 'for': ['bib', 'tex'] }
+Plug 'godlygeek/tabular'
 
 " thrift
 Plug 'solarnz/thrift.vim', { 'for': 'thrift' }
