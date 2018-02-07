@@ -172,4 +172,14 @@ endif
 " Leader
 let mapleader = "\<space>"
 
+" Folding
+"
+" NOTE: foldmethod is manual by default and one might want to setlocal it for
+" different filetypes.
+set foldenable " Turn on folding
+set foldclose=all " Close folds if you leave them in any way
+set foldlevel=0 " Autofold everything by default
+set foldnestmax=1 " Only fold the outer scope
+set foldopen=all " Open folds if you touch them in any way
+
 runtime! startup/*.vim
