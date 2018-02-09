@@ -36,21 +36,8 @@ set hidden
 " Colors
 set t_Co=256
 set background=light
-let g:lucius_use_bold = 1
-let g:lucius_use_underline = 1
-let g:lucius_no_term_bg = 1
-let g:lucius_style = "dark"
-let g:lucius_contrast = "high"
-let g:lucius_contrast_bg = "high"
-colorscheme lucius
-hi clear VertSplit
-hi clear Folded
-hi clear TabLine
-hi clear TabLineFill
-hi clear StatusLine
-hi clear StatusLineNC
-hi Folded gui=bold cterm=bold
-
+colorscheme typewriter
+hi Normal guibg=NONE ctermbg=NONE
 
 if has("gui_running")
     set background=light
