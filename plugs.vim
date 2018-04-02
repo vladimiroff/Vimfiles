@@ -46,9 +46,6 @@ Plug 'jeetsukumaran/vim-markology'
 " lucius color scheme
 Plug 'jonathanfilip/vim-lucius'
 
-" typewriter color scheme
-Plug 'logico-dev/typewriter'
-
 " peek at register contents
 Plug 'junegunn/vim-peekaboo'
 
