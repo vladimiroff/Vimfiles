@@ -141,4 +141,7 @@ Plug 'cespare/vim-toml', { 'for': 'toml' }
 " yaml
 Plug 'stephpy/vim-yaml', { 'for': 'yaml' }
 
+" GraphQL
+Plug 'jparise/vim-graphql', { 'for': 'graphql' }
+
 call plug#end()
