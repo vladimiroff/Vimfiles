@@ -98,6 +98,10 @@ Plug 'wincent/terminus'
 " asynchonous lint engine
 Plug 'w0rp/ale'
 
+" language server protocol
+Plug 'prabirshrestha/async.vim'
+Plug 'prabirshrestha/vim-lsp'
+
 "" filetypes
 
 " git

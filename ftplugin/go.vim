@@ -39,6 +39,14 @@ let g:ale_linters = {
     \ 'go': ['gobuild', 'gofmt', 'govet'],
 \ }
 
+if executable('go-langserver')
+    au User lsp_setup call lsp#register_server({
+        \ 'name': 'go-langserver',
+        \ 'cmd': {server_info->['go-langserver', '-mode', 'stdio']},
+        \ 'whitelist': ['go'],
+        \ })
+endif
+
 let g:tagbar_type_go = {
     \ 'ctagstype' : 'go',
     \ 'kinds'     : [
