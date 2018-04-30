@@ -92,9 +92,6 @@ Plug 'xolox/vim-notes'
 " searching in files easier
 Plug 'mhinz/vim-grepper'
 
-" enhanced terminal integration
-Plug 'wincent/terminus'
-
 " asynchonous lint engine
 Plug 'w0rp/ale'
 
