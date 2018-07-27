@@ -9,6 +9,9 @@ Plug 'AndrewRadev/multichange.vim'
 " moves function arguments left and right
 Plug 'AndrewRadev/sideways.vim'
 
+" reopen last closed window
+Plug 'AndrewRadev/undoquit.vim'
+
 " simplifies the transition between multiline and single-line code
 Plug 'AndrewRadev/splitjoin.vim'
 
