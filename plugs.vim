@@ -102,6 +102,9 @@ Plug 'w0rp/ale'
 Plug 'prabirshrestha/async.vim'
 Plug 'prabirshrestha/vim-lsp'
 
+" light and configurable statusline/tabline
+Plug 'itchyny/lightline.vim'
+
 "" filetypes
 
 " git
