@@ -49,6 +49,9 @@ Plug 'jeetsukumaran/vim-markology'
 " lucius color scheme
 Plug 'jonathanfilip/vim-lucius'
 
+" nord color scheme
+Plug 'arcticicestudio/nord-vim'
+
 " peek at register contents
 Plug 'junegunn/vim-peekaboo'
 

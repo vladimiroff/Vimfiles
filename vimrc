@@ -35,29 +35,15 @@ set hidden
 
 " Colors
 set t_Co=256
-set background=light
-let g:lucius_use_bold = 1
-let g:lucius_use_underline = 1
-let g:lucius_no_term_bg = 1
-let g:lucius_style = "light"
-let g:lucius_contrast = "high"
-let g:lucius_contrast_bg = "high"
-colorscheme lucius
-hi clear VertSplit
-hi clear Folded
-hi clear TabLine
-hi clear TabLineFill
-hi clear StatusLine
-hi clear StatusLineNC
-hi Folded gui=bold cterm=bold
-
-
-if has("gui_running")
-    set background=light
-    set lines=45
-    set columns=120
-    set guioptions-=T
-endif
+set background=dark
+set termguicolors
+let g:nord_italic = 1
+let g:nord_italic_comments = 1
+let g:nord_underline = 1
+let g:nord_comment_brightness = 12
+let g:lightline = { 'colorscheme': 'nord' }
+colorscheme nord
+set noshowmode
 
 " Mouse support
 set mouse=a
