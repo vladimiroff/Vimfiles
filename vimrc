@@ -171,7 +171,7 @@ let mapleader = "\<space>"
 " different filetypes.
 set foldenable " Turn on folding
 set foldclose=all " Close folds if you leave them in any way
-set foldlevel=0 " Autofold everything by default
+set foldlevel=1 " Autofold to level 1 by default
 set foldnestmax=1 " Only fold the outer scope
 set foldopen=all " Open folds if you touch them in any way
 
