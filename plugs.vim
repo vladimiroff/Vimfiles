@@ -108,6 +108,9 @@ Plug 'prabirshrestha/vim-lsp'
 " light and configurable statusline/tabline
 Plug 'itchyny/lightline.vim'
 
+" shell implementation needed by vim-delve
+Plug 'Shougo/vimshell.vim'
+
 "" filetypes
 
 " git
@@ -116,6 +119,7 @@ Plug 'tpope/vim-git', { 'for': 'git' }
 " go
 Plug 'fatih/vim-go', { 'for': 'go' }
 Plug 'benmills/vimux-golang', { 'for': 'go' }
+Plug 'sebdah/vim-delve', { 'for': 'go' }
 
 " markdown preview
 Plug 'shime/vim-livedown', { 'for': 'markdown' }
