@@ -117,9 +117,11 @@ Plug 'Shougo/vimshell.vim'
 Plug 'tpope/vim-git', { 'for': 'git' }
 
 " go
-Plug 'fatih/vim-go', { 'for': 'go' }
+Plug 'fatih/vim-go', { 'for': 'go', 'do': ':GoUpdateBinaries' }
 Plug 'benmills/vimux-golang', { 'for': 'go' }
 Plug 'sebdah/vim-delve', { 'for': 'go' }
+Plug 'mdempsky/gocode', { 'fot': 'go', 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' }
+
 
 " markdown preview
 Plug 'shime/vim-livedown', { 'for': 'markdown' }
