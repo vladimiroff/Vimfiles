@@ -164,4 +164,7 @@ Plug 'stephpy/vim-yaml', { 'for': 'yaml' }
 " GraphQL
 Plug 'jparise/vim-graphql', { 'for': 'graphql' }
 
+" dart
+Plug 'dart-lang/dart-vim-plugin'
+
 call plug#end()
