@@ -1,9 +1,11 @@
 setlocal expandtab
 setlocal shiftwidth=4
 setlocal softtabstop=4
-setlocal foldmethod=indent
+setlocal foldmethod=syntax
 setlocal foldlevelstart=0
 setlocal foldlevel=0
+
+autocmd FileType python AutoFormatBuffer autopep8
 
 " jedi
 let g:jedi#completions_command = "<C-x><C-o>"
