@@ -111,6 +111,13 @@ Plug 'itchyny/lightline.vim'
 " shell implementation needed by vim-delve
 Plug 'Shougo/vimshell.vim'
 
+" syntax-aware code formatting
+Plug 'google/vim-maktaba'
+Plug 'google/vim-codefmt'
+
+" auto-pair
+Plug 'tmsvg/pear-tree'
+
 "" filetypes
 
 " git
