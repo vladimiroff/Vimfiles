@@ -111,3 +111,6 @@ nnoremap <expr> <CR> empty(&buftype) ? '@@' : '<CR>'
 
 " List open buffers and expect a number which of them to open
 nnoremap <leader>be :ls<CR>:b
+
+" fugitive
+map <leader>g :Gstatus<CR>
