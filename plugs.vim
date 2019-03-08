@@ -31,8 +31,8 @@ Plug 'beloglazov/vim-online-thesaurus'
 " interacts with tmux
 Plug 'benmills/vimux'
 
-" highlights trailing whitespace in red and provides :FixWhitespace to fix it
-Plug 'bronson/vim-trailing-whitespace'
+" highlights trailing whitespace in red and provides :StripWhitespace to fix it
+Plug 'ntpeters/vim-better-whitespace'
 
 " fuzzy file, buffer, mru, tag, etc finder
 Plug 'ctrlpvim/ctrlp.vim'
