@@ -39,11 +39,6 @@ let g:splitjoin_align                = 1
 let Tlist_Inc_Winwidth = 0
 let Tlist_WinWidth = 45
 
-" GitV
-let g:Gitv_OpenHorizontal = 1
-let g:Gitv_OpenPreviewOnLaunch = 0
-let g:Gitv_DoNotMapCtrlKey = 1
-
 " Notes
 let g:notes_directories = ['~/storage/notes', ]
 let g:notes_suffix = '.md'

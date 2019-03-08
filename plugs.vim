@@ -41,7 +41,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
 
 " git repository viewer
-Plug 'gregsexton/gitv'
+Plug 'rbong/vim-flog'
 
 " mark visualization, navigation and management
 Plug 'jeetsukumaran/vim-markology'
