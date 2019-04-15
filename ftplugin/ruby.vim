@@ -1,4 +1,3 @@
-setlocal foldmethod=indent
 
 setlocal tags+=~/tags/ruby.tags
 setlocal tags+=~/tags/gems.tags

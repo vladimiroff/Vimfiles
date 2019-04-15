@@ -165,12 +165,9 @@ endif
 let mapleader = "\<space>"
 
 " Folding
-"
-" NOTE: foldmethod is manual by default and one might want to setlocal it for
-" different filetypes.
-set foldclose=all " Close folds if you leave them in any way
-set foldlevel=1 " Autofold to level 1 by default
-set foldnestmax=1 " Only fold the outer scope
-set foldopen=all " Open folds if you touch them in any way
+set foldenable
+set foldlevel=1
+set foldnestmax=1
+set foldmethod=indent
 
 runtime! startup/*.vim

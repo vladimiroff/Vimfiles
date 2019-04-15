@@ -5,7 +5,6 @@ setlocal shiftwidth=8
 setlocal makeprg=go\ run\ %
 setlocal listchars=tab:\ \ ,trail:.,extends:#,nbsp:.
 setlocal tags+=~/dotfiles/tags/go.tags
-setlocal foldmethod=syntax
 setlocal omnifunc=gocomplete#Complete
 
 
