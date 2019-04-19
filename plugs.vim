@@ -18,6 +18,9 @@ Plug 'AndrewRadev/splitjoin.vim'
 " switches segments of text with predefined replacements
 Plug 'AndrewRadev/switch.vim'
 
+" execute a :command and show the output in a temporary buffer
+Plug 'AndrewRadev/bufferize.vim'
+
 " snippets
 Plug 'SirVer/ultisnips'
 
