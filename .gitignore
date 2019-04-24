@@ -18,7 +18,4 @@ undodir/
 # Spell files
 spell/
 
-# gocode symlinks this to ~/.vim/plugged/gocode/vim/autoload/gocomplete.vim
-autoload/gocomplete.vim
-
 .netrwhist

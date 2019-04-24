@@ -130,7 +130,6 @@ Plug 'tpope/vim-git', { 'for': 'git' }
 Plug 'fatih/vim-go', { 'for': 'go', 'do': ':GoUpdateBinaries' }
 Plug 'benmills/vimux-golang', { 'for': 'go' }
 Plug 'sebdah/vim-delve', { 'for': 'go' }
-Plug 'mdempsky/gocode', { 'for': 'go', 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' }
 
 
 " markdown preview
