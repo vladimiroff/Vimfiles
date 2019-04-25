@@ -3,7 +3,6 @@ install:
 	vim +PlugInstall +qall
 
 update:
-	git pull
 	vim +PlugClean +PlugInstall +PlugUpdate
 
 install-nvim:
