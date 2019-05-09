@@ -89,7 +89,7 @@ Plug 'tpope/vim-rsi'
 Plug 'tpope/vim-surround'
 
 " update entries in a tags file automatically when saving
-Plug 'vim-scripts/AutoTag'
+Plug 'craigemery/vim-autotag'
 
 " insert mode completion of words in adjacent tmux panes
 Plug 'wellle/tmux-complete.vim'
