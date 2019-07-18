@@ -103,9 +103,6 @@ nnoremap <leader>G :Grepper -tool git<cr>
 nmap gs <plug>(GrepperOperator)
 xmap gs <plug>(GrepperOperator)
 
-" livedown
-nmap <leader>md :LivedownToggle<CR>
-
 " Repeat last macro
 nnoremap <expr> <CR> empty(&buftype) ? '@@' : '<CR>'
 

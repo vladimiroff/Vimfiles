@@ -131,10 +131,6 @@ Plug 'fatih/vim-go', { 'for': 'go', 'do': ':GoUpdateBinaries' }
 Plug 'benmills/vimux-golang', { 'for': 'go' }
 Plug 'sebdah/vim-delve', { 'for': 'go' }
 
-
-" markdown preview
-Plug 'shime/vim-livedown', { 'for': 'markdown' }
-
 " prolog
 Plug 'adimit/prolog.vim', { 'for': 'prolog' }
 
