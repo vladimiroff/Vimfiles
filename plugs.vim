@@ -121,9 +121,6 @@ Plug 'google/vim-codefmt'
 " reveal the commit messages under the cursor
 Plug 'rhysd/git-messenger.vim'
 
-" auto-pair
-Plug 'tmsvg/pear-tree'
-
 "" filetypes
 
 " git
