@@ -35,7 +35,7 @@ au FileType go nmap gD        <Plug>(go-def-tab)
 au FileType go nmap <Leader>B <Plug>(go-doc-browser)
 au FileType go nmap gP        :GoDeclsDir<CR>
 
-RunCommand !go run %
+RunCommand !go run % <args>
 
 let g:ale_linters = {
     \ 'go': ['gobuild', 'gofmt', 'govet'],
