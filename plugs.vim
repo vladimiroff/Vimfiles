@@ -55,6 +55,9 @@ Plug 'jonathanfilip/vim-lucius'
 " nord color scheme
 Plug 'arcticicestudio/nord-vim'
 
+" black and white color scheme
+Plug 'huyvohcmc/atlas.vim'
+
 " peek at register contents
 Plug 'junegunn/vim-peekaboo'
 
