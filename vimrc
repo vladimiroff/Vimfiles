@@ -1,7 +1,12 @@
 " Vladimiroff's vimfile
+"
 
 " Forget about Vi compatibility.
 set nocompatible
+
+" Workaround of E837.
+if has('python3')
+endif
 
 " Load plugins with vim-plug
 runtime! plugs.vim
