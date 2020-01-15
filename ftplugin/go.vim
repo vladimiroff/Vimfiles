@@ -37,9 +37,7 @@ au FileType go nmap gP        :GoDeclsDir<CR>
 
 RunCommand !go run % <args>
 
-let g:ale_linters = {
-    \ 'go': ['gobuild', 'gofmt', 'govet'],
-\ }
+let b:ale_linters =  ['gobuild', 'gofmt', 'govet']
 
 let g:tagbar_type_go = {
     \ 'ctagstype' : 'go',
