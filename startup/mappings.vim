@@ -77,8 +77,12 @@ nnoremap ]t :tnext<CR>
 nnoremap [t :tprev<CR>
 
 " CtrlP
-let g:ctrlp_map = 'gp'
+let g:ctrlp_map = 'gP'
 nnoremap g. :CtrlPTag<cr>
+
+" clap
+nnoremap gp :Clap files<cr>
+nnoremap g/ :Clap grep<cr>
 
 " unstack
 let g:unstack_mapkey='<Leader>T'
