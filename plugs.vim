@@ -68,7 +68,7 @@ Plug 'junegunn/vim-peekaboo'
 Plug 'kien/tabman.vim'
 
 " tag outline viewer
-Plug 'majutsushi/tagbar'
+Plug 'liuchengxu/vista.vim'
 
 " undo history visualizer
 Plug 'mbbill/undotree'

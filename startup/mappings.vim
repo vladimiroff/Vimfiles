@@ -1,5 +1,5 @@
 " Tagbar
-map <Leader>t :TagbarToggle<CR>
+map <Leader>t :Vista!!<CR>
 
 " NERDTree
 map <Leader>n :NERDTreeToggle<CR>
