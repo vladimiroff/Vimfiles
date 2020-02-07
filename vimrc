@@ -54,11 +54,7 @@ let g:lightline =
   \   }
   \ }
 
-" monochrome theme colors deduced to look just like nord.
-let g:monotone_color = [220, 16.9, 97]
-let g:monotone_secondary_hue_offset = 220
-let g:monotone_emphasize_whitespace = 1
-colorscheme monotone
+colorscheme nord
 
 set noshowmode
 
