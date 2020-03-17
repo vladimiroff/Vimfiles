@@ -133,6 +133,9 @@ Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary!' }
 " automatic window resizing
 Plug 'camspiers/lens.vim'
 
+" jump to definitions and refenreces
+Plug 'pechorin/any-jump.vim'
+
 "" filetypes
 
 " git
