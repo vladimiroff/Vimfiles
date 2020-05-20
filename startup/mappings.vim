@@ -82,6 +82,7 @@ nnoremap g. :CtrlPTag<cr>
 
 " clap
 nnoremap gp :Clap files<cr>
+nnoremap gf :Clap filer<cr>
 nnoremap g/ :Clap grep<cr>
 
 " unstack
