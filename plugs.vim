@@ -136,6 +136,11 @@ Plug 'camspiers/lens.vim'
 " jump to definitions and refenreces
 Plug 'pechorin/any-jump.vim'
 
+" database interface
+Plug 'tpope/vim-dadbod'
+Plug 'kristijanhusak/vim-dadbod-completion'
+Plug 'kristijanhusak/vim-dadbod-ui'
+
 "" filetypes
 
 " git
