@@ -57,6 +57,7 @@ let g:lightline =
 colorscheme nord
 
 set noshowmode
+set number
 
 " Mouse support
 set mouse=a
