@@ -108,7 +108,7 @@ Plug 'xolox/vim-notes'
 Plug 'mhinz/vim-grepper'
 
 " asynchonous lint engine
-Plug 'w0rp/ale'
+Plug 'dense-analysis/ale'
 
 " language server protocol
 Plug 'prabirshrestha/async.vim'
