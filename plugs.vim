@@ -127,9 +127,6 @@ Plug 'google/vim-codefmt'
 " reveal the commit messages under the cursor
 Plug 'rhysd/git-messenger.vim'
 
-" generic interactive finder and dispatcher
-Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary!' }
-
 " automatic window resizing
 Plug 'camspiers/lens.vim'
 
