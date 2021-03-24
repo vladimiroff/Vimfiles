@@ -21,6 +21,9 @@ Plug 'AndrewRadev/switch.vim'
 " execute a :command and show the output in a temporary buffer
 Plug 'AndrewRadev/bufferize.vim'
 
+" delete wrapping if-clauses, try-catch blocks, and similar constructs
+Plug 'AndrewRadev/deleft.vim'
+
 " snippets
 Plug 'SirVer/ultisnips'
 
