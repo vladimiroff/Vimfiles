@@ -61,8 +61,7 @@ map <Leader>sb :setlocal spell spelllang=bg_bg<CR>
 map <Leader>sn :setlocal nospell<CR>
 
 " Prettify and minify json
-map <leader>jt  <Esc>:%!python -m json.tool<CR>:StripWhitespace<CR>
-map <leader>jj  <Esc>ggVG:join<CR>
+map <leader>Jt  <Esc>:%!python -m json.tool<CR>:StripWhitespace<CR>
 
 " Mutlichange
 let g:multichange_mapping = 'sm'
