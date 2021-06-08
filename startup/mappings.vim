@@ -83,15 +83,8 @@ nnoremap g. :CtrlPTag<cr>
 " unstack
 let g:unstack_mapkey='<Leader>T'
 
-" vimux
-map <Leader>c :VimuxPromptCommand<CR>
-map <Leader>C :VimuxRunLastCommand<CR>
-
 " TabMan
 let g:tabman_toggle = 'gM'
-
-" Search for current word in the online thesaurus.com
-nnoremap <Leader>D :OnlineThesaurusCurrentWord<CR>
 
 " UltiSnips
 let g:UltiSnipsExpandTrigger="<tab>"
