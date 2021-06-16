@@ -43,10 +43,10 @@ nnoremap =s :SplitjoinSplit<CR>
 let g:switch_mapping = "-"
 
 " Resizing splits
-map <C-e>h <C-w>10<
-map <C-e>j <C-W>10-
-map <C-e>k <C-W>10+
-map <C-e>l <C-w>10>
+map <left>  <C-w>10<
+map <up>    <C-w>10-
+map <down>  <C-w>10+
+map <right> <C-w>10>
 
 " Nicer single-line visual mode
 nnoremap vv _v$h
