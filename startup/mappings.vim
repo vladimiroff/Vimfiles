@@ -102,7 +102,7 @@ nnoremap <expr> <CR> empty(&buftype) ? '@@' : '<CR>'
 nnoremap <leader>be :ls<CR>:b
 
 " fugitive
-map <leader>g :Gstatus<CR>
+map <leader>g :Git<CR>
 
 if exists('$WAYLAND_DISPLAY')
   if executable('wl-copy')
