@@ -5,12 +5,6 @@ setlocal shiftwidth=8
 setlocal makeprg=go\ run\ %
 setlocal listchars=tab:\ \ ,trail:.,extends:#,nbsp:.
 
-" Use experimental fmt in order to avoid constantly closing folds on save.
-let g:go_fmt_experimental = 1
-
-" goimports is a drop-in replacement of gofmt.
-let g:go_fmt_command = "goimports"
-
 let g:go_highlight_operators = 1
 let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
@@ -18,12 +12,10 @@ let g:go_highlight_structs = 1
 let g:go_highlight_interfaces = 1
 let g:go_highlight_build_constraints = 1
 
-let g:go_info_mode = 'guru'
-let g:go_def_mode = 'guru'
-if executable('gopls')
-    let g:go_def_mode = 'gopls'
-    let g:go_info_mode = 'gopls'
-endif
+let g:go_highlight_format_strings = 1
+let g:go_highlight_generate_tags = 1
+let g:go_doc_balloon = 1
+let g:go_doc_popup_window = 1
 
 au FileType go nmap <Leader>K <Plug>(go-doc-vertical)
 au FileType go nmap <Leader>S <Plug>(go-implements)
