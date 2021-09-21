@@ -58,10 +58,6 @@ let g:tabman_number = 0
 let g:tabman_specials = 1
 let g:tabman_width = 30
 
-" CtrlP
-let g:ctrlp_match_window = 'top,order:btt,min:1,max:10,results:10'
-let g:ctrlp_working_path_mode = 'wa'
-
 " AutoTag
 let g:autotagTagsFile = '.tags'
 

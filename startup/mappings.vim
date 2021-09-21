@@ -75,9 +75,19 @@ nnoremap <Leader>> :SidewaysRight<CR>
 nnoremap ]t :tnext<CR>
 nnoremap [t :tprev<CR>
 
-" CtrlP
-let g:ctrlp_map = 'gp'
-nnoremap g. :CtrlPTag<cr>
+" Mapping selecting mappings
+nnoremap gp         :Files<cr>
+nnoremap g.         :Tags<cr>
+nnoremap <leader>p  :GFiles<cr>
+nnoremap <leader>be :Buffers<cr>
+nnoremap <leader>fl :Lines<cr>
+nnoremap <leader>rg :Rg <C-R><C-W><cr>
+nnoremap <leader>h  :History<cr>
+nnoremap <leader>M  :Marks<cr>
+
+" Insert mode completion
+imap <c-x><c-f> <plug>(fzf-complete-path)
+imap <c-x><c-l> <plug>(fzf-complete-line)
 
 " unstack
 let g:unstack_mapkey='<Leader>T'
@@ -97,9 +107,6 @@ xmap gs <plug>(GrepperOperator)
 
 " Repeat last macro
 nnoremap <expr> <CR> empty(&buftype) ? '@@' : '<CR>'
-
-" List open buffers and expect a number which of them to open
-nnoremap <leader>be :ls<CR>:b
 
 " fugitive
 map <leader>g :Git<CR>

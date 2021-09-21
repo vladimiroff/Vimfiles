@@ -34,9 +34,6 @@ Plug 'ivalkeen/nerdtree-execute', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
 " highlights trailing whitespace in red and provides :StripWhitespace to fix it
 Plug 'ntpeters/vim-better-whitespace'
 
-" fuzzy file, buffer, mru, tag, etc finder
-Plug 'ctrlpvim/ctrlp.vim'
-
 " provides a much simpler way to use some motions in vim
 Plug 'easymotion/vim-easymotion'
 
@@ -107,6 +104,10 @@ Plug 'pechorin/any-jump.vim'
 
 " parse stack traces
 Plug 'mattboehm/vim-unstack'
+
+" fzf
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 "" filetypes
 
