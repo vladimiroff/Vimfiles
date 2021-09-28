@@ -152,4 +152,7 @@ Plug 'dart-lang/dart-vim-plugin'
 " perl
 Plug 'vim-perl/vim-perl', { 'for': 'perl', 'do': 'make clean carp dancer highlight-all-pragmas moose test-more try-tiny' }
 
+" hcl
+Plug 'jvirtanen/vim-hcl'
+
 call plug#end()
