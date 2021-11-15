@@ -55,6 +55,9 @@ nnoremap vv _v$h
 xnoremap > >gv
 xnoremap < <gv
 
+" Reselect pasted text
+nnoremap gP `[v`]
+
 " Spellcheck
 map <Leader>se :setlocal spell spelllang=en_us<CR>
 map <Leader>sb :setlocal spell spelllang=bg_bg<CR>
