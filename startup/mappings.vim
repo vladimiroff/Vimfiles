@@ -116,10 +116,9 @@ map <leader>g :Git<CR>
 
 if exists('$WAYLAND_DISPLAY')
   if executable('wl-copy')
-    xnoremap "+y y:call system("wl-copy", @")<cr>
+    xnoremap <leader>y y:call system("wl-copy", @")<cr>
   endif
   if executable('wl-paste')
-    nnoremap "+p :let @"=substitute(system("wl-paste --no-newline"), '<C-v><C-m>', '', 'g')<cr>p
-    nnoremap "*p :let @"=substitute(system("wl-paste --no-newline --primary"), '<C-v><C-m>', '', 'g')<cr>p
+    nnoremap <leader>p :let @"=substitute(system("wl-paste --no-newline"), '<C-v><C-m>', '', 'g')<cr>p
   endif
 endif
