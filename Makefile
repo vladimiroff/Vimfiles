@@ -10,3 +10,4 @@ update:
 install-nvim:
 	[[ -d ~/.config/nvim ]] || ln -s ~/.vim ~/.config/nvim
 	[[ -f ~/.config/nvim/init.vim ]] || ln -s ~/.vimrc ~/.config/nvim/init.vim
+	[[ -d ~/.local/share/nvim/plugged ]] || ln -s ~/.vim/plugged ~/.local/share/nvim/plugged
