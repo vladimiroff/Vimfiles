@@ -178,4 +178,10 @@ set foldlevel=1
 set foldnestmax=1
 set foldmethod=indent
 
+" Cyrillic langmap
+set langmap=
+      \АA,БB,ЦC,ДD,ЕE,ФF,ГG,ХH,ИI,ЙJ,КK,ЛL,МM,НN,ОO,ПP,ЯQ,РR,СS,ТT,УU,ЖV,ВW,ѝX,ЪY,ЗZ,Ш{,Щ},
+      \аa,бb,цc,дd,еe,фf,гg,хh,иi,йj,кk,лl,мm,нn,оo,пp,яq,рr,сs,тt,уu,жv,вw,ьx,ъy,зz,ш[,щ],
+      \Ч~,\ч`,
+
 runtime! startup/*.vim
