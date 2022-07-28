@@ -2,8 +2,6 @@ setlocal expandtab
 setlocal shiftwidth=4
 setlocal softtabstop=4
 
-autocmd FileType python AutoFormatBuffer autopep8
-
 " jedi
 let g:jedi#completions_command = "<C-x><C-o>"
 let g:jedi#documentation_command = "K"
