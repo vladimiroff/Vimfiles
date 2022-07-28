@@ -114,6 +114,9 @@ nnoremap <expr> <CR> empty(&buftype) ? '@@' : '<CR>'
 " fugitive
 map <leader>g :Git<CR>
 
+" popdef
+nnoremap <silent> <Leader>d :PopDef<CR>
+
 if exists('$WAYLAND_DISPLAY')
   if executable('wl-copy')
     xnoremap <leader>y y:call system("wl-copy", @")<cr>

@@ -109,6 +109,9 @@ Plug 'mattboehm/vim-unstack'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
+" popdef
+Plug 'teppey/popdef'
+
 "" filetypes
 
 " git
