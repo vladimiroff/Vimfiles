@@ -59,3 +59,7 @@ function! s:ToggleLuciusStyle()
   let g:lucius_style = switchto
   colorscheme lucius
 endfunction
+
+" Mimics xolox/vim-notes when searching for notes, except with fancy
+" fuzzy-find window, searching into where I keep my notes.
+command! Note :Files ~/storage/notes/

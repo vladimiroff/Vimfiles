@@ -79,10 +79,6 @@ Plug 'tpope/vim-surround'
 " update entries in a tags file automatically when saving
 Plug 'craigemery/vim-autotag'
 
-" notes
-Plug 'xolox/vim-misc'
-Plug 'xolox/vim-notes'
-
 " searching in files easier
 Plug 'mhinz/vim-grepper'
 

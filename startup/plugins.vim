@@ -39,11 +39,6 @@ let g:splitjoin_align                = 1
 let Tlist_Inc_Winwidth = 0
 let Tlist_WinWidth = 45
 
-" Notes
-let g:notes_directories = ['~/storage/notes', ]
-let g:notes_suffix = '.md'
-let g:notes_smart_quotes = 0
-
 " Taglist
 let g:Tlist_Use_Right_Window=1
 
