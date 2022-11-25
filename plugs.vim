@@ -108,7 +108,10 @@ Plug 'junegunn/fzf.vim'
 " popdef
 Plug 'teppey/popdef'
 
-"" filetypes
+" interesting words highligting
+Plug 'lfv89/vim-interestingwords'
+
+""" filetypes
 
 " git
 Plug 'tpope/vim-git', { 'for': 'git' }

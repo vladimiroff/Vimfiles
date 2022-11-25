@@ -117,6 +117,14 @@ map <leader>g :Git<CR>
 " popdef
 nnoremap <silent> <Leader>d :PopDef<CR>
 
+" interesting words
+nnoremap <silent> gk :call InterestingWords('n')<cr>
+vnoremap <silent> gk :call InterestingWords('v')<cr>
+nnoremap <silent> gK :call UncolorAllWords()<cr>
+
+nnoremap <silent> n :call WordNavigation(1)<cr>
+nnoremap <silent> N :call WordNavigation(0)<cr>
+
 if exists('$WAYLAND_DISPLAY')
   if executable('wl-copy')
     xnoremap <leader>y y:call system("wl-copy", @")<cr>

@@ -83,3 +83,6 @@ let g:TerminusBracketedPaste=0
 let g:vista#renderer#enable_icon = 0
 let g:vista_icon_indent = ["▸ ", " "]
 let g:vista_sidebar_width = 50
+
+" interesting words
+let g:interestingWordsRandomiseColors = 1
