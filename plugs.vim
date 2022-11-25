@@ -154,4 +154,7 @@ Plug 'vim-perl/vim-perl', { 'for': 'perl', 'do': 'make clean carp dancer highlig
 " hcl
 Plug 'jvirtanen/vim-hcl'
 
+" kdl
+Plug 'imsnif/kdl.vim'
+
 call plug#end()
