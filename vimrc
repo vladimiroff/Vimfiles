@@ -62,7 +62,11 @@ set number
 " Mouse support
 set mouse=a
 if !has('nvim')
-    set ttymouse=xterm2
+    if has("mouse_sgr")
+        set ttymouse=sgr
+    else
+        set ttymouse=xterm2
+    endif
 endif
 
 " Send more characters for faster re-draws
