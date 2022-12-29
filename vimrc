@@ -114,7 +114,7 @@ set matchtime=3
 set encoding=utf-8
 
 " Fancy title, based on opened file
-set title
+" set title
 
 " We all know, what is that for
 set nopaste
