@@ -86,3 +86,8 @@ let g:vista_sidebar_width = 50
 
 " interesting words
 let g:interestingWordsRandomiseColors = 1
+
+" ALE
+let g:ale_completion_enabled = 0
+set omnifunc=ale#completion#OmniFunc
+let g:ale_floating_preview = 1

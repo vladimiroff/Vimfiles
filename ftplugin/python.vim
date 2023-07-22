@@ -35,13 +35,8 @@ let g:switch_custom_definitions =
     \   ['assertIsInstance', 'assertNotIsInstance'],
     \ ]
 
-if executable('pyls')
-    au User lsp_setup call lsp#register_server({
-        \ 'name': 'pyls',
-        \ 'cmd': {server_info->['pyls']},
-        \ 'whitelist': ['python'],
-        \ })
-endif
+let b:ale_linters =  ['flake8']
+let b:ale_fixers =  ['black']
 
 RunCommand     !python    % <args>
 ConsoleCommand !python -i % <args>

@@ -140,7 +140,7 @@ endif
 
 " Completion options
 set completefunc=syntaxcomplete#Complete
-set completeopt=longest,menuone,preview
+set completeopt=longest,menuone
 
 " Don't leave spaces between joined lines
 set nojoinspaces

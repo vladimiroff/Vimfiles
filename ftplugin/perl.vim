@@ -12,3 +12,6 @@ endfunction
 
 noremap <silent><leader><c-a> :call <SID>PlanNumberFeed("\<C-a>")<cr>
 noremap <silent><leader><c-x> :call <SID>PlanNumberFeed("\<C-x>")<cr>
+
+let b:ale_linters =  ['perltidy']
+let b:ale_fixers =  ['perltidy', 'trim_whitespace']

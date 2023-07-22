@@ -111,6 +111,9 @@ Plug 'teppey/popdef'
 " interesting words highligting
 Plug 'lfv89/vim-interestingwords'
 
+" asynchonous lint, fix and LSP engine
+Plug 'dense-analysis/ale'
+
 """ filetypes
 
 " git

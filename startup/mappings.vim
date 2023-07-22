@@ -133,3 +133,10 @@ if exists('$WAYLAND_DISPLAY')
     nnoremap <leader>p :let @"=substitute(system("wl-paste --no-newline"), '<C-v><C-m>', '', 'g')<cr>p
   endif
 endif
+
+" ALE
+nmap <Leader>i <Plug>(ale_hover)
+nmap <Leader>I <Plug>(ale_import)
+nmap gd        <Plug>(ale_go_to_definition)
+nmap gD        <Plug>(ale_go_to_definition_in_vsplit)
+nmap <Leader>B <Plug>(ale_documentation)
