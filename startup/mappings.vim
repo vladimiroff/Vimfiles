@@ -79,9 +79,9 @@ nnoremap ]t :tnext<CR>
 nnoremap [t :tprev<CR>
 
 " Mapping selecting mappings
-nnoremap gp         :Files<cr>
+nnoremap gp         :GFiles<cr>
 nnoremap g.         :Tags<cr>
-nnoremap <leader>p  :GFiles<cr>
+nnoremap <leader>p  :Files<cr>
 nnoremap <leader>be :Buffers<cr>
 nnoremap <leader>fl :Lines<cr>
 nnoremap <leader>rg :Rg <C-R><C-W><cr>
