@@ -132,7 +132,7 @@ if exists('$WAYLAND_DISPLAY')
     xnoremap <leader>y y:call system("wl-copy", @")<cr>
   endif
   if executable('wl-paste')
-    nnoremap <leader>p :let @"=substitute(system("wl-paste --no-newline"), '<C-v><C-m>', '', 'g')<cr>p
+    nnoremap <leader>P :let @"=substitute(system("wl-paste --no-newline"), '<C-v><C-m>', '', 'g')<cr>p
   endif
 endif
 
