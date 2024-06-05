@@ -24,6 +24,9 @@ Plug 'AndrewRadev/bufferize.vim'
 " delete wrapping if-clauses, try-catch blocks, and similar constructs
 Plug 'AndrewRadev/deleft.vim'
 
+" branch execution logging
+Plug 'AndrewRadev/whatif.vim'
+
 " snippets
 Plug 'SirVer/ultisnips'
 
