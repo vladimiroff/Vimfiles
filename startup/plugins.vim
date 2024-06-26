@@ -73,7 +73,7 @@ let g:undotree_SetFocusWhenToggle = 1
 " Grepper
 let g:grepper = {
     \ 'highlight': 1,
-    \ 'tools': ['grep', 'git', 'ack'],
+    \ 'tools': ['rg', 'ag', 'git', 'grep'],
     \ }
 
 " Terminus
