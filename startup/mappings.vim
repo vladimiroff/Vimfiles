@@ -78,15 +78,16 @@ nnoremap <Leader>> :SidewaysRight<CR>
 nnoremap ]t :tnext<CR>
 nnoremap [t :tprev<CR>
 
-" Mapping selecting mappings
+" fzf mappings
 nnoremap gp         :GFiles<cr>
 nnoremap g.         :Tags<cr>
 nnoremap <leader>p  :Files<cr>
 nnoremap <leader>be :Buffers<cr>
 nnoremap <leader>fl :Lines<cr>
-nnoremap <leader>rg :Rg <C-R><C-W><cr>
 nnoremap <leader>h  :History<cr>
 nnoremap <leader>M  :Marks<cr>
+nnoremap <leader>/  :Rg<CR>
+vnoremap <leader>*  :Rg <C-R><C-W><cr>
 
 " Insert mode completion
 imap <c-x><c-f> <plug>(fzf-complete-path)
@@ -102,12 +103,9 @@ let g:tabman_toggle = 'gM'
 let g:UltiSnipsExpandTrigger="<tab>"
 
 " Grepper
-nnoremap <leader>/ :Grepper -tool grep<cr>
-nnoremap <leader>* :Grepper -tool grep -cword -noprompt<cr>
+nnoremap <leader>? :Grepper<cr>
 nnoremap <leader>G :Grepper -tool git<cr>
-nmap gs <plug>(GrepperOperator)
-xmap gs <plug>(GrepperOperator)
-
+"
 " Repeat last macro
 nnoremap <expr> <CR> empty(&buftype) ? '@@' : '<CR>'
 
