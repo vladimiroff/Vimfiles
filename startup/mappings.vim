@@ -88,6 +88,7 @@ nnoremap <leader>h  :History<cr>
 nnoremap <leader>M  :Marks<cr>
 nnoremap <leader>/  :Rg<CR>
 vnoremap <leader>*  :Rg <C-R><C-W><cr>
+nnoremap <leader>*  :Rg <C-R><C-W><cr>
 
 " Insert mode completion
 imap <c-x><c-f> <plug>(fzf-complete-path)
