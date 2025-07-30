@@ -9,11 +9,11 @@ let g:go_fmt_autosave = 0
 let g:ale_fix_on_save = 1
 let g:go_def_mapping_enabled = 0
 
-au FileType go nmap <Leader>S <Plug>(go-implements)
-au FileType go nmap <Leader>I <Plug>(go-info)
-au FileType go nmap <Leader>a <Plug>(go-alternate-edit)
-au FileType go nmap <Leader>A <Plug>(go-alternate-vertical)
-au FileType go nmap gP        :GoDeclsDir<CR>
+nmap <buffer> <Leader>S <Plug>(go-implements)
+nmap <buffer> <Leader>I <Plug>(go-info)
+nmap <buffer> <Leader>a <Plug>(go-alternate-edit)
+nmap <buffer> <Leader>A <Plug>(go-alternate-vertical)
+nmap <buffer> gP        :GoDeclsDir<CR>
 
 RunCommand !go run % <args>
 
