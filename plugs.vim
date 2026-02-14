@@ -130,10 +130,6 @@ Plug 'sebdah/vim-delve', { 'for': 'go' }
 " prolog
 Plug 'adimit/prolog.vim', { 'for': 'prolog' }
 
-"python
-Plug 'davidhalter/jedi-vim', { 'for': 'python' }
-Plug 'jmcantrell/vim-virtualenv', { 'for': 'python' }
-
 " rust
 Plug 'rust-lang/rust.vim', { 'for': 'rust' }
 Plug 'racer-rust/vim-racer', { 'for': 'rust' }
