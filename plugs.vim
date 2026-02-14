@@ -162,4 +162,7 @@ Plug 'jvirtanen/vim-hcl'
 " kdl
 Plug 'imsnif/kdl.vim'
 
+" language pack
+Plug 'sheerun/vim-polyglot'
+
 call plug#end()
