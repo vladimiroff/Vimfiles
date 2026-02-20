@@ -117,6 +117,9 @@ Plug 'lfv89/vim-interestingwords'
 " asynchonous lint, fix and LSP engine
 Plug 'dense-analysis/ale'
 
+" show git diff in the sign column
+Plug 'airblade/vim-gitgutter'
+
 """ filetypes
 
 " git
